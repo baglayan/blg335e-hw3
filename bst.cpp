@@ -1,12 +1,21 @@
-// EB
-// Implementing Binary Search Tree in C++
+/**
+ * bst.cpp
+ *
+ * BLG 335E Analysis of Algorithms Project 3
+ * Implementing binary search tree in C++
+ *
+ * Name : Meriç Bağlayan
+ * Email: baglayan19@itu.edu.tr
+ * Id   : 150190056
+ * Date : 2023-12-26
+ */
 
 #include <iostream>
 
 namespace BST
 {
   template <class T>
-  bool nullNodeCheck(T *node)
+  bool bstNullNodeCheck(T *node)
   {
     // this is implemented as RBT's null can be implemented as sentinel node
     // which cannot be checked by nullptr
@@ -35,78 +44,152 @@ namespace BST
 class BinarySearchTree
 {
 private:
-  Node *root;
+  BST::Node *root;
+
+  unsigned long long _getHeight(BST::Node *node)
+  {
+    if (BST::bstNullNodeCheck(node))
+    {
+      return 0;
+    }
+    unsigned long long leftHeight = _getHeight(node->left);
+    unsigned long long rightHeight = _getHeight(node->right);
+    return 1 + maximum(leftHeight, rightHeight);
+  }
+
+  BST::Node *_getMinimum(BST::Node *node)
+  {
+    while (BST::bstNullNodeCheck(node->left))
+    {
+      node = node->left;
+    }
+    return node;
+  }
+
+  BST::Node *_getMaximum(BST::Node *node)
+  {
+    while (!BST::bstNullNodeCheck(node->right))
+    {
+      node = node->right;
+    }
+    return node;
+  }
+
+  void _preorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  {
+    if (!BST::bstNullNodeCheck(node) && index < size)
+    {
+      std::pair<std::string, int> iterator = {node->name, node->data};
+      array[index] = iterator;
+      index++;
+      _preorder(node->left, array, index, size);
+      _preorder(node->right, array, index, size);
+    }
+  }
+
+  void _inorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  {
+    if (!BST::bstNullNodeCheck(node) && index < size)
+    {
+      _inorder(node->left, array, index, size);
+      std::pair<std::string, int> iterator = {node->name, node->data};
+      array[index] = iterator;
+      index++;
+      _inorder(node->right, array, index, size);
+    }
+  }
+
+  void _postorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  {
+    if (!BST::bstNullNodeCheck(node) && index < size)
+    {
+      _postorder(node->left, array, index, size);
+      _postorder(node->right, array, index, size);
+      std::pair<std::string, int> iterator = {node->name, node->data};
+      array[index] = iterator;
+      index++;
+    }
+  }
+
+  BST::Node *_searchTree(BST::Node *node, int key)
+  {
+    if (BST::bstNullNodeCheck(node) || key == node->data)
+    {
+      return node;
+    }
+    if (key < node->data)
+    {
+      return _searchTree(node->left, key);
+    }
+    else
+    {
+      return _searchTree(node->right, key);
+    }
+  }
+
+  void _deleteNode(BST::Node *node)
+  {
+    if (BST::bstNullNodeCheck(node->left))
+    {
+      transplant(node, node->right);
+    }
+    else if (BST::bstNullNodeCheck(node->right))
+    {
+      transplant(node, node->left);
+    }
+    else
+    {
+      BST::Node *succ = _getMinimum(node->right);
+      if (succ != node->right)
+      {
+        transplant(succ, succ->right);
+        succ->right = node->right;
+        succ->right->parent = succ;
+      }
+      transplant(node, succ);
+      succ->left = node->left;
+      succ->left->parent = succ;
+    }
+  }
 
 public:
   BinarySearchTree()
   {
   }
 
-  // The traversal codes are skeleton.
-  // They will be modified to fit requirements
-  //      listed in the main function and
-  //      the homework document.
-  //
-  // Instead of writing the result to stdout,
-  //      the function should take a std::pair<std::string, int>
-  //      and its size as an argument and put the
-  //      element inside that pair.
-  void preorder(BST::Node *node)
+  void preorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    if (!BST::nullNodeCheck(node))
-    {
-      std::cout << node->data << std::endl;
-      preorder(node->left);
-      preorder(node->right);
-    }
+    static unsigned long long index = 0;
+    _preorder(root, array, index, size);
   }
 
-  void inorder(BST::Node *node)
+  void inorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    if (!BST::nullNodeCheck(node))
-    {
-      inorder(node->left);
-      std::cout << node->data << std::endl;
-      inorder(node->right);
-    }
+    static unsigned long long index = 0;
+    _inorder(root, array, index, size);
   }
 
-  void postorder(BST::Node *node)
+  void postorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    if (!BST::nullNodeCheck(node))
-    {
-      postorder(node->left);
-      postorder(node->right);
-      std::cout << node->data << std::endl;
-    }
+    static unsigned long long index = 0;
+    _postorder(root, array, index, size);
   }
 
-  BST::Node *searchTree(BST::Node *node, int key)
+  BST::Node *searchTree(int key)
   {
-    if (BST::nullNodeCheck(node) || key == node->data)
-    {
-      return node;
-    }
-    if (key < node->data)
-    {
-      return searchTree(node->left, key);
-    }
-    else
-    {
-      return searchTree(node->right, key);
-    }
+    return _searchTree(root, key);
   }
 
   BST::Node *successor(BST::Node *node)
   {
-    if (!BST::nullNodeCheck(node->right))
+    if (!BST::bstNullNodeCheck(node->right))
     {
-      return getMinimum(node->right);
+      return _getMinimum(node->right);
     }
     else
     {
       BST::Node *y = node->parent;
-      while (!BST::nullNodeCheck(y) && node == y->right)
+      while (!BST::bstNullNodeCheck(y) && node == y->right)
       {
         node = y;
         y = y->parent;
@@ -115,27 +198,35 @@ public:
     }
   }
 
-  predecessor()
+  BST::Node *predecessor(BST::Node *node)
   {
+    if (!BST::bstNullNodeCheck(node->left))
+    {
+      return _getMaximum(node->left);
+    }
+    else
+    {
+      BST::Node *y = node->parent;
+      while (!BST::bstNullNodeCheck(y) && node == y->left)
+      {
+        node = y;
+        y = y->parent;
+      }
+      return y;
+    }
   }
 
-  leftRotate()
+  void insert(std::string name, int data)
   {
-  }
-
-  rightRotate()
-  {
-  }
-
-  void insert(BST::Node *newNode)
-  {
+    BST::Node newNode = {data, name, nullptr, nullptr, nullptr};
+    BST::Node *newNodePtr = &newNode;
     BST::Node *iterator = root;
     BST::Node *parentOfNew = nullptr;
 
-    while (!BST::nullNodeCheck(iterator))
+    while (!BST::bstNullNodeCheck(iterator))
     {
       parentOfNew = iterator;
-      if (newNode->data < iterator->data)
+      if (newNodePtr->data < iterator->data)
       {
         iterator = iterator->left;
       }
@@ -144,24 +235,24 @@ public:
         iterator = iterator->right;
       }
     }
-    newNode->parent = parentOfNew;
-    if (BST::nullNodeCheck(newNode))
+    newNodePtr->parent = parentOfNew;
+    if (BST::bstNullNodeCheck(newNodePtr))
     {
-      root = newNode;
+      root = newNodePtr;
     }
-    else if (newNode->data < parentOfNew->data)
+    else if (newNodePtr->data < parentOfNew->data)
     {
-      parentOfNew->left = newNode;
+      parentOfNew->left = newNodePtr;
     }
     else
     {
-      parentOfNew->right = newNode;
+      parentOfNew->right = newNodePtr;
     }
   }
 
   void transplant(BST::Node *u, BST::Node *v)
   {
-    if (BST::nullNodeCheck(u->parent))
+    if (BST::bstNullNodeCheck(u->parent))
     {
       root = v;
     }
@@ -173,60 +264,56 @@ public:
     {
       u->parent->right = v;
     }
-    if (!BST::nullNodeCheck(v))
+    if (!BST::bstNullNodeCheck(v))
     {
       v->parent = u->parent;
     }
   }
 
-  void deleteNode(BST::Node *node)
+  void deleteNode(int key)
   {
-    if (BST::nullNodeCheck(node->left))
-    {
-      transplant(node, node->right);
-    }
-    else if (BST::nullNodeCheck(node->right))
-    {
-      transplant(node, node->left);
-    }
-    else
-    {
-      BST::Node *nodeSucc = getMinimum(node->right);
-      if (nodeSucc != node->right)
-      {
-        transplant(nodeSucc, nodeSucc->right);
-        nodeSucc->right = node->right;
-        nodeSucc->right->parent = nodeSucc;
-      }
-      transplant(node, nodeSucc);
-      nodeSucc->left = node->left;
-      nodeSucc->left->parent = nodeSucc;
-    }
+    _deleteNode(searchTree(key));
   }
 
-  getHeight()
+  unsigned long long getHeight()
   {
+    return _getHeight(root);
   }
 
-  BST::Node *getMaximum(BST::Node *node)
+  BST::Node *getMaximum()
   {
-    while (!BST::nullNodeCheck(node->right))
+    return _getMaximum(root);
+  }
+
+  BST::Node *getMinimum()
+  {
+    return _getMinimum(root);
+  }
+
+  unsigned long long getTotalNodes()
+  {
+    unsigned long long count = 0;
+    countNodes(root, count);
+    return count;
+  }
+
+  void countNodes(BST::Node *node, unsigned long long &count)
+  {
+    if (BST::bstNullNodeCheck(node))
     {
-      node = node->right;
+      return;
     }
-    return node;
+    count++;
+    countNodes(node->left, count);
+    countNodes(node->right, count);
   }
 
-  BST::Node *getMinimum(BST::Node *node)
+  unsigned long long maximum(unsigned long long a, unsigned long long b)
   {
-    while (node->left != NULL)
+    if (a < b)
     {
-      node = node->left;
+      return b;
     }
-    return node;
-  }
-
-  getTotalNodes()
-  {
+    return a;
   }
 };
