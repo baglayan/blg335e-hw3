@@ -31,6 +31,23 @@ namespace RBT
     return false;
   }
 
+  template <class T>
+  bool rbtSentinelNodeCheck(T *node)
+  {
+    // this is implemented as RBT's null can be implemented as sentinel node
+    // which cannot be checked by nullptr
+    // definite control for a node being null is checking its parent and both children
+    if (node == nullptr)
+    {
+      return false;
+    }
+    if (node->parent == nullptr && node->left == nullptr && node->right == nullptr)
+    {
+      return true;
+    }
+    return false;
+  }
+
   enum Color
   {
     BLACK = 0,
@@ -53,6 +70,7 @@ class RedBlackTree
 {
 private:
   RBT::Node *root;
+  RBT::Node *sentinel;
 
   unsigned long long _getHeight(RBT::Node *node)
   {
@@ -67,7 +85,7 @@ private:
 
   RBT::Node *_getMinimum(RBT::Node *node)
   {
-    while (RBT::rbtNullNodeCheck(node->left))
+    while (!RBT::rbtNullNodeCheck(node) && RBT::rbtNullNodeCheck(node->left))
     {
       node = node->left;
     }
@@ -135,9 +153,51 @@ private:
     }
   }
 
+  void _deleteNode(RBT::Node *node)
+  {
+    RBT::Node *succ = node;
+    RBT::Color succOriginalColor = (RBT::Color)succ->color;
+    RBT::Node *next = new RBT::Node{0, "", nullptr, nullptr, nullptr, RBT::UNDEFINED};
+    if (RBT::rbtNullNodeCheck(node->left))
+    {
+      next = node->right;
+      transplant(node, node->right);
+    }
+    else if (RBT::rbtNullNodeCheck(node->right))
+    {
+      next = node->left;
+      transplant(node, node->left);
+    }
+    else
+    {
+      succ = _getMinimum(node->right);
+      succOriginalColor = (RBT::Color)succ->color;
+      next = succ->right;
+      if (succ != node->right)
+      {
+        transplant(succ, succ->right);
+        succ->right = node->right;
+        succ->right->parent = succ;
+      }
+      else
+      {
+        next->parent = succ;
+      }
+      transplant(node, succ);
+      succ->left = node->left;
+      succ->left->parent = succ;
+      succ->color = node->color;
+    }
+    if (succOriginalColor == RBT::BLACK)
+    {
+      deleteFixup(next);
+    }
+  }
+
 public:
   RedBlackTree()
   {
+    root = nullptr;
   }
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)
@@ -203,12 +263,12 @@ public:
   {
     RBT::Node *next = node->right;
     node->right = next->left;
-    if (!RBT::rbtNullNodeCheck(next->left)) // not entirely sure
+    if (!RBT::rbtSentinelNodeCheck(next->left)) // not entirely sure
     {
       next->left->parent = node;
     }
     next->parent = node->parent;
-    if (RBT::rbtNullNodeCheck(node->parent))
+    if (RBT::rbtSentinelNodeCheck(node->parent))
     {
       root = next;
     }
@@ -228,12 +288,12 @@ public:
   {
     RBT::Node *prev = node->left;
     node->left = prev->right;
-    if (!RBT::rbtNullNodeCheck(prev->right))
+    if (!RBT::rbtSentinelNodeCheck(prev->right))
     {
       prev->right->parent = node;
     }
     prev->parent = node->parent;
-    if (RBT::rbtNullNodeCheck(node->parent))
+    if (RBT::rbtSentinelNodeCheck(node->parent))
     {
       root = prev;
     }
@@ -251,8 +311,7 @@ public:
 
   void insert(std::string name, int data)
   {
-    RBT::Node newNode = {data, name, nullptr, nullptr, nullptr, RBT::UNDEFINED};
-    RBT::Node *newNodePtr = &newNode;
+    RBT::Node *newNodePtr = new RBT::Node{data, name, nullptr, nullptr, nullptr, RBT::UNDEFINED};
     RBT::Node *iterator = root;
     RBT::Node *parentOfNew = nullptr;
 
@@ -359,47 +418,6 @@ public:
   void deleteNode(int key)
   {
     _deleteNode(searchTree(key));
-  }
-
-  void _deleteNode(RBT::Node *node)
-  {
-    RBT::Node *succ = node;
-    RBT::Color succOriginalColor = (RBT::Color)succ->color;
-    RBT::Node *next;
-    if (RBT::rbtNullNodeCheck(node->left))
-    {
-      next = node->right;
-      transplant(node, node->left);
-    }
-    else if (RBT::rbtNullNodeCheck(node->right))
-    {
-      next = node->left;
-      transplant(node, node->left);
-    }
-    else
-    {
-      succ = _getMinimum(node->right);
-      succOriginalColor = (RBT::Color)succ->color;
-      next = succ->right;
-      if (succ != node->right)
-      {
-        transplant(succ, succ->right);
-        succ->right = node->right;
-        succ->right->parent = succ;
-      }
-      else
-      {
-        next->parent = succ;
-      }
-      transplant(node, succ);
-      succ->left = node->left;
-      succ->left->parent = succ;
-      succ->color = node->color;
-    }
-    if (succOriginalColor == RBT::BLACK)
-    {
-      deleteFixup(next);
-    }
   }
 
   void deleteFixup(RBT::Node *node)

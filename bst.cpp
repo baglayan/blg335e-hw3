@@ -59,7 +59,7 @@ private:
 
   BST::Node *_getMinimum(BST::Node *node)
   {
-    while (BST::bstNullNodeCheck(node->left))
+    while (!BST::bstNullNodeCheck(node) && BST::bstNullNodeCheck(node->left))
     {
       node = node->left;
     }
@@ -155,6 +155,7 @@ private:
 public:
   BinarySearchTree()
   {
+    root = nullptr;
   }
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)
@@ -218,8 +219,7 @@ public:
 
   void insert(std::string name, int data)
   {
-    BST::Node newNode = {data, name, nullptr, nullptr, nullptr};
-    BST::Node *newNodePtr = &newNode;
+    BST::Node *newNodePtr = new BST::Node{data, name, nullptr, nullptr, nullptr};
     BST::Node *iterator = root;
     BST::Node *parentOfNew = nullptr;
 
