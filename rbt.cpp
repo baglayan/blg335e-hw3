@@ -3,59 +3,77 @@
 
 #include <iostream>
 
-namespace RBT {
-  struct Node {
-    int data;
-    std::string name;
-    Node *parent;
-    Node *left;
-    Node *right;
-    int color;
+namespace RBT
+{
+  struct Node : BST::Node
+  {
+    // int data;
+    // std::string name;
+    // Node *parent;
+    // Node *left;
+    // Node *right;
+    int color; //0 for black, 1 for red
   };
 }
 
-class RedBlackTree {
+class RedBlackTree : public BinarySearchTree
+{
 private:
-
+  RBT::Node* root;
 public:
-  RedBlackTree() {
+  RedBlackTree()
+  {
+    
   }
 
-  preorder() {
-  }
-  
-  inorder() {
-  }
-  
-  postorder() {
+  preorder()
+  {
   }
 
-  searchTree() {
+  inorder()
+  {
   }
 
-  successor() {
+  postorder()
+  {
   }
 
-  predecessor() {
+  searchTree()
+  {
   }
 
-  insert() {
+  successor(Node *node)
+  {
+    
   }
 
-  deleteNode() {
+  predecessor()
+  {
   }
 
-  getHeight() {
+  insert()
+  {
   }
 
-  getMaximum() {
+  deleteNode()
+  {
   }
 
-  getMinimum() {
+  getHeight()
+  {
   }
 
-  getTotalNodes() {
+  RBT::Node *getMaximum()
+  {
+    
   }
 
+  RBT::Node *getMinimum(Node *node)
+  {
+    
+  }
 
+  getTotalNodes()
+  {
+  }
 };
