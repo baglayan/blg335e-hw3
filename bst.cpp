@@ -17,17 +17,14 @@ namespace BST
   template <class T>
   bool bstNullNodeCheck(T *node)
   {
-    // this is implemented as RBT's null can be implemented as sentinel node
-    // which cannot be checked by nullptr
-    // definite control for a node being null is checking its parent and both children
     if (node == nullptr)
     {
       return true;
     }
-    if (node->parent == nullptr && node->left == nullptr && node->right == nullptr)
-    {
-      return true;
-    }
+    // if (node->parent == nullptr && node->left == nullptr && node->right == nullptr)
+    // {
+    //   return true;
+    // }
     return false;
   }
 
@@ -59,55 +56,64 @@ private:
 
   BST::Node *_getMinimum(BST::Node *node)
   {
-    while (!BST::bstNullNodeCheck(node) && BST::bstNullNodeCheck(node->left))
+    if (BST::bstNullNodeCheck(node->left))
     {
-      node = node->left;
+      return node;
     }
-    return node;
+    else
+    {
+      return _getMinimum(node->left);
+    }
   }
 
   BST::Node *_getMaximum(BST::Node *node)
   {
-    while (!BST::bstNullNodeCheck(node->right))
+    if (BST::bstNullNodeCheck(node->right))
     {
-      node = node->right;
+      return node;
     }
-    return node;
+    else
+    {
+      return _getMaximum(node->right);
+    }
   }
 
-  void _preorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  void _preorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
     if (!BST::bstNullNodeCheck(node) && index < size)
     {
       std::pair<std::string, int> iterator = {node->name, node->data};
       array[index] = iterator;
       index++;
+      size++;
       _preorder(node->left, array, index, size);
       _preorder(node->right, array, index, size);
     }
   }
 
-  void _inorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  void _inorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
-    if (!BST::bstNullNodeCheck(node) && index < size)
+    if (!BST::bstNullNodeCheck(node) && index <= size)
     {
       _inorder(node->left, array, index, size);
+      _inorder(node->right, array, index, size);
       std::pair<std::string, int> iterator = {node->name, node->data};
       array[index] = iterator;
       index++;
-      _inorder(node->right, array, index, size);
+      size++;
     }
   }
 
-  void _postorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long size)
+  void _postorder(BST::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
-    if (!BST::bstNullNodeCheck(node) && index < size)
+    if (!BST::bstNullNodeCheck(node) && index <= size)
     {
       _postorder(node->left, array, index, size);
       _postorder(node->right, array, index, size);
       std::pair<std::string, int> iterator = {node->name, node->data};
       array[index] = iterator;
       index++;
+      size++;
     }
   }
 
@@ -160,19 +166,19 @@ public:
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    static unsigned long long index = 0;
+    unsigned long long index = 0;
     _preorder(root, array, index, size);
   }
 
   void inorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    static unsigned long long index = 0;
+    unsigned long long index = 0;
     _inorder(root, array, index, size);
   }
 
   void postorder(std::pair<std::string, int> *array, unsigned long long size)
   {
-    static unsigned long long index = 0;
+    unsigned long long index = 0;
     _postorder(root, array, index, size);
   }
 
@@ -219,14 +225,14 @@ public:
 
   void insert(std::string name, int data)
   {
-    BST::Node *newNodePtr = new BST::Node{data, name, nullptr, nullptr, nullptr};
+    BST::Node *newNode = new BST::Node{data, name, nullptr, nullptr, nullptr};
     BST::Node *iterator = root;
     BST::Node *parentOfNew = nullptr;
 
     while (!BST::bstNullNodeCheck(iterator))
     {
       parentOfNew = iterator;
-      if (newNodePtr->data < iterator->data)
+      if (newNode->data < iterator->data)
       {
         iterator = iterator->left;
       }
@@ -235,18 +241,18 @@ public:
         iterator = iterator->right;
       }
     }
-    newNodePtr->parent = parentOfNew;
-    if (BST::bstNullNodeCheck(newNodePtr))
+    newNode->parent = parentOfNew;
+    if (BST::bstNullNodeCheck(parentOfNew))
     {
-      root = newNodePtr;
+      root = newNode;
     }
-    else if (newNodePtr->data < parentOfNew->data)
+    else if (newNode->data < parentOfNew->data)
     {
-      parentOfNew->left = newNodePtr;
+      parentOfNew->left = newNode;
     }
     else
     {
-      parentOfNew->right = newNodePtr;
+      parentOfNew->right = newNode;
     }
   }
 
@@ -277,7 +283,7 @@ public:
 
   unsigned long long getHeight()
   {
-    return _getHeight(root);
+    return _getHeight(root) - 1;
   }
 
   BST::Node *getMaximum()
@@ -297,15 +303,16 @@ public:
     return count;
   }
 
-  void countNodes(BST::Node *node, unsigned long long &count)
+  unsigned long long countNodes(BST::Node *node, unsigned long long &count)
   {
     if (BST::bstNullNodeCheck(node))
     {
-      return;
+      return 0;
     }
     count++;
-    countNodes(node->left, count);
-    countNodes(node->right, count);
+    unsigned long long leftSize = countNodes(node->left, count);
+    unsigned long long rightSize = countNodes(node->right, count);
+    return leftSize + rightSize;
   }
 
   unsigned long long maximum(unsigned long long a, unsigned long long b)
