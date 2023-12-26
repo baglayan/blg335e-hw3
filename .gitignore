@@ -1,0 +1,11 @@
+main
+compile.log
+time.log
+log_pop1.txt
+log_pop2.txt
+log_pop3.txt
+log_pop4.txt
+out_rbt.csv
+out_bst.csv
+/out
+/data/sorted.sh
