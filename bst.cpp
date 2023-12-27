@@ -29,6 +29,16 @@ class BinarySearchTree
 private:
   BST::Node *root;
 
+  void clear(BST::Node *node)
+  {
+    if (node != nullptr)
+    {
+      clear(node->left);
+      clear(node->right);
+      delete node;
+    }
+  }
+
   unsigned long long _getHeight(BST::Node *node)
   {
     if (node == nullptr)
@@ -148,6 +158,11 @@ public:
   BinarySearchTree()
   {
     root = nullptr;
+  }
+
+  ~BinarySearchTree()
+  {
+    clear(root);
   }
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)

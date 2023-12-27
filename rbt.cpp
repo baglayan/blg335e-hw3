@@ -37,6 +37,49 @@ private:
   RBT::Node *root;
   RBT::Node *sentinel;
 
+  // copy constructor helpers:
+
+  // I added copy constructor because
+  //   cppcheck was bugging me about it
+  RBT::Node *copyNode(RBT::Node *node)
+  {
+    if (node == sentinel)
+    {
+      return sentinel;
+    }
+
+    RBT::Node *newNode = new RBT::Node{node->data, node->name, nullptr, nullptr, nullptr, node->color};
+    newNode->left = copyNode(node->left);
+    if (newNode->left != sentinel)
+    {
+      newNode->left->parent = newNode;
+    }
+    newNode->right = copyNode(node->right);
+    if (newNode->right != sentinel)
+    {
+      newNode->right->parent = newNode;
+    }
+    return newNode;
+  }
+
+  void deepCopy(const RedBlackTree &other)
+  {
+    clear(root);
+
+    root = copyNode(other.root);
+  }
+
+  void clear(RBT::Node *node)
+  {
+    if (node != sentinel)
+    {
+      clear(node->left);
+      clear(node->right);
+      delete node;
+    }
+  }
+  // end copy constructor helpers
+
   unsigned long long _getHeight(RBT::Node *node)
   {
     if (node == sentinel)
@@ -131,7 +174,7 @@ private:
   {
     RBT::Node *succ = node;
     RBT::Color succOriginalColor = (RBT::Color)succ->color;
-    RBT::Node *next = new RBT::Node{0, "", sentinel, sentinel, sentinel, RBT::BLACK};
+    RBT::Node *next = sentinel;
     if (node->left == sentinel)
     {
       next = node->right;
@@ -173,6 +216,27 @@ public:
   {
     sentinel = new RBT::Node{0, "__SENTINEL__", nullptr, sentinel, sentinel, RBT::BLACK};
     root = sentinel;
+  }
+
+  RedBlackTree(const RedBlackTree &other)
+  {
+    sentinel = new RBT::Node{0, "__SENTINEL__", nullptr, sentinel, sentinel, RBT::BLACK};
+    root = copyNode(other.root);
+  }
+
+  RedBlackTree &operator=(const RedBlackTree &other)
+  {
+    if (this != &other)
+    {
+      deepCopy(other);
+    }
+    return *this;
+  }
+
+  ~RedBlackTree()
+  {
+    clear(root);
+    delete sentinel;
   }
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)
