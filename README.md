@@ -1,6 +1,5 @@
 # 2023-2024 Fall Analysis of Algorithms 1 Project 3
 
-[![C++ Lint with cppcheck](https://github.com/baglayan/blg335e-hw3/actions/workflows/cpp-lint.yml/badge.svg)](https://github.com/baglayan/blg335e-hw3/actions/workflows/cpp-lint.yml)
 [![Docker build, run, test](https://github.com/baglayan/blg335e-hw3/actions/workflows/docker-image.yml/badge.svg)](https://github.com/baglayan/blg335e-hw3/actions/workflows/docker-image.yml)
 
 ## Introduction
@@ -19,11 +18,7 @@ To build and run this project:
 
 ### Docker Build and Run
 
-This workflow builds a Docker image and compiles the QuickSort code whenever changes are pushed to the `main` branch or a pull request is made. It runs QuickSort for all populations and all pivoting strategies with threshold 1, and for all population with randomized pivot strategy for several different thresholds.
-
-### C++ Linting
-
-This workflow performs linting on the QuickSort.cpp file using cppcheck.
+This workflow builds a Docker image and compiles the code whenever changes are pushed to the `master` branch or a pull request is made. It runs main driver code for all populations and compares the outputs to the given sample outputs.
 
 ## Notice
 
