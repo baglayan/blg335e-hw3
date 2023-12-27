@@ -1,0 +1,42 @@
+name: Docker build, run, test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set CURRENT_TIME environment variable
+      run: echo "CURRENT_TIME=$(date +%s)" >> $GITHUB_ENV
+
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag algo-hw3:${{env.CURRENT_TIME}}
+
+    - name: Compile code
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} /usr/bin/g++ -fdiagnostics-color=always -g /home/ubuntu/hostVolume/hw3/main.cpp -o /home/ubuntu/hostVolume/hw3/main
+
+    - name: Make out directory
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} mkdir /home/ubuntu/hostVolume/hw3/out
+
+    - name: List directory contents
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} ls -l /home/ubuntu/hostVolume/hw3/
+
+    - name: Chmod +x bash scripts
+      run: |
+        docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} chmod +x /home/ubuntu/hostVolume/hw3/test/is_sorted.sh
+        docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} chmod +x /home/ubuntu/hostVolume/hw3/test/test.sh
+
+    - name: Run with different args and log, test if sorted
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} /home/ubuntu/hostVolume/hw3/test/run.sh
+
+    - name: Display time.log
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} cat /home/ubuntu/hostVolume/hw3/time.log
