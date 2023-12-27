@@ -29,7 +29,7 @@ compare_files() {
 
 
 # Compile the program
-g++ main.cpp -o main
+/usr/bin/g++ /home/ubuntu/hostVolume/hw3/main.cpp -o /home/ubuntu/hostVolume/hw3/main
 if [ $? -ne 0 ]; then
     echo "Compilation failed."
     exit 1
