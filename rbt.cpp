@@ -31,28 +31,27 @@ namespace RBT
     return false;
   }
 
-  template <class T>
-  bool rbtSentinelNodeCheck(T *node)
-  {
-    // this is implemented as RBT's null can be implemented as sentinel node
-    // which cannot be checked by nullptr
-    // definite control for a node being null is checking its parent and both children
-    if (node == nullptr)
-    {
-      return false;
-    }
-    if (node->parent == nullptr && node->left == nullptr && node->right == nullptr)
-    {
-      return true;
-    }
-    return false;
-  }
+  // template <class T>
+  // bool rbtSentinelNodeCheck(T *node)
+  // {
+  //   // this is implemented as RBT's null can be implemented as sentinel node
+  //   // which cannot be checked by nullptr
+  //   // definite control for a node being null is checking its parent and both children
+  //   if (node == nullptr)
+  //   {
+  //     return false;
+  //   }
+  //   if (node->left == nullptr && node->right == nullptr)
+  //   {
+  //     return true;
+  //   }
+  //   return false;
+  // }
 
   enum Color
   {
     BLACK = 0,
-    RED = 1,
-    UNDEFINED = 2
+    RED = 1
   };
 
   struct Node
@@ -70,6 +69,7 @@ class RedBlackTree
 {
 private:
   RBT::Node *root;
+  RBT::Node *sentinel;
 
   unsigned long long _getHeight(RBT::Node *node)
   {
@@ -165,13 +165,13 @@ private:
   {
     RBT::Node *succ = node;
     RBT::Color succOriginalColor = (RBT::Color)succ->color;
-    RBT::Node *next = new RBT::Node{0, "", nullptr, nullptr, nullptr, RBT::UNDEFINED};
-    if (RBT::rbtSentinelNodeCheck(node->left))
+    RBT::Node *next = new RBT::Node{0, "", sentinel, sentinel, sentinel, RBT::BLACK};
+    if (node->left == sentinel)
     {
       next = node->right;
       transplant(node, node->right);
     }
-    else if (RBT::rbtSentinelNodeCheck(node->right))
+    else if (node->right == sentinel)
     {
       next = node->left;
       transplant(node, node->left);
@@ -205,7 +205,8 @@ private:
 public:
   RedBlackTree()
   {
-    root = nullptr;
+    sentinel = new RBT::Node{0, "__SENTINEL__", nullptr, sentinel, sentinel, RBT::BLACK};
+    root = sentinel;
   }
 
   void preorder(std::pair<std::string, int> *array, unsigned long long size)
@@ -219,7 +220,6 @@ public:
     static unsigned long long index = 0;
     _inorder(root, array, index, size);
   }
-
   void postorder(std::pair<std::string, int> *array, unsigned long long size)
   {
     static unsigned long long index = 0;
@@ -271,14 +271,15 @@ public:
   {
     RBT::Node *next = node->right;
     node->right = next->left;
-    if (!RBT::rbtSentinelNodeCheck(next->left)) // not entirely sure
+    if (next->left != sentinel)
     {
       next->left->parent = node;
     }
     next->parent = node->parent;
-    if (RBT::rbtSentinelNodeCheck(node->parent))
+    if (node->parent == sentinel)
     {
       root = next;
+      root->parent = sentinel;
     }
     else if (node == node->parent->left)
     {
@@ -291,19 +292,19 @@ public:
     next->left = node;
     node->parent = next;
   }
-
   void rightRotate(RBT::Node *node)
   {
     RBT::Node *prev = node->left;
     node->left = prev->right;
-    if (!RBT::rbtSentinelNodeCheck(prev->right))
+    if (prev->right != sentinel)
     {
       prev->right->parent = node;
     }
     prev->parent = node->parent;
-    if (RBT::rbtSentinelNodeCheck(node->parent))
+    if (node->parent == sentinel)
     {
       root = prev;
+      root->parent = sentinel;
     }
     else if (node == node->parent->right)
     {
@@ -319,11 +320,11 @@ public:
 
   void insert(std::string name, int data)
   {
-    RBT::Node *newNode = new RBT::Node{data, name, nullptr, nullptr, nullptr, RBT::UNDEFINED};
+    RBT::Node *newNode = new RBT::Node{data, name, sentinel, sentinel, sentinel, RBT::BLACK};
     RBT::Node *iterator = root;
-    RBT::Node *parentOfNew = new RBT::Node{0, "", nullptr, nullptr, nullptr, RBT::BLACK};
+    RBT::Node *parentOfNew = sentinel;
 
-    while (!RBT::rbtNullOrSentinelNodeCheck(iterator))
+    while (iterator != sentinel)
     {
       parentOfNew = iterator;
       if (newNode->data < iterator->data)
@@ -336,9 +337,10 @@ public:
       }
     }
     newNode->parent = parentOfNew;
-    if (RBT::rbtNullOrSentinelNodeCheck(parentOfNew))
+    if (parentOfNew == sentinel)
     {
       root = newNode;
+      root->parent = sentinel;
     }
     else if (newNode->data < parentOfNew->data)
     {
@@ -348,15 +350,15 @@ public:
     {
       parentOfNew->right = newNode;
     }
-    newNode->left = new RBT::Node{0, "", nullptr, nullptr, nullptr, RBT::BLACK};
-    newNode->right = new RBT::Node{0, "", nullptr, nullptr, nullptr, RBT::BLACK};
+    newNode->left = sentinel;
+    newNode->right = sentinel;
     newNode->color = RBT::RED;
     insertFixup(newNode);
   }
 
   void insertFixup(RBT::Node *node)
   {
-    while (!RBT::rbtNullOrSentinelNodeCheck(node->parent) && node->parent->color == RBT::RED)
+    while (node->parent->color == RBT::RED)
     {
       if (node->parent == node->parent->parent->left)
       {
@@ -408,9 +410,10 @@ public:
 
   void transplant(RBT::Node *u, RBT::Node *v)
   {
-    if (RBT::rbtSentinelNodeCheck(u->parent))
+    if (u->parent == sentinel)
     {
       root = v;
+      v->parent = sentinel;
     }
     else if (u == u->parent->left)
     {
@@ -521,15 +524,16 @@ public:
     return count;
   }
 
-  void countNodes(RBT::Node *node, unsigned long long &count)
+  unsigned long long countNodes(RBT::Node *node, unsigned long long &count)
   {
-    if (RBT::rbtNullOrSentinelNodeCheck(node))
+    if (node == sentinel)
     {
-      return;
+      return 0;
     }
     count++;
-    countNodes(node->left, count);
-    countNodes(node->right, count);
+    unsigned long long leftSize = countNodes(node->left, count);
+    unsigned long long rightSize = countNodes(node->right, count);
+    return leftSize + rightSize;
   }
 
   unsigned long long maximum(unsigned long long a, unsigned long long b)
