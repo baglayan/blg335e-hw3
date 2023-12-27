@@ -60,7 +60,7 @@ for dataset in "${datasets[@]}"; do
     rm -f /home/ubuntu/hostVolume/hw3/tmp_file.csv 2> /dev/null
 
     # Extract the dataset number
-    dataset_num=$(echo $dataset | grep -o -E '[0-9]+')
+    dataset_num=$(echo $dataset | grep -o -E '[0-9]+' | tail -n 1)
 
     # Check if log file is identical to the sample
     if ! compare_files "/home/ubuntu/hostVolume/hw3/log_pop$dataset_num.txt" "/home/ubuntu/hostVolume/hw3/samples/log_pop$dataset_num.txt"; then
