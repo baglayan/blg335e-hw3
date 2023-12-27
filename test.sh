@@ -40,18 +40,18 @@ datasets=("/home/ubuntu/hostVolume/hw3/data/population1.csv" "/home/ubuntu/hostV
 
 # Process each dataset
 for dataset in "${datasets[@]}"; do
-    ./main "$dataset" /home/ubuntu/hostVolume/hw3/out/out.csv v
+    /home/ubuntu/hostVolume/hw3//main "$dataset" /home/ubuntu/hostVolume/hw3/out/out.csv v
 
     # Prepare files for sorting check
     file_to_check=$(prepare_for_sort_check /home/ubuntu/hostVolume/hw3/out/out_bst.csv)
-    if ! ./is_sorted.sh "$file_to_check"; then
+    if ! /home/ubuntu/hostVolume/hw3/is_sorted.sh "$file_to_check"; then
         echo "Sorting check failed for out/out_bst.csv in $dataset."
         rm -f /home/ubuntu/hostVolume/hw3/tmp_file.csv 2> /dev/null
         exit 1
     fi
 
     file_to_check=$(prepare_for_sort_check /home/ubuntu/hostVolume/hw3/out/out_rbt.csv)
-    if ! ./is_sorted.sh "$file_to_check"; then
+    if ! /home/ubuntu/hostVolume/hw3/is_sorted.sh "$file_to_check"; then
         echo "Sorting check failed for out/out_rbt.csv in $dataset."
         rm -f /home/ubuntu/hostVolume/hw3/tmp_file.csv 2> /dev/null
         exit 1
