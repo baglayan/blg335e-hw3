@@ -14,40 +14,6 @@
 
 namespace RBT
 {
-  template <class T>
-  bool rbtNullOrSentinelNodeCheck(T *node)
-  {
-    // this is implemented as RBT's null can be implemented as sentinel node
-    // which cannot be checked by nullptr
-    // definite control for a node being null is checking its parent and both children
-    if (node == nullptr)
-    {
-      return true;
-    }
-    if (node->parent == nullptr && node->left == nullptr && node->right == nullptr)
-    {
-      return true;
-    }
-    return false;
-  }
-
-  // template <class T>
-  // bool rbtSentinelNodeCheck(T *node)
-  // {
-  //   // this is implemented as RBT's null can be implemented as sentinel node
-  //   // which cannot be checked by nullptr
-  //   // definite control for a node being null is checking its parent and both children
-  //   if (node == nullptr)
-  //   {
-  //     return false;
-  //   }
-  //   if (node->left == nullptr && node->right == nullptr)
-  //   {
-  //     return true;
-  //   }
-  //   return false;
-  // }
-
   enum Color
   {
     BLACK = 0,
@@ -73,7 +39,7 @@ private:
 
   unsigned long long _getHeight(RBT::Node *node)
   {
-    if (RBT::rbtNullOrSentinelNodeCheck(node))
+    if (node == sentinel)
     {
       return 0;
     }
@@ -84,7 +50,7 @@ private:
 
   RBT::Node *_getMinimum(RBT::Node *node)
   {
-    if (RBT::rbtNullOrSentinelNodeCheck(node->left))
+    if (node->left == sentinel)
     {
       return node;
     }
@@ -96,7 +62,7 @@ private:
 
   RBT::Node *_getMaximum(RBT::Node *node)
   {
-    if (RBT::rbtNullOrSentinelNodeCheck(node->right))
+    if (node->right == sentinel)
     {
       return node;
     }
@@ -108,7 +74,7 @@ private:
 
   void _preorder(RBT::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
-    if (!RBT::rbtNullOrSentinelNodeCheck(node) && index <= size)
+    if (node != sentinel && index <= size)
     {
       std::pair<std::string, int> iterator = {node->name, node->data};
       array[index] = iterator;
@@ -121,7 +87,7 @@ private:
 
   void _inorder(RBT::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
-    if (!RBT::rbtNullOrSentinelNodeCheck(node) && index <= size)
+    if (node != sentinel && index <= size)
     {
       _inorder(node->left, array, index, size);
       std::pair<std::string, int> iterator = {node->name, node->data};
@@ -134,7 +100,7 @@ private:
 
   void _postorder(RBT::Node *node, std::pair<std::string, int> *array, unsigned long long &index, unsigned long long &size)
   {
-    if (!RBT::rbtNullOrSentinelNodeCheck(node) && index <= size)
+    if (node != sentinel && index <= size)
     {
       _postorder(node->left, array, index, size);
       _postorder(node->right, array, index, size);
@@ -147,7 +113,7 @@ private:
 
   RBT::Node *_searchTree(RBT::Node *node, int key)
   {
-    if (RBT::rbtNullOrSentinelNodeCheck(node) || key == node->data)
+    if (node == sentinel || key == node->data)
     {
       return node;
     }
@@ -233,14 +199,14 @@ public:
 
   RBT::Node *successor(RBT::Node *node)
   {
-    if (!RBT::rbtNullOrSentinelNodeCheck(node->right))
+    if (node->right != sentinel)
     {
       return _getMinimum(node->right);
     }
     else
     {
       RBT::Node *y = node->parent;
-      while (!RBT::rbtNullOrSentinelNodeCheck(y) && node == y->right)
+      while (y != sentinel && node == y->right)
       {
         node = y;
         y = y->parent;
@@ -251,14 +217,14 @@ public:
 
   RBT::Node *predecessor(RBT::Node *node)
   {
-    if (!RBT::rbtNullOrSentinelNodeCheck(node->left))
+    if (node->left != sentinel)
     {
       return _getMaximum(node->left);
     }
     else
     {
       RBT::Node *y = node->parent;
-      while (!RBT::rbtNullOrSentinelNodeCheck(y) && node == y->left)
+      while (y != sentinel && node == y->left)
       {
         node = y;
         y = y->parent;
