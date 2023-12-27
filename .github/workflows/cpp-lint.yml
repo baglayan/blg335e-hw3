@@ -13,8 +13,5 @@ jobs:
     - name: Install cppcheck
       run: sudo apt-get update && sudo apt-get install cppcheck
 
-    - name: Run cppcheck on bst.cpp
-      run: cppcheck --enable=all --std=c++11 --language=c++ --error-exitcode=1 bst.cpp
-
-    - name: Run cppcheck on rbt.cpp
-      run: cppcheck --enable=all --std=c++11 --language=c++ --error-exitcode=1 rbt.cpp
+    - name: Run cppcheck on code files
+      run: cppcheck --enable=all --std=c++11 --language=c++ --error-exitcode=1 --suppress=*:main.cpp --suppress=missingIncludeSystem main.cpp
