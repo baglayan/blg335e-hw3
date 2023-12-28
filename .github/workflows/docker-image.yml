@@ -37,6 +37,3 @@ jobs:
 
     - name: Run with different args and log, test if sorted
       run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} /home/ubuntu/hostVolume/hw3/test.sh
-
-    - name: List directory contents again
-      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} ls -l /home/ubuntu/hostVolume/hw3/

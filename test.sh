@@ -62,6 +62,8 @@ for dataset in "${datasets[@]}"; do
     # Extract the dataset number
     dataset_num=$(echo $dataset | grep -o -E '[0-9]+' | tail -n 1)
 
+    find . | grep -v ".git" | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/" 
+
     # Check if log file is identical to the sample
     if ! compare_files "/home/ubuntu/hostVolume/hw3/log_pop$dataset_num.txt" "/home/ubuntu/hostVolume/hw3/samples/log_pop$dataset_num.txt"; then
         echo "Log file comparison failed for $dataset."
