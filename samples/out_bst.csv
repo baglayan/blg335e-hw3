@@ -1,66 +1,66 @@
-Agdam;0
-Logashkino;0
-Cheremoshna;0
-Ambarchik;0
-Nordvik;0
 Ennadai;0
-Gaigirgordub;10
-Hodrogo;10
-Godhavn;10
-Villa Martin Colchak;10
-Gyda;10
+Agdam;0
+Cheremoshna;0
+Nordvik;0
+Logashkino;0
+Ambarchik;0
+Ul'kan;10
+Siglan;10
+Zillah;10
+Agapa;10
+Komsa;10
 Gueppi;10
+Podkamennaya Tunguska;10
+Puca Urco;10
+Big Beaverhouse;10
+Gyda;10
 Tiyerbes;10
 Bir Mogrein;10
 Yessey;10
-Manily;10
-Zhilinda;10
-Ust'Olenek;10
-Numto;10
-Peregrebnoye;10
-Lar'yak;10
-Lagunas;10
-Andoas;10
-Puca Urco;10
-Zillah;10
-Ul'kan;10
-Barnis;10
-Soldado Bartra;10
-Bol'sheretsk;10
-Karamken;10
-Strelka;10
-Puerto Heath;10
-Ust'Nyukzha;10
-Djado;10
-Khorgo;10
-Varnek;10
-Indiga;10
-Podkamennaya Tunguska;10
-Komsa;10
-Omchak;10
-Trofimovsk;10
 Sagastyr;10
-Utkholok;10
-Siglan;10
-Pakhachi;10
-Tunguskhaya;10
-Chagda;10
+Omchak;10
 Il'pyrskiy;10
-Shalaurova;10
-Chegga;10
-Olenek;10
-Matochkin Shar;10
-Zvezdnyy;10
-Agapa;10
-Starorybnoye;10
-Menkerya;10
-Tukchi;10
-Khakhar';10
 Zemlya Bunge;10
-Island Lake;10
-Big Beaverhouse;10
+Olenek;10
+Ust'Nyukzha;10
+Trofimovsk;10
 Nord;10
+Numto;10
+Andoas;10
+Island Lake;10
+Utkholok;10
+Menkerya;10
+Ust'Olenek;10
+Varnek;10
+Zvezdnyy;10
+Shalaurova;10
+Manily;10
+Pakhachi;10
+Tukchi;10
 Timmiarmiut;10
+Chagda;10
+Soldado Bartra;10
+Strelka;10
+Godhavn;10
+Lar'yak;10
+Matochkin Shar;10
+Lagunas;10
+Chegga;10
+Tunguskhaya;10
+Barnis;10
+Khorgo;10
+Gaigirgordub;10
+Villa Martin Colchak;10
+Indiga;10
+Khakhar';10
+Starorybnoye;10
+Karamken;10
+Zhilinda;10
+Peregrebnoye;10
+Hodrogo;10
+Bol'sheretsk;10
+Djado;10
+Puerto Heath;10
 Kovda;20
 Cuya;20
 Grise Fiord;23
@@ -72,13 +72,13 @@ Piso Firme;72
 Burwash Landing;73
 Uranium City;89
 Grytviken;99
-Nichicun;100
-Al Uqaylah;100
-Mucusso;100
-Burylbaytal;100
 Ituni;100
 Vorontsovo;100
 Mukhomornoye;100
+Mucusso;100
+Al Uqaylah;100
+Nichicun;100
+Burylbaytal;100
 Lutselk'e;102
 Salluit;106
 Sharbaqty;107
@@ -91,8 +91,8 @@ Buton;140
 Bedourie;142
 Narsarsuaq;145
 Progress;146
-Bafwasende;149
 Cuito Cuanavale;149
+Bafwasende;149
 La Esmeralda;150
 Luiana;150
 Stony Rapids;152
@@ -104,25 +104,25 @@ Karumba;173
 Androka;174
 Tsiigehtchic;175
 Hurdiyo;176
-Bicheno;177
-Vilankulo;177
 Lusanga;177
+Vilankulo;177
+Bicheno;177
 Oxford House;184
 Quipungo;186
-Southern Cross;187
 Camooweal;187
+Southern Cross;187
 Sayhut;189
 Three Springs;190
 Kalima;194
 Port Hope Simpson;197
 Charana;197
-Burketown;200
 Kangersuatsiaq;200
 Upper Hay River;200
+Burketown;200
 Mapai;201
 Thargomindah;203
-Kraulshavn;204
 Zouar;204
+Kraulshavn;204
 Kingston South East;206
 InAmenas;216
 Gingoog;218
@@ -135,9 +135,9 @@ Kenge;241
 Nimule;242
 Timbedgha;245
 Theodore;246
-Villa O'Higgins;250
 Resolute;250
 Tasiusaq;250
+Villa O'Higgins;250
 Morawa;259
 PortMenier;263
 Ivanhoe;265
@@ -146,8 +146,8 @@ Gubkin;272
 Cat Lake;277
 Brochet;278
 Amderma;282
-Fort Simpson;283
 Birdsville;283
+Fort Simpson;283
 Kulusuk;286
 Ikela;291
 Yaupi;293
@@ -156,10 +156,10 @@ Richmond;296
 Enurmino;297
 Cazombo;298
 Put' Lenina;298
-Waitangi;300
-Umm al Abid;300
-Shoyna;300
 Bugrino;300
+Shoyna;300
+Umm al Abid;300
+Waitangi;300
 Dease Lake;303
 Lasserre;307
 Halfmoon Bay;310
@@ -176,21 +176,21 @@ Chonchi;381
 Kimmirut;385
 Espungabera;393
 Trepassey;398
-Nizhneyansk;400
 Korf;400
+Nizhneyansk;400
 Comandante Luis Piedra Buena;410
 Sherlovaya Gora;411
 Tsavo;414
 Hughenden;421
 Mount Magnet;424
 Pukatawagan;431
-Wilcannia;442
 Hopedale;442
+Wilcannia;442
 Dhuusamarreeb;447
 Xangongo;447
-Fada;448
 Fort Resolution;448
 Forteau Bay;448
+Fada;448
 Kullorsuaq;450
 Woomera;450
 Trout River;452
@@ -199,12 +199,12 @@ Selibaby;460
 Scoresbysund;469
 Schefferville;471
 Lynn Lake;482
-Telsen;500
-Puerto Pinasco;500
+Tmassah;500
 Chitado;500
 Yakossi;500
-Tmassah;500
 Holman;500
+Telsen;500
+Puerto Pinasco;500
 Cartwright;505
 Tournavista;511
 Caluula;513
@@ -217,8 +217,8 @@ Cowell;537
 Sandspit;538
 Mereeg;548
 Kangirsuk;549
-Lata;553
 Llica;553
+Lata;553
 Chiramba;556
 Gastre;557
 Quilpie;560
@@ -229,8 +229,8 @@ Sabaya;573
 Tinogasta;587
 Mingan;588
 Fort Good Hope;597
-Boulia;600
 Tunduru;600
+Boulia;600
 Ype Jhu;600
 Panda;602
 Dibaya;603
@@ -239,16 +239,16 @@ Qaanaaq;616
 Calatrava;628
 Kimba;636
 Massangena;650
-Meekatharra;654
 Hall Beach;654
+Meekatharra;654
 Pine Creek;665
 Djanet;666
 Linxi;679
 Buchans;685
 Pannawonica;686
 Zhaltyr;694
-Rodeo;701
 Serebryansk;701
+Rodeo;701
 Satadougou;706
 Natashquan;722
 Comallo;741
@@ -277,9 +277,9 @@ Principe da Beira;956
 General Eugenio A Garay;972
 Cacolo;984
 Yelimane;988
-Repulse Bay;1000
 Greytown;1000
 Altata;1000
+Repulse Bay;1000
 Churchill;1000
 Norseman;1004
 Sicasica;1006
@@ -306,8 +306,8 @@ Kaabong;1137
 Los Blancos;1145
 Nain;1151
 Santo Antonio;1156
-Oatlands;1157
 Winton;1157
+Oatlands;1157
 Buluko;1192
 Capitan Pablo Lagerenza;1200
 San Rafael;1201
@@ -328,8 +328,8 @@ Ayan;1286
 Geraldton;1290
 Uummannaq;1299
 Kugluktuk;1302
-Tarutung;1305
 Chumikan;1305
+Tarutung;1305
 Cangamba;1307
 Fulacunda;1311
 Lubutu;1313
@@ -337,8 +337,8 @@ Dawson;1319
 Pangnirtung;1320
 Cape Dorset;1326
 Nyimba;1336
-Qasigiannguit;1341
 Qardho;1341
+Qasigiannguit;1341
 Jaque;1357
 Cobalt;1372
 Verkhoyansk;1388
@@ -354,9 +354,9 @@ Lokwabe;1473
 Cambridge Bay;1477
 CapChat;1484
 Bu'aale;1490
-Alexander Bay;1500
-San Vicente del Caguan;1500
 Tajarhi;1500
+San Vicente del Caguan;1500
+Alexander Bay;1500
 Meningie;1501
 Chibemba;1502
 Penola;1514
@@ -365,8 +365,8 @@ Ust'Kuyga;1517
 Sierra Colorada;1522
 Kipili;1533
 Geita;1536
-Iracoubo;1536
 Manja;1536
+Iracoubo;1536
 Kalbarri;1537
 Alto Rio Senguer;1548
 Pond Inlet;1549
@@ -381,8 +381,8 @@ Vila Bela da Santissima Trindade;1612
 Igloolik;1612
 Xuddur;1639
 Tofino;1655
-Labutta;1667
 Omboue;1667
+Labutta;1667
 Totness;1685
 Peterborough;1689
 Hofn;1695
@@ -456,8 +456,8 @@ Yuscaran;2371
 Karungu;2376
 El Dorado;2383
 Uspallata;2390
-SeveroKuril'sk;2422
 Baures;2422
+SeveroKuril'sk;2422
 Tarabuco;2428
 Jose Batlle y Ordonez;2438
 Palopo;2444
@@ -465,13 +465,13 @@ Scottsdale;2468
 Rankin Inlet;2472
 Fuerte Olimpo;2475
 Bourke;2475
-Capitol Hill;2500
-Nelson House;2500
+Nauta;2500
+Mariscal Estigarribia;2500
 Nagqu;2500
 Puerto Williams;2500
-Nauta;2500
 Maradah;2500
-Mariscal Estigarribia;2500
+Capitol Hill;2500
+Nelson House;2500
 Chokurdakh;2506
 Donegal;2513
 Baltasar Brum;2517
@@ -544,8 +544,8 @@ Fort Chipewyan;3222
 Qaqortoq;3224
 Louang Namtha;3225
 La Paloma;3230
-Hartford;3237
 Zhigansk;3237
+Hartford;3237
 Turangi;3240
 Sebba;3273
 Kirkenes;3282
@@ -587,8 +587,8 @@ P'ungsan;3839
 Vitim;3843
 Ciudad Cortes;3850
 Windsor;3864
-Westport;3900
 Hay River;3900
+Westport;3900
 Shongzhy;3902
 Jasper;3907
 Finnsnes;3907
@@ -602,8 +602,8 @@ SaintAugustin;3961
 Proserpine;3976
 Mayumba;3996
 Vergara;3998
-Manica;4000
 San Antonio de los Cobres;4000
+Manica;4000
 Araouane;4026
 Quime;4045
 Xinguara;4047
@@ -619,8 +619,8 @@ Svolvaer;4197
 Omsukchan;4201
 Smithton;4202
 San Javier;4210
-Pofadder;4220
 ChannelPort aux Basques;4220
+Pofadder;4220
 Black River;4229
 Narrogin;4238
 Manjimup;4240
@@ -674,37 +674,37 @@ Ros Comain;4860
 Nieuw Amsterdam;4935
 Ust'Kamchatsk;4939
 Artemovsk;4948
-Wangdue Phodrang;5000
 Punakha;5000
 Qasr al Farafirah;5000
 Puerto La Victoria;5000
+Wangdue Phodrang;5000
 Town and Country;5001
 Rutherford;5001
 River Ridge;5002
-Santa Barbara;5007
 Greenfield;5007
 Wakefield;5007
+Santa Barbara;5007
 Charlestown;5008
+Sugarcreek;5009
 North Fort Lewis;5009
 Sabattus;5009
-Sugarcreek;5009
 Clifton;5010
 Bowie;5011
 Centreville;5012
 Lake Montezuma;5013
 Alexandria;5015
 Basehor;5017
-Eagleville;5019
 Columbia;5019
 De Soto;5019
-Thatcher;5021
+Eagleville;5019
 ShanorNorthvue;5021
-Brookshire;5022
+Thatcher;5021
 McGregor;5022
+Brookshire;5022
 Bridgeville;5023
-Kings Park;5025
-Cleveland;5025
 McMinns Lagoon;5025
+Cleveland;5025
+Kings Park;5025
 West Salem;5026
 La Crescent;5028
 Manchester;5028
@@ -714,16 +714,16 @@ Demarest;5032
 Port Allen;5034
 Bristol;5034
 Attica;5036
-St Joseph;5037
-Elmwood;5037
 Wanaka;5037
-Wheatley Heights;5038
+Elmwood;5037
+St Joseph;5037
 Krum;5038
 Rainsville;5038
-Pascoag;5041
+Wheatley Heights;5038
 Mount Hood Village;5041
-Olyphant;5042
+Pascoag;5041
 Stafford Springs;5042
+Olyphant;5042
 Hearst;5043
 Shepherdstown;5045
 Concordia;5047
@@ -736,18 +736,18 @@ Lone Grove;5060
 Milan;5061
 Gretna;5062
 Ulysses;5062
-Munroe Falls;5063
 Belvedere;5063
-South Haven;5064
-Colville;5064
+Munroe Falls;5063
 Paulden;5064
+Colville;5064
+South Haven;5064
 Marion;5065
 Flagler Beach;5068
 Crystal Springs;5069
-Wildwood;5070
-North Fond du Lac;5070
-Portland;5070
 Post;5070
+North Fond du Lac;5070
+Wildwood;5070
+Portland;5070
 Owego;5071
 Springfield;5072
 Battlement Mesa;5072
@@ -757,27 +757,27 @@ Canutillo;5075
 Carlyss;5075
 Winnsboro;5078
 Commercial;5080
-Salinas;5081
 Bay Hill;5081
+Salinas;5081
 Wahneta;5084
 Cold Spring Harbor;5088
 Abbeville;5088
-Gillespie;5089
 Brownfields;5089
+Gillespie;5089
 Montevideo;5090
 Angier;5091
-Midfield;5092
-Farmers Loop;5092
 Rockingham;5092
-Kenneth City;5093
+Farmers Loop;5092
+Midfield;5092
 Midway;5093
 Poplar Grove;5093
+Kenneth City;5093
 Wilton;5097
-Sea Cliff;5100
 Odessa;5100
+Sea Cliff;5100
 East Harwich;5101
-Travelers Rest;5108
 Williamson;5108
+Travelers Rest;5108
 Cape May Court House;5109
 Chisago City;5109
 Broadmoor;5112
@@ -794,33 +794,33 @@ Daleville;5122
 Villa del Rosario;5123
 Winterset;5127
 McKenzie;5127
-Mechanicville;5130
 Berkeley;5130
 Collegeville;5130
-Colona;5133
+Mechanicville;5130
 Brady;5133
-Morris;5134
+Colona;5133
 Combarbala;5134
-Buellton;5135
+Morris;5134
 Colesville;5135
+Buellton;5135
 Scott City;5136
 Chernyshevskiy;5137
 Newman;5138
-Vadso;5139
-Westvale;5139
-Schlusser;5139
 Humboldt;5139
+Schlusser;5139
+Westvale;5139
+Vadso;5139
 Northumberland;5140
-Pinardville;5142
 Stewartstown;5142
 Offutt AFB;5142
+Pinardville;5142
 Ayden;5143
 Flanders;5144
 Myrtletown;5145
 Deale;5148
 Paris;5148
-Winona Lake;5149
 Lake City;5149
+Winona Lake;5149
 Fort Rucker;5149
 Schuyler Falls;5150
 Glencoe;5152
@@ -828,53 +828,53 @@ Ottawa;5153
 Shelby;5154
 Schuylkill Haven;5155
 South Bay;5156
-Glendale;5158
 Williamston;5158
-Tara Hills;5160
+Glendale;5158
+Carlisle;5160
 Bayou Vista;5160
+Tara Hills;5160
 Mount Repose;5160
 Bisbee;5160
-Carlisle;5160
 Eagleton Village;5163
+Bolton;5167
 Birdsboro;5167
 Worland;5167
-Bolton;5167
 Punta Santiago;5168
 Orange;5169
 Turpin Hills;5170
 Oak Grove;5170
-Byron;5170
 Jinzhong;5170
-Forsyth;5173
+Byron;5170
 Ranson;5173
+Forsyth;5173
+Polson;5174
 Hazardville;5174
 Dickinson;5174
-Polson;5174
 Richmond;5176
 East Moriches;5177
 Central;5179
-Wenham;5179
 Hollywood;5179
+Wenham;5179
 Sawmills;5180
-Mount Carmel;5184
-Clarinda;5184
 Bulverde;5184
-Mullins;5185
+Clarinda;5184
+Mount Carmel;5184
 Sarmiento;5185
+Mullins;5185
 Grosse Pointe;5188
 Floral City;5188
 Jan Phyl Village;5189
 Xiangkhoang;5189
 Brookline;5190
 Terryville;5192
-Pontotoc;5193
 Hampden;5193
+Pontotoc;5193
 Creve Coeur;5194
 Springfield;5197
 Warren;5199
+Hampstead;5200
 Kibale;5200
 Kalangala;5200
-Hampstead;5200
 Holland;5201
 Kaitaia;5202
 Belle Fourche;5202
@@ -895,8 +895,8 @@ Ocean BluffBrant Rock;5223
 Collinsville;5226
 Avondale;5226
 Sisimiut;5227
-Bangor;5227
 Addis;5227
+Bangor;5227
 Avra Valley;5227
 Dumfries;5230
 Waynesville;5230
@@ -912,8 +912,8 @@ Cocoa West;5250
 Algona;5251
 Cottleville;5253
 Wadesboro;5255
-Ghent;5255
 North Stonington;5255
+Ghent;5255
 Eaton;5256
 Union City;5257
 Polygyros;5258
@@ -927,36 +927,36 @@ Hockinson;5267
 Alton;5267
 Zebulon;5268
 Savannah;5269
-White City;5270
 Hampshire;5270
-St Augustine South;5271
+White City;5270
 Jackson;5271
+St Augustine South;5271
 Suncook;5272
 Calistoga;5273
 Kings Point;5273
 Yosemite Lakes;5274
-Frankenmuth;5277
 Red Oak;5277
+Frankenmuth;5277
 Torghay;5277
 Lake Fenton;5279
 Carmi;5281
-Gilbertsville;5281
 BatesburgLeesville;5281
+Gilbertsville;5281
 Cavalero;5284
 Fruitland;5285
-Sunset;5286
 Holdrege;5286
+Sunset;5286
 Elmsford;5287
 Shillington;5288
 Conklin;5291
 Williamsville;5292
-Sunbury;5293
 Auburn;5293
+Sunbury;5293
 Albertson;5294
 Grayson Valley;5295
 Lafayette;5298
-Centerville;5300
 Veintiocho de Noviembre;5300
+Centerville;5300
 Hadley;5301
 Hawaiian Beaches;5302
 South Highpoint;5303
@@ -967,8 +967,8 @@ Hohenau;5306
 Edgewater;5308
 Wind Lake;5309
 Fox Chapel;5309
-Ravena;5310
 Salem;5310
+Ravena;5310
 Blaine;5311
 Jaffrey;5314
 Newfield;5314
@@ -977,35 +977,35 @@ La Esperanza;5318
 Manitou Springs;5322
 Grandyle Village;5324
 Chadron;5324
-Highwood;5325
 Rothschild;5325
+Highwood;5325
 Bright;5326
 ManchesterbytheSea;5327
 Desaguadero;5329
 Delhi Hills;5330
 East Port Orchard;5334
-Grandwood Park;5335
 St Clair;5335
+Grandwood Park;5335
 Lely Resort;5335
 Carlisle;5336
 Penuelas;5338
-Mena;5339
 Big Pine Key;5339
-Ballston Spa;5340
-Peace River;5340
+Mena;5339
 Willow Park;5340
+Ballston Spa;5340
 Maplewood;5340
+Peace River;5340
 Ridgeland;5341
 Kaser;5343
 Leadville;5343
 Hidden Valley;5344
 Bridgton;5346
-Manchester;5348
 New Castle;5348
 Qaminis;5348
+Manchester;5348
 Summit;5349
-Caruthersville;5349
 West Hills;5349
+Caruthersville;5349
 Uhrichsville;5351
 Anamosa;5355
 Mount Carmel;5355
@@ -1017,8 +1017,8 @@ Cameron;5361
 Media;5362
 Bret Harte;5367
 Center;5367
-Denver City;5369
 Coal City;5369
+Denver City;5369
 Byron;5371
 Caldwell;5374
 Highland;5375
@@ -1029,45 +1029,45 @@ Centerport;5380
 Los Chaves;5380
 Witu;5380
 Goshen;5383
-Hightstown;5384
-Fairport;5384
 Tonganoxie;5384
+Fairport;5384
+Hightstown;5384
 Hanamaulu;5386
 Sterling;5387
-Eaton Rapids;5388
-Massanetta Springs;5388
 La Grange;5388
-Marilla;5389
+Massanetta Springs;5388
+Eaton Rapids;5388
 Bear Valley Springs;5389
+Marilla;5389
 Mudgee;5391
 St Paul Park;5392
 Wayne;5394
 Highland Lakes;5394
 Northwood;5396
-Terrell Hills;5397
 Jonesborough;5397
-McGuire AFB;5397
 Homestead Meadows North;5397
+McGuire AFB;5397
+Terrell Hills;5397
 Kenai;5399
 Frankford;5399
 Rye;5401
 Jonesboro;5402
 Ettrick;5403
 La Habra Heights;5403
-Manteo;5403
 Loudon;5403
+Manteo;5403
 Indian Wells;5404
 Morristown;5404
-Glencoe;5407
 HilmarIrwin;5407
+Glencoe;5407
 Aubrey;5407
 Dove Valley;5409
 Williams;5410
 South Amherst;5411
 Pinckneyville;5413
 Stokesdale;5413
-Tea;5415
 Gibson;5415
+Tea;5415
 Kalaheo;5416
 Orwigsburg;5416
 Mocksville;5416
@@ -1076,14 +1076,14 @@ Smiths Station;5418
 Grayson;5420
 Jim Thorpe;5421
 Rancho Murieta;5424
-Wake Village;5425
 Quantico Base;5425
+Wake Village;5425
 Cidra;5427
 Slinger;5427
 Trenton;5431
 Waipio Acres;5432
-Brent;5432
 Oneonta;5432
+Brent;5432
 San Quintin;5433
 Rockwood;5434
 Ouadda;5434
@@ -1095,11 +1095,11 @@ Sherwood Manor;5443
 Tura;5444
 Avarua;5445
 Vienna;5445
-Manchester;5447
 Titusville;5447
 Lakehills;5447
-Dayton;5449
+Manchester;5447
 Muldrow;5449
+Dayton;5449
 Canal Fulton;5451
 Winston;5452
 Englewood Cliffs;5453
@@ -1117,39 +1117,39 @@ Brookhaven;5467
 Northfield;5470
 Bessemer City;5472
 Lucerne Valley;5472
-Boothwyn;5478
 Breinigsville;5478
+Boothwyn;5478
 Mali;5479
 Firthcliffe;5481
 Robbins;5486
-Waterford;5487
 Nashville;5487
 Salton City;5487
+Waterford;5487
 SamsulaSpruce Creek;5489
 Black River Falls;5490
 Pecan Plantation;5491
 Barre;5491
-New Holland;5492
 Waterville;5492
+New Holland;5492
 Stettler;5494
-Roma;5496
 Morganfield;5496
+Roma;5496
 Breckenridge;5497
 Beekmantown;5498
 Clare;5501
 New Hempstead;5502
-Germantown;5503
-Cut Off;5503
 New Boston;5503
-Caazapa;5504
+Cut Off;5503
+Germantown;5503
 Lyons;5504
+Caazapa;5504
 Rockdale;5505
 Jamestown;5505
 Hamptonburgh;5506
-Wappingers Falls;5508
-Somerdale;5508
 Fort Plain;5508
+Somerdale;5508
 Valatie;5508
+Wappingers Falls;5508
 Stroudsburg;5511
 Thiells;5511
 Swartz Creek;5512
@@ -1161,14 +1161,14 @@ Apple Valley;5520
 Salavan;5521
 Old Fig Garden;5522
 Monaca;5522
-Sweetwater;5522
 Doney Park;5522
 Poland;5522
+Sweetwater;5522
 Honeoye Falls;5524
 South Apopka;5525
 Wellston;5526
-Bethany;5526
 Harwinton;5526
+Bethany;5526
 Coraopolis;5530
 Corydon;5532
 Shaw Heights;5534
@@ -1179,8 +1179,8 @@ Independence;5541
 Holdenville;5543
 Marbletown;5543
 Dacono;5545
-Lakeview;5546
 Boxborough;5546
+Lakeview;5546
 Duquesne;5547
 Ferriday;5553
 Ocean Shores;5553
@@ -1193,14 +1193,14 @@ Huntingburg;5562
 Paxtonia;5564
 Woodside;5564
 Bowling Green;5568
-Twin Lakes;5570
 Madisonville;5570
+Twin Lakes;5570
 Okhotsk;5570
 Marlin;5571
 Vossevangen;5571
 Kensington;5573
-Oxford;5574
 Waynesboro;5574
+Oxford;5574
 Paradise Hills;5576
 Weldon Spring;5578
 Baxley;5578
@@ -1222,9 +1222,9 @@ Elverta;5606
 Harrietstown;5609
 Islip Terrace;5611
 Pana;5612
-Eureka;5614
-West Yarmouth;5614
 Hopkinton;5614
+West Yarmouth;5614
+Eureka;5614
 Chelsea;5615
 Mascotte;5616
 Harris Hill;5618
@@ -1233,9 +1233,9 @@ Groveport;5621
 Cave Creek;5622
 Kasempa;5622
 Riga;5623
-Palm Springs North;5624
-Old Bethpage;5624
 Lake Delton;5624
+Old Bethpage;5624
+Palm Springs North;5624
 Hutchins;5627
 Beni Ounif;5628
 Springhill;5631
@@ -1244,11 +1244,11 @@ Edna;5638
 Vinita;5639
 Fort Washington;5640
 Estherville;5640
-Wrightsboro;5642
 Richland;5642
-South Tucson;5643
-Pelham Manor;5643
+Wrightsboro;5642
 Willow Springs;5643
+Pelham Manor;5643
+South Tucson;5643
 Anasco;5645
 Kerema;5646
 Chackbay;5647
@@ -1256,11 +1256,11 @@ Buckner;5648
 Appenzell;5649
 Mount Carmel;5650
 West Bountiful;5650
-Webster;5652
 Greenville;5652
+Webster;5652
 Colorado City;5657
-Lake Bluff;5662
 Thompson's Station;5662
+Lake Bluff;5662
 Pontoon Beach;5664
 Las Flores;5665
 Anthony;5665
@@ -1269,15 +1269,15 @@ Gardiner;5671
 Willard;5675
 Rochelle Park;5677
 Berne;5677
-Deer Park;5679
-Kununurra;5679
 New Gloucester;5679
+Kununurra;5679
+Deer Park;5679
 Kirkwood;5680
 Glarus;5681
 Belmar;5682
 Cumberland;5683
-Princeton;5684
 Winfield;5684
+Princeton;5684
 Gardiner;5688
 Wilmington;5691
 Gray;5692
@@ -1287,17 +1287,17 @@ Homer;5697
 Chinle;5698
 Tiksi;5700
 Sharon Hill;5704
-Greenacres;5705
 Paoli;5705
 Violet;5705
+Greenacres;5705
 Brush;5710
 Nazareth;5711
 Lewisburg;5712
 Palermo;5713
 Saratoga;5716
-Roseland;5717
 South Haven;5717
 Pittstown;5717
+Roseland;5717
 Ingeniero Jacobacci;5719
 Penn Wynne;5720
 Isanti;5721
@@ -1307,25 +1307,25 @@ Spring Grove;5725
 Douglass Hills;5728
 Fort Wright;5729
 Anna;5729
-Country Homes;5730
 Rumford;5730
+Country Homes;5730
 Trooper;5732
 Hartford City;5733
 Hillandale;5734
 Hidden Valley Lake;5735
 Alma;5738
 Mount Plymouth;5739
-Greenwood;5742
 Moosic;5742
+Greenwood;5742
 Benton;5743
 Turner;5747
-Wrightsville;5750
 Piggs Peak;5750
-Westville;5753
+Wrightsville;5750
 Cullowhee;5753
 Belton;5753
-Oceanport;5755
+Westville;5753
 Pocahontas;5755
+Oceanport;5755
 Seminole;5756
 Bilibino;5757
 Willow Oak;5759
@@ -1334,8 +1334,8 @@ Loudon;5760
 Fderik;5760
 North Manchester;5761
 Raleigh Hills;5762
-Fairwood;5762
 Burnet;5762
+Fairwood;5762
 Stratmoor;5763
 Yoakum;5763
 Ceiba;5764
@@ -1345,48 +1345,48 @@ Belding;5769
 Bellevue;5772
 Raton;5772
 Washingtonville;5773
-Granville;5773
 St Robert;5773
+Granville;5773
 Aptos;5775
 Mathis;5776
 Pecan Acres;5780
 Mansfield;5782
 Lee Acres;5784
-New Brighton;5785
 Carnarvon;5785
+New Brighton;5785
 West Modesto;5786
 Wellsville;5788
 Slaton;5788
 Minot AFB;5789
 Hermon;5789
 Dayton;5791
-Palmview;5792
 Volney;5792
-Chickasaw;5794
+Palmview;5792
 Blauvelt;5794
+Chickasaw;5794
 Lee;5796
 Nephi;5797
-Eucalyptus Hills;5798
 Aiyomojok;5798
+Eucalyptus Hills;5798
 Dickson City;5799
 Alva;5799
 Cambria;5800
 Grand Turk;5801
 Crafton;5803
 Scenic Oaks;5804
-Gas City;5805
 Granite Shoals;5805
-Lorengau;5806
+Gas City;5805
 Anadarko;5806
+Lorengau;5806
 New Castle;5807
 North Hills;5808
 Plymouth;5809
 Kingston;5812
 Vegreville;5813
 Pauls Valley;5817
+Durham;5819
 North Windham;5819
 Mineola;5819
-Durham;5819
 Mount Zion;5820
 Goodrich;5821
 Princeton;5822
@@ -1395,8 +1395,8 @@ Independence;5824
 Claverack;5824
 Woods Creek;5826
 Delano;5827
-Carterville;5827
 Attalla;5827
+Carterville;5827
 Orleans;5827
 Mayflower Village;5828
 FountainheadOrchard Hills;5828
@@ -1412,11 +1412,11 @@ Sinton;5840
 Surfside;5841
 Gustine;5844
 Hellertown;5847
+Lyndon;5850
 Cutler;5850
 Siesta Key;5850
-Lyndon;5850
-Hilton;5855
 Northam;5855
+Hilton;5855
 Kerikeri;5856
 Breese;5856
 Peoria Heights;5858
@@ -1432,11 +1432,11 @@ Fort Shawnee;5875
 Pelican Bay;5876
 New Martinsville;5876
 Clanton;5876
-White Rock;5878
 Pass Christian;5878
+White Rock;5878
 Tewksbury;5881
-Meadow Lake;5882
 James City;5882
+Meadow Lake;5882
 Hartwell;5883
 Glendale;5886
 Brookville;5888
@@ -1444,10 +1444,10 @@ Oreland;5889
 Tellico Village;5890
 Baldwin;5894
 Norwood;5895
-Villa Park;5895
-Norwood;5895
 West ClarkstonHighland;5895
 Union;5895
+Villa Park;5895
+Norwood;5895
 Jamul;5895
 Marlow Heights;5897
 West Side Highway;5902
@@ -1455,13 +1455,13 @@ Manasquan;5903
 Woodcliff Lake;5903
 Roseburg North;5904
 Demopolis;5907
-Little Silver;5908
 Sullivan City;5908
 Crockett;5908
+Little Silver;5908
 Deschutes River Woods;5910
-Wyndmoor;5911
 Indian Hills;5911
 Houlton;5911
+Wyndmoor;5911
 Littleton;5911
 Corcoran;5912
 Posen;5914
@@ -1479,9 +1479,9 @@ Portland;5929
 Taylor;5934
 Cambria;5934
 Maquoketa;5936
-Monaghan;5937
-Tracyton;5937
 Roseland;5937
+Tracyton;5937
+Monaghan;5937
 Progreso;5938
 Wesley Hills;5938
 Port Saint John's;5939
@@ -1491,18 +1491,18 @@ Newberry;5942
 St Clair;5945
 Mont Belvieu;5946
 Steelton;5949
-McKees Rocks;5950
+Staunton;5950
 Fair Haven;5950
 Forestbrook;5950
-Staunton;5950
+McKees Rocks;5950
 Beardstown;5951
 Dowagiac;5952
 Rosendale;5952
 Campanilla;5953
 Jordan;5954
 Hopedale;5955
-Lago Vista;5956
 Hillsborough;5956
+Lago Vista;5956
 Comstock Northwest;5957
 Shields;5961
 Prospect Park;5964
@@ -1513,30 +1513,30 @@ Upper Sandusky;5974
 Logan;5976
 Hardeeville;5977
 Linglestown;5980
-Carrollton;5981
 Tazovskiy;5981
+Carrollton;5981
 Patterson;5982
 Mims;5982
-Wonthaggi;5985
 Watchung;5985
+Wonthaggi;5985
 Tabor City;5987
 Northville;5988
 Conley;5994
 Sealy;5995
 Mendon;5995
 Darlington;5999
+Chapaev;6000
+Norway House;6000
 Phongsali;6000
 Tessalit;6000
-Norway House;6000
-Chapaev;6000
 Ranchettes;6001
 Eastampton;6003
+AshtonSandy Spring;6004
 Wescosville;6004
 Rocky Mount;6004
-AshtonSandy Spring;6004
 Rindge;6005
-Bay Harbor Islands;6006
 Winthrop;6006
+Bay Harbor Islands;6006
 Litchfield Park;6009
 Williamsburg;6009
 Inverness Highlands South;6010
@@ -1557,36 +1557,36 @@ Coxsackie;6032
 Evansville;6033
 Gardnerville;6034
 Fishhook;6040
-Santa Isabel;6042
 Old Tappan;6042
+Santa Isabel;6042
 Anaconda;6043
 Elsmere;6045
 South Gate Ridge;6045
 Lakemoor;6048
 Rhome;6048
 Karasburg;6054
-River Park;6055
 The Pas;6055
+River Park;6055
 Catskill;6061
-Bridgewater;6062
 Dinguiraye;6062
+Bridgewater;6062
 Mount Healthy;6063
 Twin Lakes;6064
-Puerto Real;6067
 Rensselaer;6067
-Jamesburg;6068
+Puerto Real;6067
 Rib Mountain;6068
+Jamesburg;6068
 Munford;6069
 Fruitridge Pocket;6074
-Simsbury Center;6077
 Ontario;6077
+Simsbury Center;6077
 Chelan;6078
-Stewartville;6079
 East Falmouth;6079
+Stewartville;6079
 Kirundo;6083
+North Hobbs;6083
 Margate City;6083
 Hainesport;6083
-North Hobbs;6083
 Atlantic;6085
 Los Ranchos de Albuquerque;6087
 Mullica;6088
@@ -1595,33 +1595,33 @@ Southampton;6090
 New Whiteland;6092
 Vine Grove;6093
 Tequesta;6094
-Potomac Mills;6095
 Hebron;6095
+Potomac Mills;6095
 Sheridan;6098
-Air Force Academy;6098
 Holly Springs;6098
-Lecanto;6099
+Air Force Academy;6098
 Northfield;6099
+Lecanto;6099
 East Alton;6100
-Lewistown;6108
 Beacon Falls;6108
-Orlovista;6109
+Lewistown;6108
 Northern Cambria;6109
-Ararat;6110
+Orlovista;6109
 Dunlap;6110
+Ararat;6110
 Bathurst;6111
 Bathurst;6111
 Sky Lake;6112
-Coco;6113
 Leonardtown;6113
+Coco;6113
 Westmoreland;6115
 Cameron Park;6116
-Willard;6118
 West Greenwich;6118
+Willard;6118
 Gowanda;6120
 Naples Manor;6121
-Shrewsbury;6123
 Spring Ridge;6123
+Shrewsbury;6123
 Iqaluit;6124
 Ingham;6127
 Umba;6128
@@ -1631,8 +1631,8 @@ Johnson Lane;6134
 Heathrow;6135
 Glenwood;6137
 Newport;6137
-Battlefield;6138
 Montezuma;6138
+Battlefield;6138
 Kingston;6141
 South Williamsport;6142
 Chillicothe;6145
@@ -1641,12 +1641,12 @@ Chatham;6149
 Du Quoin;6150
 Rincon Valley;6151
 Siteki;6152
-Gizo;6154
 Satsuma;6154
-Piedmont;6155
+Gizo;6154
 Chena Ridge;6155
-Larchmont;6157
+Piedmont;6155
 Ramtown;6157
+Larchmont;6157
 Union Gap;6161
 Morrilton;6161
 Cresaptown;6163
@@ -1656,8 +1656,8 @@ Lebanon;6168
 Elm Grove;6170
 Kennett Square;6174
 Alpine;6175
-Edgemoor;6178
 Barbourville;6178
+Edgemoor;6178
 Bondurant;6178
 Walkersville;6181
 Heber Springs;6181
@@ -1670,19 +1670,19 @@ Chamberlayne;6193
 Kenedy;6193
 Metropolis;6198
 Ndende;6200
-Valley Falls;6201
 Tarrant;6201
+Valley Falls;6201
 Clinton;6202
-Fabens;6203
 Eldorado at Santa Fe;6203
+Fabens;6203
 Tanglewilde;6205
-North East;6206
 De Queen;6206
 Jasper;6206
+North East;6206
 Punxsutawney;6207
-Glenarden;6210
-Vineyard;6210
 Ashburnham;6210
+Vineyard;6210
+Glenarden;6210
 Wailua Homesteads;6212
 Fruit Heights;6215
 South Monroe;6215
@@ -1691,8 +1691,8 @@ Buena Vista;6219
 Eastman;6220
 East Farmingdale;6222
 Ocean City;6227
-Bridgeport;6232
 Rowley;6232
+Bridgeport;6232
 Barnhart;6233
 Saranap;6235
 Wolfeboro;6235
@@ -1704,10 +1704,10 @@ Nelsonville;6241
 Diekirch;6242
 Rogersville;6243
 Sidney;6244
-Blakely;6245
 Amory;6245
-Mattapoisett;6245
+Blakely;6245
 Smithers;6245
+Mattapoisett;6245
 Carrizo Springs;6246
 Bartonville;6250
 Cheshire Village;6251
@@ -1718,21 +1718,21 @@ Pepper Pike;6258
 Red Chute;6260
 Plymouth Meeting;6261
 Riverside;6264
-Rockford;6264
 Prosser;6264
+Rockford;6264
 Hewlett;6268
 Walker;6269
 Carolina Beach;6270
-Lanett;6271
 Henryetta;6271
+Lanett;6271
 Snyderville;6271
 Verona;6272
 Selfoss;6275
 Sandown;6279
 Harlan;6280
 Buena Vista;6283
-Iowa Park;6284
 Cumming;6284
+Iowa Park;6284
 El Granada;6286
 East Pasadena;6288
 Lucea;6289
@@ -1740,8 +1740,8 @@ Blue Bell;6290
 Wollochet;6291
 Senatobia;6293
 University at Buffalo;6294
-Ashville;6297
 Finderne;6297
+Ashville;6297
 Dennis;6298
 Prestonsburg;6300
 Carthage;6301
@@ -1752,8 +1752,8 @@ Wilna;6307
 Yaphank;6308
 Biloela;6309
 Corry;6313
-Carlstadt;6314
 Hamlet;6314
+Carlstadt;6314
 Fort Nelson;6315
 Huntington Woods;6317
 Johnsburg;6317
@@ -1766,8 +1766,8 @@ Eudora;6333
 Meredith;6334
 Steilacoom;6337
 East Glenville;6339
-Solvay;6341
 Verkhnevilyuysk;6341
+Solvay;6341
 Pea Ridge;6345
 Red Lion;6346
 Ban Houayxay;6347
@@ -1775,17 +1775,17 @@ Everman;6348
 Boonville;6348
 Dalaba;6349
 Sylvester;6350
-White Oak;6352
 San Matias;6352
+White Oak;6352
+San Carlos;6353
 San Carlos;6353
 Mount Vernon;6353
-San Carlos;6353
-Forest Hills;6354
 Mila Doce;6354
 Waveland;6354
+Forest Hills;6354
+Heathcote;6355
 Branford Center;6355
 Crystal Lake;6355
-Heathcote;6355
 Hampstead;6357
 Bangor Base;6358
 Mulvane;6359
@@ -1801,29 +1801,29 @@ Stone Mountain;6368
 Atmore;6368
 Littlestown;6369
 Cold Spring;6370
+Eliot;6380
 Orchard Mesa;6380
 Allegan;6380
-Eliot;6380
 Pleasure Point;6381
 Lynchburg;6384
 Otis OrchardsEast Farms;6385
 Schriever;6385
 Newport;6385
 Cynthiana;6389
-Salem;6391
 Prairie View;6391
+Salem;6391
 Carmel Hamlet;6392
-Groesbeck;6393
 Flin Flon;6393
-Lake Murray of Richland;6402
+Groesbeck;6393
 Lake Mathews;6402
+Lake Murray of Richland;6402
 East Foothills;6405
 Paloma Creek South;6406
 Belpre;6406
-Douglas;6407
 Melut;6407
-Eagle;6408
+Douglas;6407
 Gladewater;6408
+Eagle;6408
 South Run;6409
 Devine;6410
 Williamston;6418
@@ -1831,8 +1831,8 @@ Ellenville;6420
 Marlborough;6420
 Rushville;6425
 Dahlonega;6432
-Willis;6436
 Village of Oak Creek;6436
+Willis;6436
 Silver Lakes;6437
 Rancho Calaveras;6437
 Contra Costa Centre;6440
@@ -1840,39 +1840,39 @@ Keene;6440
 Jeanerette;6441
 Killingworth;6441
 Garden HomeWhitford;6442
-Oakmont;6445
 Moraine;6445
+Oakmont;6445
 Genoa;6446
 Russells Point;6447
 Peterborough;6450
 Clarkston HeightsVineland;6453
 Ingeniero Guillermo N Juarez;6453
 Bridgeport;6458
+Medina;6460
 Homestead Meadows South;6460
 Horseheads;6460
-Medina;6460
-Gulf Park Estates;6461
 Snowflake;6461
+Gulf Park Estates;6461
 Pratt;6462
 Shamong;6470
 Milford;6471
 Rockaway;6474
 Lee;6476
-Cheverly;6477
 Geneseo;6477
+Cheverly;6477
 Kathleen;6479
-Elkin;6483
 Cairo;6483
-Andalusia;6486
+Elkin;6483
 Fenton;6486
+Andalusia;6486
 Woodfin;6489
 Marvin;6490
 San Ramon;6490
 Prospect Park;6491
 Sunnyvale;6491
 Talent;6492
-Fowler;6495
 Puke;6495
+Fowler;6495
 Fort Myers Shores;6496
 Topsfield;6496
 Oelwein;6498
@@ -1886,8 +1886,8 @@ Camilla;6511
 Powell;6516
 Calverton;6517
 East Porterville;6519
-Cooma;6520
 Ridgeway;6520
+Cooma;6520
 Ambler;6521
 Tipton;6522
 Watford City;6523
@@ -1895,22 +1895,22 @@ Rossford;6524
 Guadalupe;6525
 Tumut;6526
 Gulf Breeze;6528
+Quirihue;6529
 Penn Yan;6529
 Litchfield;6529
-Quirihue;6529
 Woodland;6531
 Harrisville;6535
-Theodore;6536
 West Point;6536
+Theodore;6536
 Lackland AFB;6537
 Darnestown;6540
-Attica;6541
 Avon;6541
-Hurricane;6542
+Attica;6541
 Harvard;6542
+Hurricane;6542
 Eldridge;6543
-Plattsmouth;6544
 Islamorada;6544
+Plattsmouth;6544
 Bronxville;6547
 Broadway;6547
 Lionville;6548
@@ -1920,35 +1920,35 @@ Outjo;6557
 Parkwood;6559
 Mongomo;6560
 Nitro;6561
-Belmont;6563
 Yorketown;6563
+Belmont;6563
 North Riverside;6564
-Blackwell;6564
 Rittman;6564
+Blackwell;6564
 Granite Falls;6565
 Jimani;6567
 Walnut Ridge;6568
-Wharton;6571
-Keyser;6571
-Prairie du Chien;6571
 Marble Falls;6571
+Keyser;6571
+Wharton;6571
+Prairie du Chien;6571
 Laurel Bay;6572
-Hillsboro;6573
-Lexington;6573
 Duanesburg;6573
+Lexington;6573
+Hillsboro;6573
 Decatur;6574
-Veneta;6575
 Abilene;6575
+Veneta;6575
 Savage;6577
 Slippery Rock;6578
 Waimanalo;6578
 Cherryville;6579
-Hapeville;6581
 International Falls;6581
+Hapeville;6581
 Ironwood;6582
 Qazaly;6582
-East Rochester;6583
 Pendleton;6583
+East Rochester;6583
 Collins;6583
 Cankuzo;6585
 Indian River Estates;6585
@@ -1959,18 +1959,18 @@ St Francis;6595
 Catasauqua;6596
 Belle Plaine;6599
 Lemoore Station;6601
-West View;6602
 Pembroke Park;6602
+West View;6602
 Orange Lake;6603
 Irvington;6606
 Lawrence;6607
 Tecumseh;6608
 Amite City;6609
 Awjilah;6610
-Mattydale;6611
 Horta;6611
-Clairton;6611
 LacyLakeview;6611
+Clairton;6611
+Mattydale;6611
 Fairfield;6612
 Folcroft;6614
 Green Knoll;6614
@@ -1979,8 +1979,8 @@ Tangdong;6618
 Ghadamis;6623
 Union;6624
 Granby;6627
-Sidney;6628
 Trinity;6628
+Sidney;6628
 Berkley;6630
 Penn Estates;6631
 Beaver Dam;6633
@@ -1992,8 +1992,8 @@ Rupert;6643
 Cherry Hills Village;6644
 Hamilton;6646
 Brewton;6648
-Loudoun Valley Estates;6649
 Normandy Park;6649
+Loudoun Valley Estates;6649
 Tuckahoe;6657
 Dalton;6657
 Taneytown;6658
@@ -2003,10 +2003,10 @@ Makarov;6663
 Lincoln;6664
 Canton;6666
 Scriba;6667
-South Patrick Shores;6669
 Silver Lake;6669
-Fox Point;6670
+South Patrick Shores;6669
 Laurence Harbor;6670
+Fox Point;6670
 Church Hill;6674
 Columbus;6675
 Ellettsville;6677
@@ -2017,11 +2017,11 @@ Plymouth;6690
 GoromGorom;6691
 Rinconada;6692
 South Hill;6693
-Stickney;6694
 Aquia Harbour;6694
-Stevensville;6694
-Roosevelt;6694
+Stickney;6694
 Gateway;6694
+Roosevelt;6694
+Stevensville;6694
 Moores Mill;6695
 Lincoln;6696
 Groveland;6697
@@ -2029,14 +2029,14 @@ Clifton Heights;6702
 Unionville;6705
 Gleneagle;6706
 Nevada;6707
-Plaquemine;6715
 Myers Corner;6715
 Locust Grove;6715
+Plaquemine;6715
 Lake Hallie;6716
 Portage;6717
 Manorhaven;6718
-Barberton;6719
 Glendive;6719
+Barberton;6719
 Notre Dame;6720
 Hamilton;6722
 Ambridge;6724
@@ -2047,35 +2047,35 @@ Edinboro;6729
 Huntertown;6729
 Cedarhurst;6730
 North Caldwell;6730
-Camp Swift;6731
 Meridianville;6731
+Camp Swift;6731
 Red Hook;6732
 Ephraim;6734
 Osprey;6734
 Hobart;6736
-Greenville;6738
 Noble;6738
-Bee Cave;6739
+Greenville;6738
 Antigonish;6739
+Bee Cave;6739
 North Syracuse;6742
-Winthrop Harbor;6745
 Washington;6745
+Winthrop Harbor;6745
 Brook Highland;6748
 Junction City;6749
 Byron Center;6751
-Creswell;6752
 Merrimac;6752
-Lakeview;6756
+Creswell;6752
 Thames;6756
+Lakeview;6756
 Enoch;6756
 Blairsville;6759
-Youngtown;6760
 HomeacreLyndora;6760
+Youngtown;6760
 Exeter;6761
-Maple Glen;6764
-Crozet;6764
-Byron Bay;6764
 Plain City;6764
+Byron Bay;6764
+Crozet;6764
+Maple Glen;6764
 Taylor Mill;6765
 Twin Lakes;6767
 Bayville;6771
@@ -2085,23 +2085,23 @@ Parkville;6772
 Fort Meade;6775
 Golfito;6777
 Kishkenekol;6779
-Barrington;6781
-Colusa;6781
 Parkville;6781
+Colusa;6781
+Barrington;6781
 Byron;6783
 East Shoreham;6788
 Kimberly;6790
 Farim;6792
 Fircrest;6794
-Hondo;6794
 New Hartford;6794
+Hondo;6794
 Cowra;6795
 Khandyga;6796
 Rosario;6798
 Lake Mills;6799
 Cortland;6800
-Roslyn Heights;6802
 Village St George;6802
+Roslyn Heights;6802
 Forest Glen;6804
 Williamson;6806
 Mount Ivy;6808
@@ -2115,13 +2115,13 @@ Russellville;6823
 Kirtland;6824
 Clover Creek;6831
 Wildwood;6831
-Makawao;6832
 Cochituate;6832
+Makawao;6832
 Hoosick;6833
 Farmington;6834
 Beacon Square;6837
-Mexia;6838
 McCordsville;6838
+Mexia;6838
 Atkinson;6839
 Cos Cob;6840
 Moapa Valley;6840
@@ -2157,27 +2157,27 @@ Karibib;6898
 Upper Freehold;6899
 Milo;6900
 Valley Park;6902
+Hanover;6904
 Mechanicstown;6904
 King;6904
-Hanover;6904
-Whitinsville;6905
 Thermalito;6905
+Whitinsville;6905
 Allendale;6906
-Barnesville;6908
 Sandston;6908
+Barnesville;6908
 Great Barrington;6915
 Mira Monte;6916
-Nibley;6917
 Oak Ridge;6917
+Nibley;6917
 Tabernacle;6920
 Nakasongola;6921
 Portage Lakes;6922
 Huron;6923
 Ben Lomond;6923
 South Valley Stream;6924
-Black Jack;6927
 Kentfield;6927
 Westbrook;6927
+Black Jack;6927
 Mendota;6929
 Treasure Island;6938
 Cottage Grove;6939
@@ -2189,22 +2189,22 @@ Westmere;6950
 Trumann;6951
 Archbald;6954
 Bridge City;6957
+Kieta;6958
 San Isidro;6958
 Maurice River;6958
-Kieta;6958
 Atherton;6959
 Alta Sierra;6960
 Marion;6961
-Adel;6964
 Newbury;6964
+Adel;6964
 Commerce;6965
-Sturtevant;6967
 Sedona;6967
+Sturtevant;6967
 Ocean City;6969
 Kiel;6974
 Peru;6975
-Lascano;6976
 Plumas Lake;6976
+Lascano;6976
 Mountainside;6982
 Kingston;6983
 Madison;6983
@@ -2215,9 +2215,9 @@ Emmitsburg;6990
 Stawell;6991
 Mount Hope;6993
 Leitchfield;6994
-Madison Park;6996
-Belle Isle;6996
 Farr West;6996
+Belle Isle;6996
+Madison Park;6996
 Orange City;6997
 St Augustine Beach;6998
 Murillo;7001
@@ -2230,8 +2230,8 @@ Pelham;7016
 Nuevo;7017
 Clarkson;7019
 Joshua Tree;7020
-Catoosa;7024
 Wytheville;7024
+Catoosa;7024
 Great Neck Plaza;7025
 Melekeok;7026
 MiltonFreewater;7027
@@ -2251,8 +2251,8 @@ Tappan;7049
 Lucas ValleyMarinwood;7054
 Stephenville;7054
 Windsor;7057
-Lakes of the Four Seasons;7061
 Stow;7061
+Lakes of the Four Seasons;7061
 Hillsboro;7062
 Lihue;7064
 Franklin;7066
@@ -2261,8 +2261,8 @@ Meraux;7073
 Zambezi;7074
 Gunnison;7075
 Fort Myers Beach;7077
-Lake Lorraine;7081
 Guanica;7081
+Lake Lorraine;7081
 Ladera Heights;7081
 Narrabri;7082
 Keyport;7085
@@ -2272,11 +2272,11 @@ Belen;7089
 Batesville;7091
 Gibsonville;7096
 Crossett;7096
-Hudson Falls;7099
 Lewisburg;7099
 Fairview;7099
-Landen;7100
+Hudson Falls;7099
 Highland Heights;7100
+Landen;7100
 Pedro Luro;7100
 Collinsville;7102
 Parry Sound;7105
@@ -2285,8 +2285,8 @@ St Martinville;7109
 Gilford;7111
 Paintsville;7113
 Northridge;7115
-Green Hill;7117
 Ridgefield;7117
+Green Hill;7117
 West Bridgewater;7117
 Lampasas;7121
 Hornsby Bend;7124
@@ -2312,13 +2312,13 @@ Crete;7148
 Gunnedah;7148
 Sioux Center;7150
 Orland Hills;7152
-Laurium;7155
-Tobyl;7155
 Okondja;7155
+Tobyl;7155
+Laurium;7155
 Walled Lake;7156
 Glenolden;7161
-Stanwood;7161
 Lawrenceville;7161
+Stanwood;7161
 Milltown;7162
 Moab;7164
 Soro;7167
@@ -2330,15 +2330,15 @@ Flatwoods;7177
 North Amherst;7179
 East End;7179
 De Soto;7182
-Pacific;7184
 Rockport;7184
+Pacific;7184
 Rockville;7188
 Bestobe;7189
 Carhue;7190
 Willows;7197
 Wauseon;7202
-Tolleson;7205
 Springs;7205
+Tolleson;7205
 La Sarre;7206
 Mantua;7207
 West Glens Falls;7208
@@ -2352,12 +2352,12 @@ Richland;7220
 University of CaliforniaDavis;7221
 Palmyra;7221
 Marksville;7225
-El Rio;7229
 New Albany;7229
+El Rio;7229
 Hillsborough;7231
 DeFuniak Springs;7232
-East Franklin;7233
 Fairview;7233
+East Franklin;7233
 Winooski;7237
 East Hills;7238
 Atherton;7238
@@ -2376,38 +2376,38 @@ Pollock Pines;7269
 Freeland;7271
 Corbin;7272
 Marianna;7273
-Oakdale;7274
 Truth or Consequences;7274
+Oakdale;7274
 Ephrata;7275
 Belmont;7275
 Vandalia;7277
 Acton;7278
 Neptune Beach;7280
-Twin Rivers;7286
 Riverdale Park;7286
+Twin Rivers;7286
 Leola;7287
-Lander;7287
 Bossembele;7287
+Lander;7287
 Wawayanda;7288
 Busti;7289
-Longboat Key;7292
 Durham;7292
-Tyrone;7294
+Longboat Key;7292
 Mills River;7294
+Tyrone;7294
 St Louis;7298
 Leeton;7299
 Valley Center;7300
 Delphos;7304
 Inverness;7304
-Soldotna;7304
 St Gabriel;7304
+Soldotna;7304
 Osakarovka;7305
 Port Jefferson Station;7306
 South Weber;7310
 Huron;7311
 NapiliHonokowai;7311
-Kenwood;7313
 San Martin;7313
+Kenwood;7313
 Hampden;7314
 New Cumberland;7318
 Pompey;7320
@@ -2419,42 +2419,42 @@ Utuado;7331
 Boyes Hot Springs;7332
 Goranboy;7333
 Ralston;7333
-Baldwin Harbor;7335
 Luan Chau;7335
-Lincolnshire;7336
+Baldwin Harbor;7335
 Tyrone;7336
+Lincolnshire;7336
 Dunbar;7338
 Smithville;7340
 Wynne;7348
 Oroville East;7349
 West Dundee;7352
-Juncos;7353
 Hiawatha;7353
+Juncos;7353
 Forsyth;7354
-Spring Valley Lake;7356
 Thousand Palms;7356
+Spring Valley Lake;7356
 Lowell;7359
 Williston Park;7360
 Baywood;7360
 Crystal City;7363
-Torrington;7363
-Edgerton;7363
 Sanibel;7363
+Edgerton;7363
+Torrington;7363
 South Berwick;7363
 La Feria;7364
 Geneva;7364
 Susuman;7367
-Connellsville;7368
 Northport;7368
+Connellsville;7368
 Guadalupe;7370
 Stratham;7372
 St Johnsbury;7375
-Florence;7376
 Reyes;7376
+Florence;7376
 Herkimer;7380
 Monument;7380
-Dos Palos;7383
 Thurmont;7383
+Dos Palos;7383
 Midland Park;7384
 Sandwich;7387
 North Star;7390
@@ -2467,17 +2467,17 @@ Al Alamayn;7400
 Lake of the Woods;7401
 Albertville;7403
 MentorontheLake;7404
-Dunellen;7407
+McCook;7407
 Mahmude Raqi;7407
 Mount Horeb;7407
-McCook;7407
+Dunellen;7407
 Providence;7411
 Marshfield;7418
-New Bremen;7418
 Santa Clara;7418
+New Bremen;7418
 Northgate;7420
-HaikuPauwela;7420
 Coracora;7420
+HaikuPauwela;7420
 Summit View;7421
 Charles City;7425
 Harrison;7427
@@ -2491,8 +2491,8 @@ Dighton;7438
 Middleton;7439
 Alondra Park;7441
 Camp Pendleton North;7443
-Perry;7444
 LaFayette;7444
+Perry;7444
 Waikele;7446
 New London;7448
 Whiteville;7449
@@ -2514,8 +2514,8 @@ Morrow;7473
 Rockton;7473
 Tranqueras;7474
 Stans;7475
-Flowery Branch;7477
 Beebe;7477
+Flowery Branch;7477
 Cotati;7479
 Waite Park;7481
 River Rouge;7482
@@ -2534,8 +2534,8 @@ Hughson;7498
 Yarmouth;7500
 Young;7501
 Banff;7502
-Strathmore;7503
 Lockwood;7503
+Strathmore;7503
 Inverness;7508
 Park City;7513
 Roatan;7514
@@ -2544,8 +2544,8 @@ Helena Valley Southeast;7517
 Bryans Road;7518
 Sappington;7519
 Kula;7520
-Waupaca;7521
 Purcell;7521
+Waupaca;7521
 Saranac Lake;7522
 Upper Deerfield;7523
 Diamondhead;7525
@@ -2553,8 +2553,8 @@ Delafield;7526
 Palmyra;7527
 Zuni Pueblo;7532
 Pinson;7532
-Richfield;7533
 Chehalis;7533
+Richfield;7533
 West Livingston;7534
 Mount Shasta;7536
 Berwick;7538
@@ -2562,8 +2562,8 @@ Southgate;7539
 Whitefish;7540
 Urubamba;7540
 Vandenberg Village;7541
-Highlands;7544
 Pembroke;7544
+Highlands;7544
 Philadelphia;7545
 San Pablo Villa de Mitla;7547
 Marion;7547
@@ -2578,85 +2578,85 @@ Royalton;7564
 Baltimore Highlands;7565
 Westminster;7566
 Pinehurst;7568
-Silvis;7571
 Steele Creek;7571
+Silvis;7571
 Happy Valley;7572
 Shirley;7572
 Marengo;7576
 Ojai;7582
 Marshall;7582
-Corona de Tucson;7583
 Pinon Hills;7583
+Corona de Tucson;7583
 Haddon Heights;7588
-Kasson;7589
 Etowah;7589
+Kasson;7589
 San Antonio;7592
 Lamar;7592
-Carbondale;7597
 Fort Pierce North;7597
-Fairfax;7598
+Carbondale;7597
 Mammoth Lakes;7598
+Fairfax;7598
 Devils Lake;7602
 Berlin;7606
 Easton;7607
-Wilmington Manor;7608
 Ogden;7608
 Winslow;7608
 Richmond;7608
+Wilmington Manor;7608
 Brighton;7611
 Seminole;7613
-Escalon;7615
 Bansang;7615
+Escalon;7615
 Chesterfield;7616
 Sudden Valley;7621
 Creston;7622
 Auburn;7622
 New Roads;7623
-Williamstown;7623
 Farmington;7623
+Williamstown;7623
 Aberdeen;7625
-Robinson;7628
 Fort Scott;7628
+Robinson;7628
 Grove;7630
 Eden Isle;7631
 Gettysburg;7633
 North Hanover;7634
 Holtville;7637
-Hales Corners;7642
 Benton;7642
 Heyin;7642
+Hales Corners;7642
 Plaistow;7642
 Pomona;7645
 West Concord;7646
 Galliano;7650
-Bentiu;7653
 Southeast Arcadia;7653
+Bentiu;7653
 South Lockport;7654
 Bayghanin;7657
 Middlebury;7658
-Estes Park;7664
 Clarksville;7664
-New Hanover;7665
+Estes Park;7664
 Meadow Lakes;7665
+New Hanover;7665
 Sebastopol;7666
 Rolesville;7666
 Revelstoke;7668
 Thomaston;7668
 Fairfield;7671
-Hastings;7673
-South Beloit;7673
 White Oak;7673
+South Beloit;7673
+Hastings;7673
 Shelburne;7677
 Altoona;7680
 Las Lomitas;7683
-Glenside;7684
 Swainsboro;7684
+Glenside;7684
 Caribou;7684
 Pikeville;7685
-Castillos;7686
 Wapato;7686
-OrmondbytheSea;7692
+Castillos;7686
 Bow;7692
+OrmondbytheSea;7692
 Eden;7692
 Pittston;7694
 Cumberland;7695
@@ -2669,8 +2669,8 @@ Glen Ridge;7704
 Round Lake Park;7704
 Topanga;7705
 Scotia;7707
-Inwood;7708
 Antigo;7708
+Inwood;7708
 Gurabo;7715
 Centerville;7716
 Norwich;7722
@@ -2680,18 +2680,18 @@ Big Stone Gap;7725
 York;7726
 Park City;7729
 Ione;7730
-Seville;7731
 Kalabo;7731
+Seville;7731
 McGregor;7732
-Hampton;7732
 Larose;7732
+Hampton;7732
 Citrus Hills;7735
 Kronenwetter;7736
-Emerson;7739
 Halifax;7739
 Minnetrista;7739
-Luquillo;7742
+Emerson;7739
 Big Flats;7742
+Luquillo;7742
 Mansfield Center;7744
 Waterboro;7747
 Punta Gorda;7748
@@ -2701,11 +2701,11 @@ Catalina;7751
 Quincy;7756
 Calumet Park;7757
 Laughlin;7758
-Orosi;7760
 Victor Harbor;7760
+Orosi;7760
 Quarryville;7761
-Canovanas;7762
 Charlestown;7762
+Canovanas;7762
 Moengo;7766
 Delta;7767
 Ancient Oaks;7769
@@ -2714,10 +2714,10 @@ Rockmart;7772
 Butler;7774
 Winters;7775
 Manhattan;7776
-Grandview Heights;7778
 Joshua;7778
-Falmouth;7779
+Grandview Heights;7778
 Hollis;7779
+Falmouth;7779
 Clover;7780
 Broadview;7781
 Bonner Springs;7784
@@ -2737,8 +2737,8 @@ Fanwood;7808
 Fort Riley;7808
 Colonie;7809
 Duvall;7813
-Dock Junction;7815
 Bernardsville;7815
+Dock Junction;7815
 Southwood Acres;7816
 Sallisaw;7818
 Wilson;7819
@@ -2755,32 +2755,32 @@ Selah;7859
 Dryden;7862
 Blandon;7863
 Carl Junction;7864
-Prien;7864
 Cheraw;7864
+Prien;7864
 Crookston;7865
 Summit;7876
-San Juan Bautista;7882
 South Cleveland;7882
+San Juan Bautista;7882
 Baldwinsville;7885
 Mascoutah;7886
 Wyoming;7887
 Esperance;7888
 Grand Blanc;7889
-Campbell;7890
 Erseke;7890
+Campbell;7890
 North Springfield;7891
 West Boylston;7892
 Mecca;7893
 Eaton;7896
-Carnegie;7898
 Port Jefferson;7898
-Maryville;7900
+Carnegie;7898
 Hitchcock;7900
+Maryville;7900
 Venice Gardens;7904
 Port Maria;7906
 Gracias;7909
-Middletown;7914
 Bel Aire;7914
+Middletown;7914
 Columbiana;7920
 Manhasset;7922
 Medina;7922
@@ -2799,14 +2799,14 @@ Blair;7943
 Sen Monorom;7944
 Latrobe;7949
 Flushing;7949
-Salem;7954
 Summit Park;7954
+Salem;7954
 Illizi;7957
 Lake Dallas;7958
-Oberlin;7958
 Southwest Ranches;7958
-Dry Run;7961
+Oberlin;7958
 Princeton;7961
+Dry Run;7961
 Broadview Park;7963
 Albion;7963
 Hardyston;7964
@@ -2819,25 +2819,25 @@ Robinwood;7976
 Shorewood;7978
 Lancaster;7978
 Abingdon;7981
+Odessa;7983
 Orting;7983
 La Junta;7983
-Odessa;7983
 San Lorenzo;7984
 Logan;7985
 Templeton;7989
 Hamilton;7991
 Brentwood;7998
-El Calafate;8000
-Oldeani;8000
 Sterling;8000
+Oldeani;8000
+El Calafate;8000
 HastingsonHudson;8008
 Ripon;8008
 Fort Belvoir;8009
 Long Branch;8010
 Raritan;8011
 Rio Bravo;8012
-Ayer;8014
 Gray;8014
+Ayer;8014
 Jefferson;8015
 Kontcha;8018
 Crestwood Village;8020
@@ -2873,15 +2873,15 @@ Byram;8076
 Oak Brook;8077
 Brazil;8078
 Hollymead;8084
-Caldwell;8085
 Ahuimanu;8085
+Caldwell;8085
 Ewa Villages;8087
 Westphalia;8102
 Monona;8104
 North Weeki Wachee;8104
 Poteau;8106
-Oak Grove;8112
 Hopkinton;8112
+Oak Grove;8112
 Almirante;8114
 Maplewood;8115
 Island Lake;8116
@@ -2889,8 +2889,8 @@ Templeton;8117
 Putina;8118
 West Miami;8120
 Dalhart;8121
-St Rose;8123
 Dal'negorsk;8123
+St Rose;8123
 Village GreenGreen Ridge;8124
 Omak;8130
 Pleasant Hills;8132
@@ -2899,12 +2899,12 @@ Roanoke;8135
 West HavenSylvan;8142
 N'dalatando;8144
 Millis;8144
+Orono;8147
 Mount Rainier;8147
 Brooksville;8147
-Orono;8147
+Niagara;8148
 Menominee;8148
 Trinidad;8148
-Niagara;8148
 Black Mountain;8150
 Lugoff;8152
 Chestnut Ridge;8156
@@ -2914,14 +2914,14 @@ Bellevue;8159
 Sangaree;8161
 Bridge City;8162
 Jennings Lodge;8164
-Pingree Grove;8165
 Crete;8165
+Pingree Grove;8165
 Airway Heights;8166
 Burton;8169
 Nolensville;8169
 Bellevue;8171
-Castle Shannon;8173
 Applewood;8173
+Castle Shannon;8173
 Tillamook;8176
 Country Club Estates;8176
 Laurel Hill;8178
@@ -2959,9 +2959,9 @@ Seffner;8239
 St Martin;8242
 Bloomingdale;8242
 Frostproof;8243
+Bedminster;8244
 Irondale;8244
 Arab;8244
-Bedminster;8244
 Olovyannaya;8247
 Fort Mitchell;8248
 Gulf Hills;8249
@@ -2977,12 +2977,12 @@ Waynesburg;8269
 Innsbrook;8271
 Savoy;8272
 Center Line;8273
-Middleport;8274
 Napoleon;8274
-Temple Hills;8278
+Middleport;8274
 Baxter;8278
-Old Jefferson;8283
+Temple Hills;8278
 Absecon;8283
+Old Jefferson;8283
 Petoskey;8287
 Somers;8289
 Schroeppel;8291
@@ -2996,17 +2996,17 @@ Denison;8303
 Haddam;8303
 Thomson;8309
 Wetumpka;8310
-Pebble Creek;8311
 Montague;8311
-Kenilworth;8312
+Pebble Creek;8311
 Monahans;8312
-Lansdowne;8314
-Oradell;8314
+Kenilworth;8312
 Johnstown;8314
+Oradell;8314
+Lansdowne;8314
 Doylestown;8315
-North Bay Village;8317
-Whitehouse;8317
 Bath;8317
+Whitehouse;8317
+North Bay Village;8317
 Gering;8319
 Masindi Port;8319
 Holly;8325
@@ -3017,8 +3017,8 @@ Savannah;8333
 Aurora;8335
 Kennedale;8338
 Oak Hill;8338
-Brokopondo;8340
 Pukalani;8340
+Brokopondo;8340
 Murphy;8343
 Skowhegan;8344
 Jefferson City;8346
@@ -3029,8 +3029,8 @@ Northfield;8360
 Four Corners;8361
 St Joseph;8363
 Wading River;8367
-McRaeHelena;8368
 Conover;8368
+McRaeHelena;8368
 Richmond Heights;8369
 Covington;8371
 Tecumseh;8375
@@ -3040,8 +3040,8 @@ Chester;8378
 Socorro;8383
 Riverside;8385
 Erwin;8387
-Aleg;8388
 Greenville;8388
+Aleg;8388
 Congers;8389
 Runnemede;8390
 Jessup;8392
@@ -3049,18 +3049,18 @@ Cohasset;8393
 Gaylord;8393
 East York;8395
 Tuscumbia;8398
-Katakwi;8400
 Paw Paw;8400
+Katakwi;8400
 Sturgeon Bay;8405
 Mason;8409
 Hawthorn Woods;8412
 Alamo Heights;8413
-Kulpsville;8414
 Highland Heights;8414
+Kulpsville;8414
 Upper Saddle River;8415
 Vallegrande;8422
-Gridley;8424
 Litchfield;8424
+Gridley;8424
 Progress Village;8425
 University of Virginia;8426
 Oakland;8426
@@ -3069,10 +3069,10 @@ Paris;8431
 Kensington;8433
 Westlake Village;8440
 Sheridan;8446
-Carbondale;8447
 Achacachi;8447
-St Johns;8448
+Carbondale;8447
 Humboldt;8448
+St Johns;8448
 McFarland;8449
 New Square;8451
 Spotswood;8456
@@ -3083,23 +3083,23 @@ Rutland;8463
 Mount Pleasant;8465
 Sugarmill Woods;8465
 Gonzales;8466
-Geneseo;8468
 Monticello;8468
+Geneseo;8468
 Fern Park;8469
 Willow Street;8472
-Greenbriar;8473
 Corning;8473
+Greenbriar;8473
 Sand Lake;8476
 Pleasant Hill;8477
 Beaver Falls;8483
 North Elba;8484
 Lake City;8489
 Glens Falls North;8490
-Sunset Hills;8492
 San Antonio Oeste;8492
+Sunset Hills;8492
 Moundsville;8494
-Yarmouth;8494
 Montesano;8494
+Yarmouth;8494
 Oranjemund;8496
 Seven Corners;8498
 Kirkwall;8500
@@ -3114,8 +3114,8 @@ Plumsted;8509
 Dover;8509
 Evergreen;8516
 Lacombe;8519
-Willowbrook;8521
 Aspen;8521
+Willowbrook;8521
 Prairie du Sac;8523
 Mount Vista;8525
 Clinton;8529
@@ -3128,12 +3128,12 @@ Aqsu;8543
 Westwego;8549
 Corrales;8549
 Concord;8550
-Perkasie;8555
 Miramar Beach;8555
+Perkasie;8555
 Chos Malal;8556
 Park Hills;8557
-Buckhannon;8560
 Signal Mountain;8560
+Buckhannon;8560
 Inverell;8561
 Monett;8562
 Indian Harbour Beach;8566
@@ -3141,12 +3141,12 @@ Bogota;8567
 Tallulah;8569
 Georgetown;8569
 North Haledon;8570
-Sanatoga;8573
-Des Peres;8573
 Kingaroy;8573
+Des Peres;8573
+Sanatoga;8573
 Detroit Lakes;8575
-Folsom;8577
 Farmville;8577
+Folsom;8577
 Morrisville;8578
 Los Altos Hills;8580
 Nevada;8581
@@ -3155,12 +3155,12 @@ Mansfield;8586
 Kalifornsky;8588
 North Madison;8593
 Laurel;8596
-Temperance;8599
 Barton;8599
+Temperance;8599
 Hampstead;8601
 Princeton;8602
-Cortez;8603
 Wagoner;8603
+Cortez;8603
 Ladue;8612
 Malverne;8613
 San Sebastian;8614
@@ -3170,11 +3170,11 @@ East Grand Forks;8631
 Bridgeport;8635
 Suntar;8639
 Frostburg;8642
-Rockland;8642
 Birch Bay;8642
+Rockland;8642
 Orrville;8643
-Elsmere;8644
 Spanish Fort;8644
+Elsmere;8644
 Lake Park;8645
 Clinton;8646
 La Libertad;8646
@@ -3201,12 +3201,12 @@ West Frankfort;8703
 Kirby;8705
 Orange Park;8705
 Claymont;8707
-Clarendon Hills;8712
 Al Quwayiyah;8712
-Aibonito;8716
+Clarendon Hills;8712
 Lake Villa;8716
-Edgewood;8720
+Aibonito;8716
 Heath;8720
+Edgewood;8720
 Douglas;8722
 Newstead;8722
 Corozal;8724
@@ -3217,19 +3217,19 @@ Eufaula;8727
 North Sarasota;8728
 Westampton;8730
 Southside;8731
-Pine Lake Park;8732
 Edgemere;8732
 Holualoa;8732
+Pine Lake Park;8732
 Audubon;8733
-Livingston;8735
 Oak Grove;8735
+Livingston;8735
 Commerce;8736
 Asbury Lake;8736
 Topsham;8737
 Rhinelander;8738
 Pike Creek;8740
-Riverside;8742
 Mahopac;8742
+Riverside;8742
 Center Moriches;8743
 Old Orchard Beach;8745
 Swissvale;8746
@@ -3242,8 +3242,8 @@ Riverdale;8758
 Marrupa;8762
 Long Hill;8763
 Closter;8766
-Richlands;8768
 Scott;8768
+Richlands;8768
 Cape St Claire;8769
 Harrodsburg;8770
 Zimmerman;8771
@@ -3254,9 +3254,9 @@ Saynshand;8776
 Jerseyville;8777
 Nueva Ocotepeque;8780
 Shannon;8781
-Burlington;8783
 Susanville;8783
 New Scotland;8783
+Burlington;8783
 Robertsdale;8784
 Perry Heights;8788
 Collingdale;8791
@@ -3264,34 +3264,34 @@ Quincy;8791
 Midland;8792
 Incline Village;8795
 Edgewater Park;8799
-Sultan;8803
 Monson;8803
+Sultan;8803
 Port Townsend;8804
 Needles;8807
 Mokhotlong;8809
 Alderwood Manor;8817
-Seaside;8817
 Calimesa;8817
-Midway City;8819
+Seaside;8817
 Graham;8819
+Midway City;8819
 Earlimart;8824
 Woodway;8825
 Leesville;8828
 Makaha;8832
 Siteia;8833
-Seabrook;8834
 Kearney;8834
+Seabrook;8834
 Canonsburg;8837
 Seneca Falls;8838
 Lexington;8841
 Wesley Chapel;8841
-Waverly;8841
 Barrington;8841
+Waverly;8841
 Quakertown;8843
 Pitman;8846
 South Amboy;8857
-Micco;8859
 New Richmond;8859
+Micco;8859
 Sellersburg;8860
 Albion;8865
 Matawan;8869
@@ -3302,16 +3302,16 @@ Cuencame de Ceniceros;8876
 La Grange;8877
 Glenwood;8880
 Kemijarvi;8883
-Glenshaw;8886
 Esopus;8886
+Glenshaw;8886
 Airmont;8888
 Golden Hills;8889
 Berthoud;8889
 Sutherlin;8891
 St Albans;8892
 Grinnell;8892
-Villas;8895
 Zhangaozen;8895
+Villas;8895
 Hobart;8896
 Scotchtown;8897
 Wharton;8899
@@ -3348,8 +3348,8 @@ South San Gabriel;8964
 Garden City;8970
 Succasunna;8971
 Triangle;8972
-Boulder Hill;8973
 Carencro;8973
+Boulder Hill;8973
 Sheffield Lake;8976
 Newmarket;8977
 Oak Hills Place;8980
@@ -3363,12 +3363,12 @@ Oakwood;8993
 Chanute;8994
 Ville Platte;8996
 Mbamba Bay;8997
+Aguelhok;9000
 Baabda;9000
 Plainville;9000
-Aguelhok;9000
 Merrydale;9001
-Picnic Point;9002
 Olney;9002
+Picnic Point;9002
 Bridgewater;9003
 St Stephens;9004
 Cypress Gardens;9006
@@ -3377,14 +3377,14 @@ Star;9009
 Pittsgrove;9009
 Audubon;9010
 Macedon;9010
-Shelby;9011
 Citrus Springs;9011
+Shelby;9011
 Walterboro;9013
 Mechanicsburg;9016
 WaiheeWaiehu;9017
 WoodRidge;9018
-Manteno;9021
 Salisbury;9021
+Manteno;9021
 Tuba City;9022
 Oakbrook;9025
 Dexter;9029
@@ -3397,10 +3397,10 @@ Brewer;9043
 WakefieldPeacedale;9044
 Novo Airao;9049
 Fort Irwin;9053
-Ciudad Tula;9054
 Greenwood;9054
-Stony Brook University;9059
+Ciudad Tula;9054
 Madras;9059
+Stony Brook University;9059
 Flowood;9061
 Inirida;9065
 Brunswick;9067
@@ -3408,24 +3408,24 @@ St Marys;9071
 East Haddam;9072
 Jumla;9073
 Hillview;9076
-St Anthony;9077
 Dauphin;9077
+St Anthony;9077
 Ayr;9078
 Fallston;9082
 Springfield;9086
 Shar;9087
 Colac;9089
 Fair Oaks Ranch;9091
-Groton;9092
 Fort Knox;9092
+Groton;9092
 Fairmont;9093
 Hamlin;9093
 Farmingdale;9094
 Waseca;9098
 St Augustine Shores;9099
 Mae Hong Son;9109
-Cabo Rojo;9110
 Menaka;9110
+Cabo Rojo;9110
 Challapata;9114
 Meadowbrook;9115
 Kings Grant;9119
@@ -3450,8 +3450,8 @@ Halacho;9165
 Tiburon;9165
 Independence;9166
 Harrisburg;9168
-St Marys;9169
 Helotes;9169
+St Marys;9169
 Murphysboro;9173
 San Elizario;9173
 Freetown;9175
@@ -3461,8 +3461,8 @@ LarkfieldWikiup;9184
 Cold Springs;9184
 Sans Souci;9187
 Jeannette;9190
-Indianola;9190
 Fultondale;9190
+Indianola;9190
 Sullivan;9198
 Lenoir City;9199
 Blackstone;9201
@@ -3471,8 +3471,8 @@ Corozal;9203
 Lake Mohawk;9203
 Frankfort Square;9205
 Brownsville;9206
-Highland Park;9208
 Little River;9208
+Highland Park;9208
 San Jose de Chiquitos;9211
 Melissa;9212
 Red Bank;9214
@@ -3481,9 +3481,9 @@ Powdersville;9216
 Ertis;9216
 Elwood;9218
 Jersey Shore;9222
-Basalt;9222
 Bloomingdale;9222
 Alexander City;9222
+Basalt;9222
 Ecorse;9226
 Plainedge;9227
 Viera West;9228
@@ -3513,15 +3513,15 @@ Dillon;9281
 Bohemia;9282
 Laurel;9283
 Hastings;9289
-Saline;9291
 Gloucester Point;9291
+Saline;9291
 Monmouth;9293
 Fort Polk South;9293
 Walworth;9296
 Sutton;9297
-Muncy;9299
 Logan;9299
 Thompson;9299
+Muncy;9299
 Westgate;9300
 Fairview;9302
 Independent Hill;9304
@@ -3534,10 +3534,10 @@ Pike Road;9322
 Ahumada;9326
 Bethalto;9327
 Claremont;9330
-Aiea;9332
 Flossmoor;9332
-Medulla;9335
+Aiea;9332
 Louisville;9335
+Medulla;9335
 Amherst;9336
 Anthony;9339
 Williston;9341
@@ -3549,8 +3549,8 @@ Shira;9358
 San Pedro de Ycuamandiyu;9360
 Weyburn;9362
 Cloverdale;9362
-Derby;9365
 La Plata;9365
+Derby;9365
 Redlands;9367
 Good Hope;9369
 Le Mars;9370
@@ -3573,19 +3573,19 @@ Marcy;9406
 The Village;9407
 Mission;9409
 Sarnen;9410
-Steger;9411
 Little Falls;9411
+Steger;9411
 Lititz;9415
 Mount Airy;9416
 Itasca;9416
 Townsend;9418
-Fort Stockton;9421
 Erwin;9421
 Castelli;9421
+Fort Stockton;9421
 Manistee;9422
+Lakes;9424
 Clarion;9424
 Siler City;9424
-Lakes;9424
 Clinton;9428
 Wellington;9429
 Newfane;9432
@@ -3614,21 +3614,21 @@ Bardmoor;9494
 Sturbridge;9496
 Rockcreek;9503
 Lantana;9503
-Gig Harbor;9507
 Jennings;9507
+Gig Harbor;9507
 Winslow;9508
 Hermantown;9513
-Conning Towers Nautilus Park;9515
 Fort Valley;9515
+Conning Towers Nautilus Park;9515
 Mound;9517
-Amityville;9524
 Howell;9524
+Amityville;9524
 Columbia City;9535
 Mount Holly;9536
 Cheat Lake;9540
 Igrim;9545
-Bryan;9546
 New Baltimore;9546
+Bryan;9546
 Willoughby Hills;9550
 Hebron;9550
 Hackettstown;9554
@@ -3670,8 +3670,8 @@ Trujillo;9646
 St Pete Beach;9647
 Kittery;9649
 Djambala;9651
-Fort William;9652
 Boaz;9652
+Fort William;9652
 Winterville;9654
 Middleton;9656
 Harvard;9659
@@ -3682,22 +3682,22 @@ Tell City;9668
 Coweta;9668
 Harleysville;9673
 Phangnga;9676
-Tshabong;9679
 Sembe;9679
+Tshabong;9679
 Eidson Road;9680
 Hartford;9680
 Gifford;9683
 Blacklick Estates;9684
 Winfield;9685
-Miles City;9686
 Woodbury;9686
+Miles City;9686
 Hope;9688
 George Mason;9689
 Marina del Rey;9691
 Silsbee;9694
+Cody;9696
 Hamburg;9696
 Greenville;9696
-Cody;9696
 Bull Mountain;9698
 Bloomfield;9701
 North Bend;9702
@@ -3711,21 +3711,21 @@ Fuller Heights;9719
 Franklin;9721
 Steinbach;9729
 Russellville;9732
-South Huntington;9733
 Manor;9733
-Park Forest Village;9737
+South Huntington;9733
 Progress;9737
+Park Forest Village;9737
 Woodfield;9738
 Orland;9747
 Prospect;9748
-Merrill;9750
 Glencoe;9750
+Merrill;9750
 New Port Richey East;9753
 Littleton;9754
 Carroll;9758
 Brandywine;9762
-Philipstown;9763
 Pokrovsk;9763
+Philipstown;9763
 Pleasant Valley;9769
 Ellisville;9770
 Bee Ridge;9772
@@ -3753,8 +3753,8 @@ Chevy Chase;9844
 Dalby;9847
 Union City;9853
 Bogande;9854
-North Kensington;9856
 Brewster;9856
+North Kensington;9856
 Pajaros;9858
 Maywood;9860
 Franklin;9861
@@ -3767,8 +3767,8 @@ Croydon;9865
 Pleasant Hill;9873
 Scottsboro;9874
 Warrenton;9875
-Philipsburg;9877
 Wabash;9877
+Philipsburg;9877
 Bocas del Toro;9883
 Bulaevo;9886
 Holmen;9887
@@ -3784,8 +3784,8 @@ Newcastle;9912
 Country Club;9914
 Lake Barcroft;9918
 Woodbury;9919
-East Rutherford;9928
 Gamba;9928
+East Rutherford;9928
 Sweetwater;9940
 Vernon;9941
 Harrison;9941
@@ -3793,37 +3793,37 @@ Madera Acres;9947
 Vilyuysk;9948
 Molalla;9950
 New Hyde Park;9953
-Grafton;9955
 Flat Rock;9955
+Grafton;9955
 Tipp City;9956
 Makale;9960
 Mazoe;9966
 Waynesville;9971
 Vera;9979
+Milton;9986
 Selkirk;9986
 Fairmount;9986
-Milton;9986
 Glocester;9993
 Reserve;9995
-Tarin Kot;10000
-Moranbah;10000
-Gyangze;10000
-Hammerfest;10000
-Choele Choel;10000
 Gar;10000
-Al Qurayyat;10000
+Tarin Kot;10000
 Obluch'ye;10000
 Olekminsk;10000
+Gyangze;10000
+Al Qurayyat;10000
+Choele Choel;10000
+Moranbah;10000
+Hammerfest;10000
 Senanga;10005
-Kuruman;10006
 Moba;10006
+Kuruman;10006
 Skovorodino;10007
 Grenada;10016
-Colts Neck;10018
 Taltal;10018
+Colts Neck;10018
 Fort Lupton;10019
-Southborough;10021
 Conway;10021
+Southborough;10021
 Robore;10036
 Bel Air;10037
 Gages Lake;10042
@@ -3847,9 +3847,9 @@ Fort Meade;10088
 Snohomish;10089
 Standish;10091
 Waldwick;10092
+Ontario;10093
 River Grove;10093
 Sumner;10093
-Ontario;10093
 Kutztown;10095
 Quartz Hill;10098
 Nogliki;10098
@@ -3879,10 +3879,10 @@ Birao;10178
 Lancaster;10179
 Capitola;10180
 Fort Bliss;10188
-Maili;10190
 Shasta Lake;10190
-Friendly;10200
+Maili;10190
 Kairaki;10200
+Friendly;10200
 Kinnelon;10213
 Busselton;10214
 Puerto Carreno;10216
@@ -3931,10 +3931,10 @@ Warr Acres;10333
 Cedar Hills;10334
 Wyndham;10334
 Burkburnett;10334
-Orange Cove;10339
 Tega Cay;10339
-Magnolia;10339
 Canton;10339
+Magnolia;10339
+Orange Cove;10339
 DeForest;10340
 Melvindale;10341
 Canatlan;10342
@@ -3945,19 +3945,19 @@ Taksimo;10359
 Arden Hills;10362
 Bethanie;10363
 Weston;10369
-Vienna;10370
 Anderson;10370
+Vienna;10370
 Alpine;10371
-Clearfield;10373
 Oak Grove;10373
+Clearfield;10373
 Greenville;10374
 Kiama;10379
 Forest Acres;10380
 Kendallville;10383
 Salanso;10385
 Highland City;10386
-West Haverstraw;10388
 Gateway;10388
+West Haverstraw;10388
 Malone;10391
 Puerto Quijarro;10392
 Marlboro Village;10398
@@ -3989,8 +3989,8 @@ Vermilion;10453
 Wyomissing;10454
 Southport;10457
 Countryside;10458
-Bound Brook;10468
 Lincoln Park;10468
+Bound Brook;10468
 Jefferson;10469
 Filadelfia;10470
 Martin;10473
@@ -4004,8 +4004,8 @@ Bellmead;10503
 Kapaa;10505
 Roscoe;10505
 Lanham;10511
-Coral Hills;10512
 Tanaina;10512
+Coral Hills;10512
 Amos;10516
 Castle Pines;10523
 Trinity;10529
@@ -4013,8 +4013,8 @@ Scituate;10529
 Saks;10535
 Pine Hill;10536
 East Whittier;10540
-Doraville;10540
 Portage;10540
+Doraville;10540
 Oak Hills;10541
 Cleveland;10543
 Valparaiso;10545
@@ -4032,9 +4032,9 @@ Lloyd;10571
 Seymour;10574
 Paris;10576
 Ballston;10576
-Farmington;10578
 Millsboro;10578
 Kimpese;10578
+Farmington;10578
 Songo;10579
 Bedford Heights;10580
 Hillsdale;10581
@@ -4048,8 +4048,8 @@ Decatur;10613
 Del Aire;10614
 Khilok;10627
 Bellefontaine Neighbors;10628
-San Diego Country Estates;10633
 Petal;10633
+San Diego Country Estates;10633
 West Perrine;10634
 Pacific;10634
 Morro Bay;10635
@@ -4072,15 +4072,15 @@ Fairfield;10683
 Gold Canyon;10684
 Permet;10686
 Kavaratti;10688
-Ludington;10690
 Whitehall;10690
-Vermillion;10691
+Ludington;10690
 Essex Junction;10691
+Vermillion;10691
 La Riviera;10693
 Kennett;10693
 Hudson;10699
-Darby;10700
 Pearsall;10700
+Darby;10700
 Karuzi;10705
 Union Park;10707
 Point Pleasant;10708
@@ -4094,16 +4094,16 @@ Muskegon Heights;10735
 Winchendon;10738
 Montgomery;10746
 Waterford;10749
-Dangriga;10750
 Silverton;10750
+Dangriga;10750
 Florence;10755
-Northbrook;10760
 Port Salerno;10760
+Northbrook;10760
 Milton;10761
 Browns Mills;10763
-Bolama;10769
-Yeppoon;10769
 Spencer;10769
+Yeppoon;10769
+Bolama;10769
 Gonzales;10771
 Weddington;10773
 Atchison;10775
@@ -4130,8 +4130,8 @@ Annapolis Neck;10841
 Rosaryville;10844
 Crestwood;10846
 Rochelle;10849
-Linthicum;10852
 Kenora;10852
+Linthicum;10852
 TamalpaisHomestead Valley;10853
 Vidor;10854
 Hailey;10875
@@ -4168,16 +4168,16 @@ Elkins;10988
 Galena Park;10989
 Suffern;10995
 Mount Kisco;10998
-Little Ferry;11000
 Biltine;11000
+Little Ferry;11000
 Bairnsdale;11005
 Dent;11012
 Urbana;11022
 Holbrook;11029
 Arizona City;11030
 Millington;11033
-Sierra Madre;11038
 Rifle;11038
+Sierra Madre;11038
 Halfway;11043
 Satellite Beach;11056
 Wantage;11062
@@ -4197,42 +4197,42 @@ Grosse Pointe Park;11125
 Lithgow;11128
 River Forest;11132
 Parkes;11137
-Villanueva;11138
 Folkston;11138
+Villanueva;11138
 Celina;11139
 Dobbs Ferry;11147
 Lunenburg;11150
 Two Rivers;11153
-Richmond Heights;11155
 Lake Grove;11155
+Richmond Heights;11155
+Damascus;11155
 Mayfield;11155
 Tremonton;11155
-Damascus;11155
 Munhall;11158
 El Fuerte;11171
 Woodland Park;11174
-Huntingdon;11177
 Lewisburg;11177
+Huntingdon;11177
 Madison Heights;11180
 Walden;11183
 Echelon;11185
 Maysville;11185
 Mack;11192
 Clinton;11193
-Kaneohe Station;11198
 Summerfield;11198
-Wahpeton;11199
+Kaneohe Station;11198
 Yorktown;11199
+Wahpeton;11199
 Koror;11200
 Lake MortonBerrydale;11201
 Camp Verde;11201
 Qasre Shirin;11202
 Vanimo;11204
-Pompton Lakes;11206
 Ocean City;11206
+Pompton Lakes;11206
 Niles;11208
-Chalco;11209
 Greentree;11209
+Chalco;11209
 Newport East;11211
 Fitzgerald;11211
 Merriam;11212
@@ -4251,22 +4251,22 @@ Otar;11238
 Soquel;11241
 East Hanover;11241
 Amherst;11241
-Lighthouse Point;11242
 Villas;11242
+Lighthouse Point;11242
 Lakeville;11245
 Shiloh;11247
 Beachwood;11248
 Angola;11252
 Franklin Lakes;11255
-Princess Anne;11262
 Santa Cruz;11262
+Princess Anne;11262
 Hormigueros;11268
 Steinkjer;11274
 Leicester;11277
 Summit;11278
 Haysville;11278
-Campton Hills;11282
 Groton;11282
+Campton Hills;11282
 Somers;11284
 Fenton;11286
 Waupun;11302
@@ -4274,8 +4274,8 @@ Minooka;11307
 View ParkWindsor Hills;11308
 Mountain Top;11311
 Urbana;11314
-Wyandanch;11315
 Delemont;11315
+Wyandanch;11315
 Lamesa;11320
 Mexico;11320
 Granby;11323
@@ -4312,8 +4312,8 @@ Spirit Lake;11398
 East Renton Highlands;11401
 Little Chute;11403
 East Windsor;11409
-Endwell;11412
 Excelsior Springs;11412
+Endwell;11412
 Sanniquellie;11415
 Doctor Phillips;11416
 Hillsdale;11416
@@ -4326,25 +4326,25 @@ Samana;11432
 Ridgefield;11435
 Haddonfield;11435
 Guymon;11439
-Grove City;11441
 Valdez;11441
+Grove City;11441
 Bradford;11442
 Maltby;11443
 Emmaus;11454
 Ravenna;11461
-Fort Liberte;11465
 Cedarburg;11465
+Fort Liberte;11465
 Coamo;11467
 Valencia West;11468
 Westview;11480
-Lyndon;11485
 Portachuelo;11485
+Lyndon;11485
 Hillsborough;11486
 Winton;11487
 West Plains;11488
-Citrus;11489
-Bellmawr;11489
 Port St John;11489
+Bellmawr;11489
+Citrus;11489
 Aginskoye;11491
 Cerrillos;11498
 Rio Colorado;11499
@@ -4385,10 +4385,10 @@ Fairfax Station;11607
 White House;11608
 D'Iberville;11610
 Eunice;11613
-Robinson;11617
 Carver;11617
-Signal Hill;11622
+Robinson;11617
 Delhi;11622
+Signal Hill;11622
 Alotau;11624
 Muswellbrook;11630
 Clute;11634
@@ -4398,20 +4398,20 @@ Dudley;11637
 Jerome;11638
 Schiller Park;11640
 MontLaurier;11642
-Mendota;11642
 Winchester;11642
+Mendota;11642
 Grafton;11643
 Brattleboro;11646
 Bridgeton;11648
-Gympie;11649
 Mamakating;11649
+Gympie;11649
 Collegedale;11659
 Seven Hills;11663
 Chino Valley;11667
 Norfolk;11671
 Byram;11671
-Snyder;11678
 Ozark;11678
+Snyder;11678
 Athol;11680
 Newcastle;11681
 Arlington;11681
@@ -4419,14 +4419,14 @@ Eureka;11685
 Forestville;11689
 Dranesville;11690
 Guttenberg;11695
+Richfield;11696
 Upper Montclair;11696
 Beachwood;11696
-Richfield;11696
 Orange City;11697
 Weatherford;11700
 Putnam Valley;11705
-Martinsville;11707
 Tomball;11707
+Martinsville;11707
 Miller Place;11709
 Diamond Springs;11717
 The Pinery;11720
@@ -4435,8 +4435,8 @@ Coolidge;11725
 East Grand Rapids;11731
 Cocoa Beach;11733
 Franklin;11735
-Vail;11735
 Elma;11735
+Vail;11735
 Newton;11736
 Magdagachi;11739
 Chowchilla;11740
@@ -4455,9 +4455,9 @@ Bogalusa;11771
 Negele;11772
 Oak Hills;11779
 Nelson;11779
-Wallington;11781
-Ascension;11781
 Port Lavaca;11781
+Ascension;11781
+Wallington;11781
 Enumclaw;11784
 Cafayate;11785
 Jupiter Farms;11787
@@ -4469,15 +4469,15 @@ Largo;11805
 Portland;11808
 Gulf Shores;11809
 Dolo Bay;11810
-Lincoln City;11820
 Lake Los Angeles;11820
+Lincoln City;11820
 Wetaskiwin;11823
 Lantana;11824
-Mango;11836
 Winfield;11836
+Mango;11836
 SedroWoolley;11838
-Healdsburg;11840
 Kempsey;11840
+Healdsburg;11840
 Malargue;11847
 Prineville;11850
 Shady Hills;11850
@@ -4486,8 +4486,8 @@ Spencer;11856
 Otsego;11858
 Newport;11862
 Qazmalar;11867
-Berkley;11868
 Falmouth;11868
+Berkley;11868
 Crestwood;11870
 El Campo;11870
 Nacozari Viejo;11872
@@ -4513,8 +4513,8 @@ Macedonia;11940
 Chuquicamata;11941
 Scotts Valley;11945
 Clawson;11946
-Cordele;11947
 Lansing;11947
+Cordele;11947
 Pell City;11952
 Tepelene;11955
 Brown Deer;11964
@@ -4528,14 +4528,14 @@ Elgin;11976
 Dundo;11985
 Manchester;11987
 Dolinsk;11989
-Rehoboth;11990
 Upper;11990
+Rehoboth;11990
 Wanaque;11994
-Home Gardens;11997
 Woodinville;11997
+Home Gardens;11997
 North Valley;11999
-Glenwood Springs;12000
 Princetown;12000
+Glenwood Springs;12000
 Kingsburg;12002
 Delavan;12003
 Norton;12013
@@ -4551,8 +4551,8 @@ Los Alamos;12035
 Gatesville;12039
 Broussard;12042
 Dikhil;12043
-Glen Rock;12045
 Angra do Heroismo;12045
+Glen Rock;12045
 Belmont;12046
 Tucson Estates;12047
 Pepperell;12049
@@ -4614,8 +4614,8 @@ Boloso;12244
 Fulton;12248
 Irmo;12250
 Middle Valley;12252
-Wilmington;12253
 Ishpeming;12253
+Wilmington;12253
 Warwick;12254
 Ermoupoli;12260
 Shepherdsville;12260
@@ -4655,8 +4655,8 @@ Larkspur;12396
 Palos Heights;12403
 Plymouth;12406
 Kilindoni;12409
-Marysville;12413
 Finneytown;12413
+Marysville;12413
 Kewanee;12416
 Somerville;12418
 Truckee;12418
@@ -4678,8 +4678,8 @@ Ringwood;12454
 Coventry;12458
 New Kensington;12466
 Irondale;12468
-Platteville;12470
 Cedar Lake;12470
+Platteville;12470
 Salisbury;12474
 Hudson;12477
 Winnetka;12480
@@ -4689,10 +4689,10 @@ Lakeland North;12487
 Patchogue;12489
 Calbuco;12490
 Isla Mujeres;12491
-Moss Bluff;12491
 Cornwall;12491
-Cornelius;12493
+Moss Bluff;12491
 South Charleston;12493
+Cornelius;12493
 Azle;12495
 Brunswick;12499
 Cypress Lake;12505
@@ -4708,11 +4708,11 @@ Minden;12559
 Windsor Locks;12563
 Royse City;12567
 Pago Pago;12576
-San Anselmo;12580
 Spring Lake;12580
+San Anselmo;12580
 Derby;12581
-Barcelos;12584
 Verde Village;12584
+Barcelos;12584
 Grand Terrace;12595
 LaBelle;12605
 Medfield;12610
@@ -4735,8 +4735,8 @@ Mogocha;12647
 Mount Vernon;12648
 Garbahaarrey;12652
 Sunchales;12655
-West Monroe;12657
 Charlotte;12657
+West Monroe;12657
 Paris;12662
 Uglegorsk;12669
 Fergus Falls;12673
@@ -4748,9 +4748,9 @@ Frederick;12687
 Librazhd;12691
 Lilburn;12700
 Ziniare;12703
-Bubanza;12728
-Glendale;12728
 Forrest City;12728
+Glendale;12728
+Bubanza;12728
 Lynnfield;12732
 Diebougou;12732
 Prairie Ridge;12733
@@ -4758,8 +4758,8 @@ Wickliffe;12736
 St Ann;12737
 Cloquet;12738
 Lewisboro;12741
-Grimes;12742
 Pennsville;12742
+Grimes;12742
 Federal Heights;12744
 Cedartown;12744
 Panama City Beach;12757
@@ -4781,28 +4781,28 @@ German Flatts;12806
 Los Lagos;12813
 Suamico;12816
 Endicott;12828
-Vicente Guerrero;12829
 Lumberton;12829
+Vicente Guerrero;12829
 Horsham;12830
 Liestal;12832
 Woodland Park;12834
 Justice;12836
-Sturgis;12837
 Camabatela;12837
+Sturgis;12837
 Clarkston;12848
 Keokuk;12866
 York;12872
-Hamilton Square;12877
-Greenville;12877
 Malibu;12877
+Greenville;12877
+Hamilton Square;12877
 Kingston;12878
 Herrin;12880
 Chilca;12884
 Port Royal;12886
 Obo;12887
 Tierra Amarilla;12888
-Oak Island;12890
 East Hampton;12890
+Oak Island;12890
 Farmington;12891
 Port Neches;12898
 Kisoro;12900
@@ -4818,8 +4818,8 @@ Mahomet;12941
 Commerce;12947
 Superior;12951
 Forest Hill;12953
-Lawrenceburg;12956
 Moody;12956
+Lawrenceburg;12956
 Ridge;12958
 Summerfield;12963
 Muscoy;12968
@@ -4831,8 +4831,8 @@ Huntington;12992
 Sugarland Run;12994
 Champasak;12994
 Rio Grande;12998
-Kumi;13000
 Muynoq;13000
+Kumi;13000
 Wawarsing;13004
 Chelsea;13011
 Taylorville;13014
@@ -4849,8 +4849,8 @@ Clinton;13041
 Port Clinton;13043
 Bay St Louis;13043
 Guerrero Negro;13054
-North Palm Beach;13057
 Dabola;13057
+North Palm Beach;13057
 New KingmanButler;13060
 Borger;13065
 Dunmore;13069
@@ -4863,24 +4863,24 @@ Shiloh;13090
 Lake Tapps;13091
 Short Hills;13092
 Worthington;13093
-Rocky Point;13094
 East Greenwich;13094
+Rocky Point;13094
 Mounds View;13098
 Newton;13098
 Verona;13107
 Andover;13111
 Washington;13117
 Coatesville;13123
-McPherson;13128
 Qulan;13128
+McPherson;13128
 Manati;13130
 Weigelstown;13135
 Fort Morgan;13137
 Bellefonte;13138
 Taiynsha;13148
-Ridgefield Park;13154
-Mercerville;13154
 Monfort Heights;13154
+Mercerville;13154
+Ridgefield Park;13154
 Schodack;13156
 Waimalu;13158
 Medway;13162
@@ -4894,8 +4894,8 @@ Big Bear City;13186
 Ardmore;13193
 Namanga;13193
 Globe;13198
-Kittanning;13204
 Powell;13204
+Kittanning;13204
 Beyla;13204
 Bensville;13208
 Kingston;13210
@@ -4918,8 +4918,8 @@ Elfers;13291
 Franklin;13292
 Fruita;13294
 New Providence;13308
-Stony Brook;13308
 Kirensk;13308
+Stony Brook;13308
 Dardenne Prairie;13310
 Middleburg;13316
 Pecos;13317
@@ -4942,8 +4942,8 @@ Muisne;13393
 North Auburn;13395
 Lockhart;13396
 Luganville;13397
-Moss Point;13398
 Bollnas;13398
+Moss Point;13398
 Faya;13400
 Kent;13406
 Chitipa;13412
@@ -4962,8 +4962,8 @@ California;13440
 Santa Fe;13442
 Solana Beach;13444
 Kemp Mill;13445
-San Carlos;13451
 Price;13451
+San Carlos;13451
 Vidalia;13456
 Oatfield;13457
 Hampton Bays;13457
@@ -4993,18 +4993,18 @@ Palos Verdes Estates;13544
 Brookside;13554
 Lyndhurst;13557
 Vadnais Heights;13561
-Washington;13566
 Lone Tree;13566
+Washington;13566
 Warrington;13569
 Taos;13571
 Rincon;13572
 Piney Green;13573
-Havre de Grace;13576
 Berkeley Heights;13576
+Havre de Grace;13576
 Ocean Pointe;13579
 East Milton;13583
-Verona;13585
 Belle Chasse;13585
+Verona;13585
 Frias;13594
 Alpena;13597
 Fort Campbell North;13600
@@ -5026,15 +5026,15 @@ Palmetto;13661
 Twentynine Palms;13664
 Saint Ann's Bay;13671
 Hockessin;13672
-Nesconset;13674
 Swellendam;13674
+Nesconset;13674
 Motupe;13681
 Monroe;13683
 Okmulgee;13685
 Princeton Meadows;13692
 Seabrook;13693
-SoddyDaisy;13693
 Lamas;13693
+SoddyDaisy;13693
 Wayland;13700
 West Freehold;13703
 Sauk Rapids;13722
@@ -5045,8 +5045,8 @@ Zarghun Shahr;13737
 Ang Thong;13738
 Moberly;13742
 Harper Woods;13743
-Elizabethton;13743
 Thonotosassa;13743
+Elizabethton;13743
 North Mankato;13746
 Bandarbeyla;13753
 Waunakee;13755
@@ -5057,8 +5057,8 @@ Bexley;13786
 Maumee;13787
 Quesnel;13788
 Sharonville;13797
-Wood Dale;13798
 Mwinilunga;13798
+Wood Dale;13798
 Teays Valley;13805
 River Ridge;13809
 Ocean View;13809
@@ -5068,13 +5068,13 @@ Glenpool;13814
 Uxbridge;13815
 Fort Drum;13819
 Roselle Park;13821
-Steamboat Springs;13822
 Arcadia;13822
+Steamboat Springs;13822
 Kem';13829
 Wixom;13831
 Hazel Crest;13837
-Clewiston;13845
 Raynham;13845
+Clewiston;13845
 Greenlawn;13850
 Guapi;13853
 Clinton;13855
@@ -5087,21 +5087,21 @@ Levelland;13884
 Ephrata;13885
 Allouez;13886
 Conneaut;13890
-Baraboo;13891
 Glasgow;13891
+Baraboo;13891
 Druid Hills;13895
 Port Augusta;13897
 Oxford;13898
 Gardendale;13906
 Lewisville;13913
-Springdale;13916
 Mount Dora;13916
+Springdale;13916
 Hot Springs Village;13918
 Fort Lewis;13920
 Hidalgo;13931
 Big Rapids;13941
-Whitefish Bay;13950
 Hickory Hills;13950
+Whitefish Bay;13950
 Forest Park;13951
 Hendersonville;13954
 Douglas;13960
@@ -5116,8 +5116,8 @@ Koundara;13990
 Dennis;13992
 Bridgetown;13993
 Beach Park;13995
-Grain Valley;13996
 Brandermill;13996
+Grain Valley;13996
 Port Orchard;13997
 Centerton;14001
 Jericho;14014
@@ -5153,8 +5153,8 @@ Shilka;14132
 Anatuya;14133
 Livingston;14140
 Boutilimit;14142
-Willowick;14148
 Ionia;14148
+Willowick;14148
 Cahokia;14151
 Greendale;14159
 Juan Aldama;14162
@@ -5192,8 +5192,8 @@ Alausi;14294
 Coronel Jose Felix Bogado;14297
 Hopatcong;14298
 Greensburg;14299
-Hollins;14300
 Washington;14300
+Hollins;14300
 Hobe Sound;14301
 East Bridgewater;14301
 Cambridge;14312
@@ -5203,8 +5203,8 @@ Hanover;14328
 Halawa;14335
 Windham;14344
 Olympia Heights;14345
-Metuchen;14349
 Iona;14349
+Metuchen;14349
 Livingston;14350
 Mill Valley;14355
 Mineral Wells;14356
@@ -5224,11 +5224,11 @@ Gramercy;14414
 Nioro;14421
 Miami Springs;14424
 Salida;14424
+Tamaqua;14429
+Jacksonville;14429
+Ascension;14429
 Crowley;14429
 Pineville;14429
-Jacksonville;14429
-Tamaqua;14429
-Ascension;14429
 Gabu;14430
 Beekman;14433
 Hewitt;14435
@@ -5236,8 +5236,8 @@ Hanover;14436
 Norridge;14437
 Oak Park;14440
 Toppenish;14441
-Hawaiian Gardens;14450
 Gwanda;14450
+Hawaiian Gardens;14450
 El Sobrante;14451
 Phillipsburg;14459
 Lindenhurst;14467
@@ -5257,11 +5257,11 @@ Ust'Ordynskiy;14538
 Robbinsdale;14544
 Warren;14550
 Franklin Park;14552
-Wilbraham;14553
 Bosobolo;14553
+Wilbraham;14553
 Mount Washington;14554
-Swampscott;14563
 Horsham;14563
+Swampscott;14563
 Saraland;14576
 Kings Park West;14578
 Falls Church;14583
@@ -5276,8 +5276,8 @@ Midlothian;14634
 Tecpan de Galeana;14638
 Pleasanton;14638
 Goure;14639
-Worthington;14646
 Connersville;14646
+Worthington;14646
 Chaparral;14652
 Abong Mbang;14661
 Jennings;14674
@@ -5289,8 +5289,8 @@ Hayden;14693
 Yankton;14699
 Azalea Park;14701
 Forest City;14702
-Prince Rupert;14708
 San Ramon;14708
+Prince Rupert;14708
 Thibodaux;14713
 Ondorhaan;14723
 Sulphur Springs;14728
@@ -5343,26 +5343,26 @@ Bredasdorp;14936
 Cleveland;14950
 Izamal;14954
 Seekonk;14957
-College Park;14959
 Tsumeb;14959
+College Park;14959
 Berea;14966
 Flowing Wells;14972
 Mebane;14973
 Yazoo City;14978
 Las Vegas;14982
 Andrews;14999
+Bhimphedi;15000
 Paro;15000
-Fayroz Koh;15000
-Gikongoro;15000
 Salyan;15000
 Ramechhap;15000
-Bhimphedi;15000
-KokJanggak;15000
+Gikongoro;15000
+Fayroz Koh;15000
 Chaguarama;15000
+KokJanggak;15000
 Mountain House;15010
 La Grande;15013
-Fort Carson;15015
 Red Hill;15015
+Fort Carson;15015
 World Golf Village;15025
 Newport;15033
 Thompson;15034
@@ -5421,12 +5421,12 @@ Teseney;15255
 Moreau;15263
 Takeo;15264
 Udachnyy;15266
-Zamora;15276
 East Highland Park;15276
+Zamora;15276
 Stanford;15277
 Glasgow;15280
-Gainesville;15283
 Sullivan;15283
+Gainesville;15283
 Milford;15288
 South Farmingdale;15294
 Mitchell;15297
@@ -5437,8 +5437,8 @@ Millbrook;15318
 Junin;15320
 Hampton;15322
 Wilmington Island;15329
-Cardenas;15331
 Berkley;15331
+Cardenas;15331
 Bay Village;15344
 Bradley;15344
 Villa Rica;15345
@@ -5475,8 +5475,8 @@ Cambridge;15486
 Westbury;15493
 Pulaski;15496
 Pequannock;15499
-Aarau;15501
 Stony Point;15501
+Aarau;15501
 Newton;15505
 Great Bend;15519
 Fairburn;15520
@@ -5491,16 +5491,16 @@ Pembroke;15551
 Puerto Pimentel;15552
 Wilkinsburg;15554
 Viana do Castelo;15555
-Grosse Pointe Woods;15560
 New Haven;15560
+Grosse Pointe Woods;15560
 Pataskala;15566
 Duxbury;15572
 Mastic;15574
 Clarksdale;15574
 Dunn;15576
 Lebanon;15577
-Portalegre;15581
 La Grange;15581
+Portalegre;15581
 North New Hyde Park;15585
 Middleburg Heights;15587
 Great Falls;15589
@@ -5509,14 +5509,14 @@ Sierra Vista Southeast;15591
 Lamont;15597
 Westwood;15597
 North Reading;15598
-Narragansett;15601
 AtBashy;15601
+Narragansett;15601
 Clark;15607
-West University Place;15608
 Dedza;15608
+West University Place;15608
 Seven Oaks;15631
-Mount Holly;15635
 Hermitage;15635
+Mount Holly;15635
 Long Beach;15642
 Villa Hayes;15643
 East Riverdale;15645
@@ -5539,8 +5539,8 @@ Hood River;15714
 Los Osos;15714
 Miami;15718
 Greenwood Village;15721
-La Palma;15722
 Pecan Grove;15722
+La Palma;15722
 Harrisburg;15728
 Clearlake;15751
 West Lealman;15756
@@ -5549,8 +5549,8 @@ Asbury Park;15767
 Bellmore;15767
 Groves;15769
 Yorito;15774
-Shively;15800
 Parma;15800
+Shively;15800
 BaruunUrt;15805
 Camrose;15808
 Westport;15810
@@ -5570,9 +5570,9 @@ Longmeadow;15876
 Crescent City;15886
 Fillmore;15895
 Adelphi;15898
-Walnut Park;15915
-Fords;15915
 Coalinga;15915
+Fords;15915
+Walnut Park;15915
 Bodaybo;15933
 Lake St Louis;15936
 Dyer;15941
@@ -5597,11 +5597,11 @@ Welby;16002
 North Arlington;16009
 Rye;16009
 Gun Barrel City;16013
-Conyers;16015
 Colchester;16015
+Conyers;16015
 Picayune;16026
-East Rancho Dominguez;16027
 Fairhaven;16027
+East Rancho Dominguez;16027
 Madison;16033
 Ilave;16033
 Port Washington;16034
@@ -5611,8 +5611,8 @@ Aberdeen;16049
 Boerne;16050
 Easthampton Town;16050
 Fonte Boa;16060
-Lake Wales;16066
 San Gabriel;16066
+Lake Wales;16066
 Storrs;16077
 Frankfort;16079
 Parole;16084
@@ -5646,8 +5646,8 @@ Burley;16175
 Prospect Heights;16180
 Sparti;16187
 Tanque Verde;16197
-Xaignabouli;16200
 Laguna Woods;16200
+Xaignabouli;16200
 Avocado Heights;16213
 Barrington;16218
 Koulamoutou;16222
@@ -5666,8 +5666,8 @@ Republic;16294
 Morton;16301
 Bastrop;16305
 Fort Leonard Wood;16307
-Sienna Plantation;16310
 North Myrtle Beach;16310
+Sienna Plantation;16310
 Mount Clemens;16312
 Center Point;16313
 Gobabis;16321
@@ -5690,8 +5690,8 @@ Collipulli;16392
 McComb;16398
 Dajabon;16398
 Ntungamo;16400
-RiviereduLoup;16403
 East Greenbush;16403
+RiviereduLoup;16403
 Wendell;16408
 Port Jervis;16410
 Northbridge;16425
@@ -5726,8 +5726,8 @@ Country Club Hills;16564
 Bellinzona;16572
 Seymour;16579
 Highland Village;16587
-Lansdale;16588
 Fairview Heights;16588
+Lansdale;16588
 Manassas Park;16591
 Coldwater;16595
 Macetown;16600
@@ -5736,10 +5736,10 @@ Anna;16613
 Lakeport;16614
 Brownsville;16615
 Donna;16638
-Four Corners;16648
 Oak Grove;16648
-Eden;16648
 Holmdel;16648
+Eden;16648
+Four Corners;16648
 Clemson;16649
 Valle Vista;16672
 Poronaysk;16677
@@ -5755,8 +5755,8 @@ Oconomowoc;16717
 Hopkinton;16720
 Morombe;16727
 Kings Park;16733
-Bemidji;16733
 Terrell;16733
+Bemidji;16733
 Mercedes;16734
 Solvang;16741
 Mossel Bay;16743
@@ -5795,8 +5795,8 @@ Albemarle;16900
 Artesia;16904
 Batavia;16906
 Lemay;16909
-Zaghouan;16911
 Southbridge Town;16911
+Zaghouan;16911
 Brenham;16913
 Glenmont;16917
 Vero Beach;16919
@@ -5813,8 +5813,8 @@ Fort Hunt;16978
 Pinas;16981
 Ihosy;16990
 Wailuku;16995
-Nevel'sk;17000
 Ambriz;17000
+Nevel'sk;17000
 Vila Real;17001
 Monte Cristi;17001
 Harnosand;17016
@@ -5834,8 +5834,8 @@ South Ogden;17101
 La Vista;17116
 Wadi Halfa';17121
 Bloemhof;17122
-Yauco;17129
 Dutse;17129
+Yauco;17129
 Pallasovka;17139
 Dallas;17146
 Gorham;17147
@@ -5853,8 +5853,8 @@ Versailles;17250
 St John;17259
 Shippensburg;17265
 West Columbia;17265
-Massapequa Park;17266
 Americus;17266
+Massapequa Park;17266
 Ashwaubenon;17271
 Alton;17278
 Pendleton;17282
@@ -5892,21 +5892,21 @@ Karukh;17484
 Vincent;17485
 Colonia;17486
 Boulsa;17489
-Nederland;17491
 Ilam;17491
-Sayre;17500
+Nederland;17491
 Five Forks;17500
+Sayre;17500
 Anoka;17522
 Springfield;17528
 Zachary;17538
 Pakwach;17541
 South Houston;17543
-Willimantic;17550
 Imperial;17550
+Willimantic;17550
 Tallmadge;17552
 Maitland;17554
-Wahiawa;17555
 La Paz;17555
+Wahiawa;17555
 Fort Mill;17557
 Albert Lea;17558
 Glenvar Heights;17560
@@ -5916,8 +5916,8 @@ Eldama Ravine;17581
 Tougan;17590
 Tuncurry;17591
 San Carlos Park;17597
-Bostonia;17600
 Zaysan;17600
+Bostonia;17600
 Rosedale;17603
 Peto;17607
 Ferndale;17627
@@ -5969,8 +5969,8 @@ Sovetsk;17869
 Takoma Park;17885
 Cary;17885
 Huntington;17886
-Ada;17886
 Yuanquan;17886
+Ada;17886
 Beltsville;17890
 Edmundston;17894
 Nguigmi;17897
@@ -5978,14 +5978,14 @@ Goffstown;17899
 Marco Island;17904
 Po;17924
 Sunnyside;17927
-Berea;17929
 Apollo Beach;17929
+Berea;17929
 Lackawanna;17934
 Gretna;17935
 Kurtamysh;17936
 Lenoir;17943
-Anacortes;17955
 Bedford;17955
+Anacortes;17955
 Port Alfred;17959
 Burke Centre;17969
 Kirsanov;17975
@@ -5993,8 +5993,8 @@ Santa Fe Springs;17980
 Madison;17981
 Dumont;17998
 Requena;18000
-Beaver Dam;18003
 Steubenville;18003
+Beaver Dam;18003
 Humacao;18011
 Franklin Park;18012
 Sycamore;18022
@@ -6025,14 +6025,14 @@ Kilgore;18179
 Murray Bridge;18194
 Cinco Ranch;18200
 Maumelle;18214
-Kedougou;18226
 Traralgon;18226
+Kedougou;18226
 Pembroke;18230
 Dover;18232
 Central Point;18234
 Wheatfield;18238
-North Aurora;18245
 Sharon;18245
+North Aurora;18245
 Madison;18247
 Trenton;18255
 Somerset;18257
@@ -6043,8 +6043,8 @@ Gibsonton;18273
 Lobos;18278
 Cudahy;18282
 Katy;18282
-North Druid Hills;18288
 Southeast;18288
+North Druid Hills;18288
 Mattoon;18293
 Charata;18297
 Mchinji;18305
@@ -6095,8 +6095,8 @@ Springboro;18610
 Sherrelwood;18616
 Vanino;18618
 Middle;18623
-Winthrop Town;18625
 Maitland;18625
+Winthrop Town;18625
 Brook Park;18626
 Huanta;18627
 Ronkonkoma;18628
@@ -6108,15 +6108,15 @@ Kavalerovo;18657
 Meadowbrook;18659
 Wilton;18659
 Mansa Konko;18672
-Idylwood;18678
 Hopkins;18678
+Idylwood;18678
 Mayfield Heights;18682
 East Massapequa;18689
 Forest Park;18690
 Brookfield;18694
 Lezhe;18695
-Marshfield;18697
 Sudbury;18697
+Marshfield;18697
 Altoona;18699
 Whakatane;18700
 Creve Coeur;18702
@@ -6198,8 +6198,8 @@ Mount Airy;19164
 Somerton;19168
 Eloy;19168
 Brigham City;19182
-Waterford;19200
 Polyarnyy;19200
+Waterford;19200
 Lumphat;19205
 Canby;19206
 Arlington;19212
@@ -6207,14 +6207,14 @@ Uzhur;19212
 La Follette;19220
 Broadview Heights;19227
 Kuna;19230
+Laconia;19234
 Yellowknife;19234
 Sheridan;19234
-Laconia;19234
 Kos;19244
 McKeesport;19245
 Carlisle;19259
-Bati;19260
 Roebourne;19260
+Bati;19260
 Tillaberi;19262
 Oum Hadjer;19271
 Shelton;19296
@@ -6243,8 +6243,8 @@ Mamaroneck;19423
 Mobaye;19431
 Harstad;19433
 North Battleford;19440
-Kayanza;19443
 Terrace;19443
+Kayanza;19443
 Echuca;19457
 Silli;19463
 Fernley;19464
@@ -6262,8 +6262,8 @@ White Oak;19525
 Bethel;19526
 Fairwood;19531
 Papillion;19539
-Evergreen Park;19542
 Lillehammer;19542
+Evergreen Park;19542
 Angleton;19544
 Santa Cruz Cabralia;19545
 Suwanee;19549
@@ -6280,8 +6280,8 @@ Vernal;19613
 Atasu;19616
 Scarborough;19620
 Howard;19634
-Allende;19636
 Liberal;19636
+Allende;19636
 San Borja;19640
 Makamba;19642
 Pinecrest;19651
@@ -6320,8 +6320,8 @@ Tsetserleg;19812
 Painesville;19813
 Bourne;19814
 Forest Park;19823
-General Martin Miguel de Guemes;19828
 Camacupa;19828
+General Martin Miguel de Guemes;19828
 West Mifflin;19839
 West Hempstead;19841
 Hudson;19843
@@ -6339,8 +6339,8 @@ Ozark;19905
 Sand Springs;19909
 Yeniseysk;19920
 Selden;19928
-East Hemet;19951
 Kampong Thum;19951
+East Hemet;19951
 Ottawa;19967
 Burnie;19972
 Oregon;19973
@@ -6352,11 +6352,11 @@ Miamisburg;19985
 Culpeper;19986
 North Bellmore;19994
 Al Mijlad;19997
+Puerto Natales;20000
 Hakha;20000
+Zemio;20000
 Haya;20000
 Narvik;20000
-Zemio;20000
-Puerto Natales;20000
 Glassboro;20011
 Rocky Hill;20015
 Rosamond;20024
@@ -6367,9 +6367,9 @@ Bayshore Gardens;20047
 Esquel;20048
 Pita;20052
 Parma Heights;20053
-West Chester;20060
 KasongoLunda;20060
 Rayevskiy;20060
+West Chester;20060
 Zhosaly;20065
 Ferndale;20070
 Allendale;20080
@@ -6407,8 +6407,8 @@ Columbia Heights;20254
 Willmar;20262
 Lorton;20268
 Sulphur;20278
-The Dalles;20293
 Mokena;20293
+The Dalles;20293
 Dixon;20304
 Canas;20306
 Viljandi;20309
@@ -6426,14 +6426,14 @@ Hurricane;20362
 Newton;20370
 Mountain Brook;20381
 Millburn;20387
-Bururi;20393
+Lake Ronkonkoma;20393
 Mililani Mauka;20393
 Marblehead;20393
-Lake Ronkonkoma;20393
+Bururi;20393
 Stephenville;20400
 Bear;20401
-Pickerington;20402
 Mead Valley;20402
+Pickerington;20402
 Mo i Rana;20409
 La Canada Flintridge;20413
 Sandwich;20416
@@ -6543,8 +6543,8 @@ Sotouboua;21054
 Chascomus;21054
 Omagh;21056
 Jauja;21057
-Phayao;21058
 Camp Springs;21058
+Phayao;21058
 Nzeto;21059
 New Hope;21063
 Salmon Creek;21068
@@ -6563,17 +6563,17 @@ Louisville;21128
 Isil'kul';21136
 Birmingham;21142
 Corinth;21152
-Arbutus;21167
 Raymore;21167
+Arbutus;21167
 Bayou Cane;21173
 Crest Hill;21175
-Olean;21178
 Elko;21178
+Olean;21178
 Oxford;21180
 Shelbyville;21182
 McNair;21183
-Paracuru;21196
 Happy Valley;21196
+Paracuru;21196
 Hyde Park;21215
 Mustang;21222
 Motul;21253
@@ -6584,8 +6584,8 @@ Orchards;21299
 Fort Atkinson;21299
 Itupiranga;21301
 Nakhon Nayok;21309
-Portel;21315
 Ardmore;21315
+Portel;21315
 Sidney;21319
 Nixa;21321
 Ludlow;21331
@@ -6631,16 +6631,16 @@ Yasothon;21643
 Rancho San Diego;21651
 Bellview;21655
 Kobilo;21656
-Hayesville;21658
 Nar'yanMar;21658
+Hayesville;21658
 Marshall;21672
 Gavarr;21680
 La Porte;21681
 Park Forest;21682
 Clarksville;21694
 Caacupe;21696
-Kayunga;21704
 Affton;21704
+Kayunga;21704
 Colonia del Sacramento;21714
 Mount Vernon;21720
 South Holland;21732
@@ -6655,9 +6655,9 @@ Duarte;21757
 Marietta;21772
 Nsanje;21774
 Del City;21798
-Lewistown;21827
-Lakeside;21827
 Trussville;21827
+Lakeside;21827
+Lewistown;21827
 Vanersborg;21835
 Villa Park;21836
 Watertown;21837
@@ -6742,8 +6742,8 @@ Lebu;22345
 Sunny Isles Beach;22348
 Prairie Village;22368
 Ar Rutbah;22370
-Bloomington;22377
 Guilford;22377
+Bloomington;22377
 Pyrgos;22399
 Edgewater;22399
 Maple Heights;22400
@@ -6766,16 +6766,16 @@ Northdale;22558
 Whyalla;22559
 Campoalegre;22568
 Vernon;22572
-Fremont;22576
 Radcliff;22576
+Fremont;22576
 Jenks;22578
 Winchester;22579
 Dawmat al Jandal;22583
 Highland;22585
 Visby;22593
 Taupo;22600
-Frontera;22621
 Hopewell;22621
+Frontera;22621
 Owen Sound;22625
 Westerly;22626
 Kemi;22641
@@ -6786,10 +6786,10 @@ Oytal;22673
 Andoany;22680
 Maracaju;22690
 Onega;22693
-Garden City;22698
 Acworth;22698
-Munster;22717
+Garden City;22698
 Elizabeth City;22717
+Munster;22717
 Millbrae;22718
 Gjovik;22719
 Bella Union;22723
@@ -6838,10 +6838,10 @@ Okemos;22989
 Hunters Creek;22999
 Gyegu;23000
 Saginaw;23014
+Sechura;23020
+Makinsk;23020
 Venice;23020
 Onondaga;23020
-Makinsk;23020
-Sechura;23020
 Seymour;23031
 Auburn;23033
 Arnold;23041
@@ -6879,8 +6879,8 @@ Camas;23331
 Roseau;23336
 Wright;23348
 Medford;23353
-Magdalena de Kino;23359
 Wekiwa Springs;23359
+Magdalena de Kino;23359
 Blue Island;23361
 Converse;23375
 Loves Park;23387
@@ -6927,8 +6927,8 @@ Kibaha;23651
 Halfmoon;23660
 Derby;23673
 Pijijiapan;23675
-Mansfield;23678
 Greeneville;23678
+Mansfield;23678
 Macas;23687
 Nchelenge;23693
 Rosemont;23700
@@ -7015,23 +7015,23 @@ Tifton;24314
 Xinxing;24317
 Seal Beach;24326
 Scotch Plains;24339
-Lincolnia;24344
 Rosemount;24344
+Lincolnia;24344
 Ghat;24347
 North Platte;24352
 Waycross;24367
 Oak Ridge;24368
-Tbeng Meanchey;24380
 Denison;24380
-Kernersville;24386
+Tbeng Meanchey;24380
 Trotwood;24386
+Kernersville;24386
 Hastings;24391
 Brookings;24400
 Freeport;24412
 Baubau;24412
 Coronado;24417
-Fresno;24426
 Aldan;24426
+Fresno;24426
 South Plainfield;24435
 Inkster;24453
 Tocopilla;24460
@@ -7040,16 +7040,16 @@ San Pedro Pochutla;24481
 Norton Shores;24501
 Elk River;24506
 North Laurel;24510
-Rolim de Moura;24516
 Watsa;24516
+Rolim de Moura;24516
 Bailey's Crossroads;24521
 Bainbridge Island;24522
 Lamu;24525
 San Benito;24528
 Herndon;24532
 Ciudad Altamirano;24533
-Elmwood Park;24537
 Palm City;24537
+Elmwood Park;24537
 Victoria;24555
 Ranong;24561
 Chesapeake Beach;24565
@@ -7122,15 +7122,15 @@ Valinda;25080
 Sun City West;25085
 San Marcos;25088
 Franklin;25089
-Riverside;25094
 Northport;25094
+Riverside;25094
 San Lorenzo;25101
-Hervey Bay;25114
 Londonderry;25114
+Hervey Bay;25114
 Victoria;25139
 Ereymentau;25141
-Cliffside Park;25142
 Bologoye;25142
+Cliffside Park;25142
 Wewak;25143
 Tatarsk;25150
 Hermanus;25153
@@ -7161,8 +7161,8 @@ Sao Lourenco do Sul;25340
 Nelidovo;25349
 Balch Springs;25357
 North Tustin;25364
-Claremore;25365
 Horizon West;25365
+Claremore;25365
 Hutto;25367
 Ati;25373
 Dedham;25377
@@ -7218,8 +7218,8 @@ Salem;25862
 Troy;25865
 Lake City;25869
 Granja;25879
-South Pasadena;25888
 White Bear Lake;25888
+South Pasadena;25888
 Laurel;25906
 Brownsburg;25911
 Espanola;25913
@@ -7245,8 +7245,8 @@ Burlington;26103
 Mizdah;26107
 Tuxpan;26115
 Toktogul;26115
-Levittown;26117
 Holbrook;26117
+Levittown;26117
 Barberton;26120
 Bayonet Point;26126
 Plainview;26141
@@ -7262,16 +7262,16 @@ Timberwood Park;26236
 Bayanhongor;26252
 Mendi;26252
 Vernon Hills;26253
-Alenquer;26290
 Ayorou;26290
+Alenquer;26290
 La Union;26298
-Pukekohe East;26300
 Vel'sk;26300
+Pukekohe East;26300
 Williston;26301
 Oakleaf Plantation;26315
 Punata;26323
-Rawson;26335
 Muscatine;26335
+Rawson;26335
 Illapel;26340
 Lemoore;26355
 Viseu;26364
@@ -7292,8 +7292,8 @@ Brockville;26458
 Beitbridge;26459
 Morrisville;26461
 New Smyrna Beach;26470
-Brawley;26472
 Fort Hood;26472
+Brawley;26472
 Alvin;26474
 Soledad;26483
 Buy;26486
@@ -7327,8 +7327,8 @@ Miracema;26684
 Viana;26689
 Pugachev;26690
 West Linn;26703
-Rock Springs;26710
 Zionsville;26710
+Rock Springs;26710
 Bixby;26724
 Mint Hill;26748
 West Milford;26759
@@ -7359,8 +7359,8 @@ Siliana;26960
 Shelby;26962
 Aripuana;26983
 Tara;26986
-Sensuntepeque;26989
 East LakeOrient Park;26989
+Sensuntepeque;26989
 Maryland Heights;26996
 Bunbury;26998
 Zeya;26999
@@ -7386,8 +7386,8 @@ Conceicao do Araguaia;27115
 West Islip;27117
 Waterville;27123
 Colider;27139
-Belmont;27140
 Gladstone;27140
+Belmont;27140
 Puerto Armuelles;27147
 NikolayevsknaAmure;27152
 Lindenhurst;27153
@@ -7420,21 +7420,21 @@ Shaker Heights;27440
 Rockledge;27476
 Tongyangdao;27476
 Tualatin;27478
-Isla Vista;27484
 Pasadena;27484
+Isla Vista;27484
 Glen Cove;27500
 Touba;27504
 Kinston;27517
-Milton;27527
 Danvers;27527
+Milton;27527
 Fremont;27533
 Niquelandia;27541
 Windsor;27548
 Atkarsk;27554
 Queensbury;27568
 Galt;27571
-Nykoping;27582
 Sanger;27582
+Nykoping;27582
 Vineyard;27585
 Maywood;27586
 Obidos;27587
@@ -7442,8 +7442,8 @@ Forest Hills;27599
 At Tur;27628
 Independence;27634
 Dix Hills;27647
-Deer Park;27653
 Kirkwood;27653
+Deer Park;27653
 East Windsor;27675
 Treinta y Tres;27684
 Oak Forest;27685
@@ -7457,8 +7457,8 @@ Neptune;27728
 Ornskoldsvik;27749
 Mongo;27763
 Seguin;27768
-Santa Cruz;27775
 Santa Vitoria do Palmar;27775
+Santa Cruz;27775
 Westport;27777
 Dembi Dolo;27780
 Garfield Heights;27835
@@ -7484,8 +7484,8 @@ Aleysk;28019
 Ancud;28020
 Gaoua;28023
 Saugus;28037
-Glen Ellyn;28045
 Sion;28045
+Glen Ellyn;28045
 Arvayheer;28053
 Llallagua;28069
 Oakdale;28083
@@ -7519,8 +7519,8 @@ Hillerod;28313
 Ouesso;28320
 Ico;28323
 Stoughton;28338
-Mililani Town;28343
 Benicia;28343
+Mililani Town;28343
 Newburgh;28363
 Melrose;28367
 Ubaitaba;28375
@@ -7557,8 +7557,8 @@ West Warwick;28709
 Chili;28742
 Granite City;28746
 Maryville;28765
-Penonome;28766
 Tupiza;28766
+Penonome;28766
 Ladera Ranch;28769
 Burbank;28793
 Tarawa;28802
@@ -7593,8 +7593,8 @@ Tame;29099
 Englewood;29112
 Stockbridge;29114
 Norwood;29121
-Geneva;29140
 SeaTac;29140
+Geneva;29140
 West Falls Church;29150
 Johnston;29159
 Fleming Island;29163
@@ -7669,11 +7669,11 @@ Warrnambool;29928
 Milton;29953
 Livingston;29955
 Winona;29973
-Khorugh;30000
-SavannalaMar;30000
-Casma;30000
 Bourem Guindou;30000
 Mavinga;30000
+Casma;30000
+SavannalaMar;30000
+Khorugh;30000
 Orcutt;30001
 Kulat;30012
 Madison Heights;30050
@@ -7708,8 +7708,8 @@ Sterling;30378
 Bay Shore;30392
 Atascadero;30418
 Borzya;30421
-Huatabampo;30426
 South Riding;30426
+Huatabampo;30426
 Needham;30429
 Westfield;30433
 Spring Valley;30439
@@ -7724,8 +7724,8 @@ Westchester;30516
 Ticul;30519
 Spanaway;30528
 Prairieville;30536
-Springfield;30556
 Deptford;30556
+Springfield;30556
 Banamba;30591
 Nicholasville;30600
 Newington;30603
@@ -7795,15 +7795,15 @@ Banning;31230
 Des Moines;31238
 Greenville;31243
 Marovoay;31253
-Milledgeville;31254
 Falmouth;31254
+Milledgeville;31254
 Placerville;31260
 Bel Air North;31263
 Buurhakaba;31267
 Neuchatel;31270
 Wheat Ridge;31294
-Barra do Bugres;31311
 Skelleftea;31311
+Barra do Bugres;31311
 Laguna Hills;31318
 Sasovo;31325
 Cicero;31326
@@ -7850,8 +7850,8 @@ Petatlan;31910
 Rivas;31941
 Centereach;31953
 Clarence;31954
-Dania Beach;32030
 Coos Bay;32030
+Dania Beach;32030
 Ciudad Sabinas Hidalgo;32047
 El Golea;32049
 Koupela;32052
@@ -7961,8 +7961,8 @@ Lexington;33339
 Forbe Oroya;33345
 Segezha;33354
 Martinsville;33363
-Choybalsan;33376
 Valparaiso;33376
+Choybalsan;33376
 Northbrook;33400
 University Place;33401
 Pikesville;33426
@@ -7973,9 +7973,9 @@ Castelo Branco;33479
 Laramie;33508
 Prachuap Khiri Khan;33521
 Dyat'kovo;33527
-Westmont;33532
-Ferry Pass;33532
 Franklin;33532
+Ferry Pass;33532
+Westmont;33532
 Fairborn;33541
 Shepparton;33550
 Jacmel;33563
@@ -8020,8 +8020,8 @@ Durazno;34037
 Biharamulo;34038
 Socorro;34048
 Glendale Heights;34058
-Golden Glades;34062
 Aosta;34062
+Golden Glades;34062
 Adelanto;34066
 Owando;34070
 Bodo;34073
@@ -8039,8 +8039,8 @@ Karonga;34207
 Owings Mills;34231
 Businga;34247
 Sibut;34267
-Babati;34291
 Vestavia Hills;34291
+Babati;34291
 Gisborne;34300
 Staraya Russa;34303
 San Dimas;34326
@@ -8115,8 +8115,8 @@ Korsakov;35091
 Bell Ville;35105
 Granbury;35138
 Talas;35172
-Luebo;35183
 Praya;35183
+Luebo;35183
 Nacogdoches;35192
 Evans;35204
 Clermont;35211
@@ -8134,8 +8134,8 @@ SaintBenoit;35310
 Yarumal;35315
 Panuco;35316
 Esik;35319
-Upper Arlington;35337
 Paradise;35337
+Upper Arlington;35337
 Waxahachie;35340
 La Barca;35345
 Goycay;35348
@@ -8177,8 +8177,8 @@ Pahrump;35812
 Bettendorf;35813
 Atbasar;35819
 Shawnee;35833
-Beja;35854
 Douglas;35854
+Beja;35854
 Pennsauken;35863
 Valuyki;35887
 Yalutorovsk;35892
@@ -8376,9 +8376,9 @@ Severna Park;38725
 Enterprise;38737
 Gur'yevsk;38757
 Bukama;38770
+Tshela;38845
 Pleasant Grove;38845
 The Acreage;38845
-Tshela;38845
 Joacaba;38876
 Asha;38883
 Dun Dealgan;38884
@@ -8461,8 +8461,8 @@ Ob';39949
 Kendall West;39952
 Streamwood;39978
 Carol Stream;39989
-Salama;40000
 Pogradec;40000
+Salama;40000
 Tombua;40000
 Kaya;40017
 Raub;40024
@@ -8577,8 +8577,8 @@ Artigas;41909
 Lindi;41912
 Coppell;41941
 Zanesville;41969
-Brumado;41989
 Urbana;41989
+Brumado;41989
 Tizimin;41993
 Moatize;42000
 Yemanzhelinsk;42023
@@ -8588,8 +8588,8 @@ Penedo;42097
 Sidi Bouzid;42098
 Salgueiro;42152
 Qapshaghay;42167
-Greenwood;42174
 Sokol;42174
+Greenwood;42174
 Edmonds;42209
 Lovech;42211
 Moline;42231
@@ -8619,8 +8619,8 @@ SansanneMango;42626
 Montemorelos;42640
 Arys;42648
 Brentwood;42667
-Fort Portal;42670
 Kearny;42670
+Fort Portal;42670
 Burke;42710
 Caninde;42720
 The Colony;42721
@@ -8630,8 +8630,8 @@ Bell Gardens;42747
 Santo Domingo Tehuantepec;42776
 Brea;42777
 Billerica;42791
-Ormond Beach;42816
 Cortlandt;42816
+Ormond Beach;42816
 Rohnert Park;42838
 Genhe;42849
 Clovis;42875
@@ -8646,8 +8646,8 @@ Lubao;43068
 Banjul;43094
 Macenta;43102
 Krasnoufimsk;43121
-Moorhead;43122
 Mariinsk;43122
+Moorhead;43122
 Ambatondrazaka;43134
 Vichy;43158
 West Babylon;43168
@@ -8753,8 +8753,8 @@ Itanagar;44971
 University;44979
 Wallingford;44991
 Arlington;44992
-Shahhat;45000
 Parma;45000
+Shahhat;45000
 Eureka;45010
 Iganga;45024
 Oakland Park;45035
@@ -8905,8 +8905,8 @@ Leribe;47675
 Draper;47710
 Al Madrah Sama'il;47718
 Antelope;47728
-Moyobamba;47734
 Littleton;47734
+Moyobamba;47734
 Capanema;47766
 Alesund;47772
 Luwuk;47778
@@ -8947,8 +8947,8 @@ Port Macquarie;48547
 Stillwater;48550
 Serowe;48573
 Findlay;48582
-Floriano;48587
 Cookeville;48587
+Floriano;48587
 Namtu;48591
 Songkhla;48616
 Paducah;48629
@@ -9032,11 +9032,11 @@ Maun;49945
 Chake Chake;49959
 Smyrna;49969
 Al Kharijah;49991
-HpaAn;50000
-Pozi;50000
-Korogwe;50000
-Lindong;50000
 Kahemba;50000
+Korogwe;50000
+HpaAn;50000
+Lindong;50000
+Pozi;50000
 Poway;50041
 North Bethesda;50056
 Gogrial;50065
@@ -9100,8 +9100,8 @@ Apopka;51564
 Hoffman Estates;51567
 Sierra Vista;51571
 Maha Sarakham;51584
-Aliso Viejo;51671
 Burien;51671
+Aliso Viejo;51671
 Kentwood;51747
 Levittown;51839
 Gwadar;51901
@@ -9134,8 +9134,8 @@ Bundaberg;52472
 Pursat;52476
 Jaen;52493
 Thongwa;52496
-New Plymouth;52500
 Porirua;52500
+New Plymouth;52500
 Puerto Ayacucho;52526
 Stratford;52529
 Mongu;52534
@@ -9224,8 +9224,8 @@ Krasnokamensk;54316
 Ajaccio;54364
 Williamsport;54389
 Twin Falls;54455
-Delano;54471
 Stonecrest;54471
+Delano;54471
 Penapolis;54477
 Chivilcoy;54514
 Moquegua;54517
@@ -9253,8 +9253,8 @@ Palm Beach Gardens;55036
 Karlovac;55063
 Murzuq;55071
 Kalasin;55102
-Abancay;55111
 Tadmur;55111
+Abancay;55111
 Hoboken;55131
 Wayne;55154
 Euless;55174
@@ -9297,8 +9297,8 @@ Serres;55886
 Lautoka;55894
 Commerce City;55923
 Bungoma;55962
-Nova Vicosa;55980
 Novato;55980
+Nova Vicosa;55980
 Lesnoy;56084
 Oak Lawn;56087
 Paita;56151
@@ -9383,16 +9383,16 @@ Santee;58113
 Rundu;58172
 Manchester;58172
 Des Plaines;58193
-Agen;58223
 Kirklareli;58223
+Agen;58223
 Tamiami;58250
 San Andres;58257
 Korce;58259
 Jefferson City;58279
 Bondoukou;58297
 Chaiyaphum;58350
-Margate;58430
 San Pedro;58430
+Margate;58430
 Staunton;58470
 Union;58499
 Aketi;58601
@@ -9420,8 +9420,8 @@ White Plains;59047
 San Francisco;59062
 Mount Hagen;59064
 San Rafael;59070
-Manacapuru;59102
 Bartlett;59102
+Manacapuru;59102
 Bangor;59107
 Royal Oak;59112
 Concepcion;59118
@@ -9592,8 +9592,8 @@ Encinitas;63184
 Montebello;63192
 Port Orange;63203
 Eastvale;63211
-Valenca;63231
 Vilhena;63231
+Valenca;63231
 Zalau;63232
 Molepolole;63248
 Pflugerville;63359
@@ -9635,8 +9635,8 @@ Taluqan;64256
 Glens Falls;64287
 Redmond;64291
 Tikhoretsk;64387
-Nepalganj;64400
 Eden Prairie;64400
+Nepalganj;64400
 Parintins;64428
 Sammamish;64548
 Puerto Madryn;64555
@@ -9876,8 +9876,8 @@ Zadar;71258
 Asti;71276
 Sotik;71285
 Kovel';71301
-Upington;71373
 Mardin;71373
+Upington;71373
 Cankiri;71379
 Wenatchee;71512
 Monastir;71546
@@ -9977,8 +9977,8 @@ Cachoeira do Sul;74694
 Darhan;74738
 Evanston;74756
 Red Deer;74857
-Bombo;75000
 Gode;75000
+Bombo;75000
 Idah;75087
 Atascocita;75114
 Brick;75118
@@ -10109,10 +10109,10 @@ Goodyear;79858
 Fort Myers;79943
 New Rochelle;79946
 Ciudad Mante;79981
-Nabatiye;80000
-Xigaze;80000
-Koktokay;80000
 Capenda Camulemba;80000
+Koktokay;80000
+Xigaze;80000
+Nabatiye;80000
 Vorkuta;80039
 Al Karak;80062
 Meiganga;80100
@@ -10153,8 +10153,8 @@ Avare;81285
 Bistrita;81318
 Somerville;81360
 Balkhash;81364
-Mountain View;81438
 Beziers;81438
+Mountain View;81438
 Lavras;81472
 Sokhumi;81546
 Campana;81612
@@ -10262,8 +10262,8 @@ Anderson;86481
 Bitola;86528
 Clifton;86607
 Mount Pleasant;86668
-Ruhengeri;86685
 Redwood City;86685
+Ruhengeri;86685
 Tumaco;86713
 Nouadhibou;86738
 Whittier;86838
@@ -10388,8 +10388,8 @@ Cabinda;91791
 Greenburgh;91799
 Fishers;91832
 Kilosa;91889
-Kuopio;91900
 Bugul'ma;91900
+Kuopio;91900
 Edmond;91950
 Lafayette;91985
 Danjiangkou;92008
@@ -10441,8 +10441,8 @@ Slidell;93882
 Plantation;93909
 Malindi;94016
 Lynn;94063
-Usti nad Labem;94105
 Livonia;94105
+Usti nad Labem;94105
 Yishui;94115
 Lagos de Moreno;94127
 Al Fujayrah;94163
@@ -10555,8 +10555,8 @@ Thunder Bay;99334
 Longmont;99398
 Ciudad Choluteca;99429
 Lakewood;99467
-Galle;99478
 Novoshakhtinsk;99478
+Galle;99478
 Zelenodol'sk;99600
 Wichita Falls;99617
 Urgut;99675
@@ -10565,10 +10565,10 @@ Chanthaburi;99819
 Tsuruoka;99820
 San Angelo;99890
 Meridian;99926
-Subotica;100000
-Isna;100000
-Qamdo;100000
 Arlit;100000
+Subotica;100000
+Qamdo;100000
+Isna;100000
 Longview;100196
 Lida;100216
 Sabha;100249
@@ -10610,11 +10610,11 @@ Charlottesville;102016
 Liberec;102175
 Ukhta;102187
 Edison;102304
-Lower Hutt;102400
 Houzhuang;102400
+Lower Hutt;102400
 Grudziadz;102443
-Roxas City;102688
 Piatra Neamt;102688
+Roxas City;102688
 Pakxe;102775
 Pedro Juan Caballero;102787
 Palma Soriano;102826
@@ -10632,8 +10632,8 @@ Gardez;103601
 Biak;103610
 Ahar;103639
 Kilinochchi;103717
-El Cajon;103894
 Dolisie;103894
+El Cajon;103894
 Ed Damer;103941
 Kroonstad;103992
 Kiselevsk;104000
@@ -10842,8 +10842,8 @@ Kam'yanets'Podil's'kyy;114658
 Botosani;114783
 Las Delicias;114783
 Bloomington;114959
-Ciudad Valles;114964
 Abilene;114964
+Ciudad Valles;114964
 Norman;115065
 Tuguegarao;115105
 Nabeul;115149
@@ -11213,8 +11213,8 @@ PointeaPitre;145511
 Quchan;145531
 Phra Nakhon Si Ayutthaya;145615
 Podgorica;145850
-La Ceiba;145926
 Krishnanagar;145926
+La Ceiba;145926
 Hanzhong;145986
 Dawei;146212
 Santo Agostinho;146219
@@ -11245,8 +11245,8 @@ Medea;147707
 Turbat;147791
 Odessa;147810
 Trang;147820
-Jijel;148000
 Lang Son;148000
+Jijel;148000
 Diourbel;148024
 Elkhart;148131
 Yala;148140
@@ -11267,12 +11267,12 @@ Warner Robins;149617
 Carora;149711
 Khiwa;149751
 Cao Lanh;149837
+Keren;150000
+Pattani;150000
+M'Sila;150000
 Yilan;150000
 Miaoli;150000
 Tororo;150000
-Pattani;150000
-M'Sila;150000
-Keren;150000
 Vryheid;150012
 Urganch;150110
 Chillan;150396
@@ -11747,12 +11747,12 @@ Bacau;199668
 Gainesville;199695
 Maimanah;199795
 Moratuwa;200000
+Az Zawiyah;200000
 Rivera;200000
-Pokhara;200000
-Zhubei;200000
 Bergamo;200000
 Nema;200000
-Az Zawiyah;200000
+Pokhara;200000
+Zhubei;200000
 Kasama;200000
 Haldia;200762
 Dindigul;200797
@@ -12073,16 +12073,16 @@ Melun;249432
 Kropyvnyts'kyy;249454
 Varzea Grande;249752
 Scottsdale;249950
-Zumpango;250000
-Laiyang;250000
-Jaffna;250000
 Arua;250000
-Quang Ngai;250000
-Caserta;250000
+Jaffna;250000
 Como;250000
+Quang Ngai;250000
 Nis;250000
-Lucerne;250000
+Zumpango;250000
 Kashan;250000
+Caserta;250000
+Lucerne;250000
+Laiyang;250000
 Concord;250186
 Iwo;250443
 Santa Clara;250512
@@ -12299,10 +12299,10 @@ Damietta;299459
 Baqubah;299479
 Kanggye;299514
 Curepipe;299975
-PortoNovo;300000
 Rach Gia;300000
 Soc Trang;300000
 Qyzylorda;300000
+PortoNovo;300000
 Bidar;300136
 Mardan;300424
 Brest;300715
@@ -12495,9 +12495,9 @@ Muzaffarnagar;349706
 Chimbote;349846
 Buon Ma Thuot;349945
 Haarlem;349957
-Long Xuyen;350000
 Viet Tri;350000
 Qoqon;350000
+Long Xuyen;350000
 Yingmen;350000
 Kuala Terengganu;350210
 Hualien;350468
@@ -12518,8 +12518,8 @@ Mirpur Khas;356435
 Asahikawa;356612
 Ca Mau;356636
 Fuyu;356905
-Encarnacion;357119
 Posadas;357119
+Encarnacion;357119
 Iwaki;357309
 Donostia;357468
 Zanjan;357471
@@ -12635,9 +12635,9 @@ Khmel'nyts'kyy;398346
 Buraydah;398581
 Gomez Palacio;399328
 Tumkur;399606
-Sikar;400000
 Jiangjiafan;400000
 Surgut;400000
+Sikar;400000
 Tver';400212
 Sunch'on;400629
 Kassala;401477
@@ -12819,18 +12819,18 @@ Reynosa;498654
 Worcester;498997
 Macapa;499166
 Mataram;499409
-Damanhur;500000
-Al Minya;500000
-Taoyuan District;500000
 Keelung;500000
-San Lorenzo;500000
-Pasuruan;500000
-Chiayi;500000
+Taoyuan District;500000
 Thai Nguyen;500000
+Mazatan;500000
+Chiayi;500000
+San Lorenzo;500000
 Awka;500000
 Shuangyashan;500000
-Mazatan;500000
 Tsu;500000
+Al Minya;500000
+Pasuruan;500000
+Damanhur;500000
 Bari;500577
 Bradford;501700
 Astrakhan';502533
@@ -12964,8 +12964,8 @@ Albany;597270
 Jalalabad;597971
 Zahedan;598887
 Barnaul;599579
-Suhaj;600000
 Al Mansurah;600000
+Suhaj;600000
 Canoas;600000
 Mission Viejo;600474
 Barcelona;600954
@@ -13013,9 +13013,9 @@ Lilongwe;646750
 Genoa;647497
 Zaragoza;649404
 Krasnodar;649851
+Andijon;650000
 Irbid;650000
 Tiruppur;650000
-Andijon;650000
 Kryvyy Rih;652380
 Xiping;652604
 Bien Hoa;652646
@@ -13090,18 +13090,18 @@ Hegang;743307
 Birmingham;744189
 Ciudad Guayana;746535
 Liege;749110
-Hsinchu;750000
-Changhua;750000
 Kolhapur;750000
-Fargona;750000
 Namangan;750000
+Changhua;750000
+Fargona;750000
+Hsinchu;750000
 Tangier;750060
 Pietermaritzburg;750845
 Taizz;751000
 Hungnam;751322
 Sao Jose dos Campos;753769
-Vientiane;754000
 Saltillo;754000
+Vientiane;754000
 Krakow;756000
 Lodz;758000
 Albuquerque;758523
@@ -13111,8 +13111,8 @@ Trabzon;764714
 Kananga;765000
 Trujillo;765171
 Quetta;768000
-Fuxin;770000
 Shiyan;770000
+Fuxin;770000
 Saarbrucken;770001
 Fuyang;771000
 Ilorin;771000
@@ -13141,17 +13141,17 @@ Baojishi;800000
 McAllen;800904
 Bordeaux;803000
 L'viv;803880
-Malang;805000
 Aligarh;805000
+Malang;805000
 Quy Nhon;805290
-Lingyuan;806000
 Cuiaba;806000
+Lingyuan;806000
 Valencia;808000
-Zhaotong;809000
 Culiacan;809000
-Wuhu;810000
+Zhaotong;809000
 Langfang;810000
 Rajshahi;810000
+Wuhu;810000
 Liverpool;811000
 Cebu City;815000
 Arequipa;815000
@@ -13164,8 +13164,8 @@ Nottingham;825600
 Rongjiawan;826000
 Jhansi;826494
 Braga;826833
-Freetown;827000
 Kota;827000
+Freetown;827000
 Omaha;827786
 Thessaloniki;828000
 Kermanshah;828313
@@ -13181,32 +13181,32 @@ Bishkek;837000
 Yancheng;839000
 Yuci;840000
 Saratov;843000
-Bhubaneshwar;844000
 Voronezh;844000
+Bhubaneshwar;844000
 Iguacu;844583
 El Paso;845674
 Toulouse;847000
-Pingdingshan;849000
 Zunyi;849000
 Anshun;849000
-Zhenjiang;854000
+Pingdingshan;849000
 Valparaiso;854000
-Padang;855000
+Zhenjiang;854000
 Jalandhar;855000
+Padang;855000
 Jiaozuo;857000
 Tampico;859419
 Kigali;860000
 Caerdydd;861400
 Palermo;863000
-Bandar Lampung;865000
 Rizhao;865000
-Bucheon;866000
+Bandar Lampung;865000
 Xuanzhou;866000
+Bucheon;866000
 Okayama;866092
 Tucson;868391
 Aguascalientes;869000
-Dandong;870000
 Al Basrah;870000
+Dandong;870000
 Marrakech;872000
 Kaifeng Chengguanzhen;872000
 Yangjiang;872363
@@ -13223,9 +13223,9 @@ Newcastle upon Tyne;882000
 Tongliao;884000
 Ulaanbaatar;885000
 Mexicali;885000
-Dengtalu;887000
 Cartagena;887000
 Mysore;887000
+Dengtalu;887000
 Zaria;889000
 Concepcion;889725
 Hubli;890000
@@ -13242,8 +13242,8 @@ Goyang;903000
 Nangandao;903000
 Naha;905238
 Teresina;907000
-Huaibei;913000
 Xinyu;913000
+Huaibei;913000
 Hartford;914751
 Niamey;915000
 Bogor;918000
@@ -13272,14 +13272,14 @@ Calicut;953000
 Thiruvananthapuram;954000
 Salerno;954265
 Oklahoma City;955998
+Jinzhou;956000
 Joao Pessoa;956000
 Klang;956000
-Jinzhou;956000
 Queretaro;961000
 Pingxiang;961000
 Xin'an;962656
-Jixi;965000
 Merida;965000
+Jixi;965000
 Qom;973000
 Hamamatsu;977023
 Gwalior;978000
@@ -13291,22 +13291,22 @@ Guwahati;983000
 Volgograd;984000
 Dahuk;986000
 Guilin;987000
-Jiaxing;988000
 Joinvile;988000
+Jiaxing;988000
 Donets'k;988000
 N'Djamena;989000
-Odesa;991000
 Yinchuan;991000
+Odesa;991000
 San Luis Potosi;992000
 Jodhpur;995000
 Ahvaz;996000
 Perm';997000
 Kitaku;997536
-Aden;1000000
-Cochabamba;1000000
-Yongzhou;1000000
-Baoshan;1000000
 Quang Ha;1000000
+Cochabamba;1000000
+Baoshan;1000000
+Yongzhou;1000000
+Aden;1000000
 Fes;1002000
 Qinhuangdao;1003000
 Cologne;1004000
@@ -13321,11 +13321,11 @@ Benxi;1012000
 Hengyang;1016000
 Ufa;1018000
 Raleigh;1018336
-Jiamusi;1020000
 Port Harcourt;1020000
+Jiamusi;1020000
 Port Elizabeth;1021000
-Zhuhai;1023000
 Florianopolis;1023000
+Zhuhai;1023000
 Guatemala City;1024000
 New Orleans;1029123
 Jerusalem;1029300
@@ -13343,8 +13343,8 @@ Solapur;1057000
 Edmonton;1058000
 Dublin;1059000
 Richmond;1059907
-Amman;1060000
 Mizhou;1060000
+Amman;1060000
 Ulsan;1061000
 Memphis;1068873
 Xiangyang;1069000
@@ -13362,10 +13362,10 @@ Bhilai;1097000
 Salt Lake City;1098400
 Belgrade;1099000
 Ikare;1099931
+Huambo;1100000
+Ankang;1100000
 Mogadishu;1100000
 Tbilisi;1100000
-Ankang;1100000
-Huambo;1100000
 Yerevan;1102000
 Sharjah;1103027
 Zigong;1105000
@@ -13400,8 +13400,8 @@ Cilacap;1174964
 Benghazi;1180000
 Abbottabad;1183647
 Sofia;1185000
-Jining;1186000
 Maceio;1186000
+Jining;1186000
 Benin City;1190000
 Allahabad;1201000
 Rosario;1203000
@@ -13436,8 +13436,8 @@ Sheffield;1292900
 Adana;1293000
 Madura;1294000
 MbujiMayi;1295000
-Mandalay;1300000
 Jamshedpur;1300000
+Mandalay;1300000
 Peshawar;1303000
 Yekaterinburg;1313000
 Mosul;1316000
@@ -13445,13 +13445,13 @@ Changzhou;1327000
 Asansol;1328000
 Lusaka;1328000
 Porto;1337000
-Pretoria;1338000
 Heze;1338000
+Pretoria;1338000
 Ghaziabad;1341000
 Juarez;1343000
+Lubumbashi;1352000
 Yiyang;1352000
 Varanasi;1352000
-Lubumbashi;1352000
 Brazzaville;1355000
 Ma'anshan;1366302
 Auckland;1377200
@@ -13460,16 +13460,16 @@ Dubai;1379000
 Mecca;1385000
 Novosibirsk;1389000
 Faridabad;1394000
-Mianyang;1396000
 Semarang;1396000
+Mianyang;1396000
 Meerut;1398000
 Marseille;1400000
 Davao;1402000
 The Hague;1406000
 Tabriz;1413000
 Kampala;1420000
-Lyon;1423000
 Karaj;1423000
+Lyon;1423000
 Suining;1425000
 San Salvador;1433000
 Kawanakajima;1437266
@@ -13479,14 +13479,14 @@ Maputo;1446000
 Kuala Lumpur;1448000
 Doha;1450000
 Huainan;1451000
-Lome;1452000
 Cordoba;1452000
+Lome;1452000
 Bronx;1455720
 Hyderabad City;1459000
 Kharkiv;1461000
 Quanzhou;1463000
-Phnom Penh;1466000
 Neijiang;1466000
+Phnom Penh;1466000
 Charlotte;1467362
 Daejeon;1468000
 Changde;1469000
@@ -13495,8 +13495,8 @@ Nasik;1473000
 Virginia Beach;1480383
 Leon de los Aldama;1488000
 Bursa;1492000
-Bamako;1494000
 Conakry;1494000
+Bamako;1494000
 Liuzhou;1497000
 Ganzhou;1500000
 Florence;1500000
@@ -13507,23 +13507,23 @@ Kochi;1519000
 Multan;1522000
 Columbus;1528314
 Kobe;1528478
-Vishakhapatnam;1529000
 Leeds;1529000
+Vishakhapatnam;1529000
 Toluca;1531000
 Perth;1532000
 Luzhou;1537000
 Xinyang;1541000
 Santiago;1550753
-Khulna;1553000
-Weifang;1553000
 Tijuana;1553000
+Weifang;1553000
+Khulna;1553000
 Xiantao;1556000
 Indianapolis;1564699
 Harare;1572000
 Abuja;1576000
 Kalyan;1576614
-Zhanjiang;1590000
 La Paz;1590000
+Zhanjiang;1590000
 Agra;1592000
 Shantou;1601000
 Yaounde;1611000
@@ -13560,18 +13560,18 @@ Bhopal;1727000
 Cleveland;1730363
 Essen;1742135
 Brussels;1743000
-Wuxi;1749000
 Palembang;1749000
-Manaus;1753000
+Wuxi;1749000
 Shangqiu;1753000
+Manaus;1753000
 Vadodara;1756000
 Hamburg;1757000
 Shuyangzha;1770000
 Valencia;1770000
 Orlando;1776841
 Barranquilla;1798000
-Minsk;1805000
 Kyoto;1805000
+Minsk;1805000
 San Jose;1821899
 Beirut;1846000
 Sacramento;1854698
@@ -13615,8 +13615,8 @@ Zaozhuang;2145000
 Urumqi;2151000
 Santo Domingo;2154000
 Patna;2158000
-Nanning;2167000
 Belem;2167000
+Nanning;2167000
 Baltimore;2170504
 Havana;2174000
 Gaoping;2174000
@@ -13624,8 +13624,8 @@ Tashkent;2184000
 Tripoli;2189000
 Puebla;2195000
 Manchester;2230000
-Naples;2250000
 Sendai;2250000
+Naples;2250000
 Cali;2254000
 Birmingham;2285000
 Vancouver;2313328
@@ -13785,6 +13785,7 @@ Guangzhou;8829000
 Jakarta;9125000
 Lagos;9466000
 Seoul;9796000
+Paris;9904000
 Istanbul;10061000
 Moscow;10452000
 Manila;11100000
@@ -13804,4 +13805,3 @@ Mumbai;18978000
 Mexico City;19028000
 New York;19354922
 Tokyo;35676000
-;0

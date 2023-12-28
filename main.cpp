@@ -86,7 +86,7 @@ int main(int argc, char* argv[]) {
         size_t pos = line.find(';');
         if (pos != std::string::npos) {
             std::string city = line.substr(0, pos);
-            for (int i = 0; i < city.length(); i++) {
+            for (size_t i = 0; i < city.length(); i++) {
                 if (isalpha(city[i]) == false && city[i] != ' ' && city[i] != '\'') {
                     // if the character is not a letter, space or apostrophe, remove it
                     city.erase(i,1);
@@ -115,7 +115,6 @@ int main(int argc, char* argv[]) {
         std::cerr << "Error opening the log file." << std::endl;
         return 1;
     }
-
     // get the minimum and maximum values from both trees
     RBT::Node *rbtMin = rbTree.getMinimum();
     RBT::Node *rbtMax = rbTree.getMaximum();
@@ -168,39 +167,45 @@ int main(int argc, char* argv[]) {
     // write the minimum and maximum values to the log file
     logFile << "Searching for " << randomCity << "(" << colorArray[rbtNode->color] << ")" << " with population " << testPopulation << std::endl;
 
+    if (nullNodeCheck(rbtNode)) {
+        // this is given to you to check whether the node returned by searchTree is nullptr
+        // result should be same for both RBT and BST
+        // if the searchTree returns nullptr with given population numbers;
+        // something is wrong about the implementation
+        std::cerr << "Error: RBT.searchTree() returned nullptr." << std::endl;
+        return 1;
+    }
     // get the parent of the node returned by searchTree
     RBT::Node *rbtParent = rbtNode->parent;
     // get the children of the node returned by searchTree
     RBT::Node *rbtLeft = rbtNode->left;
     RBT::Node *rbtRight = rbtNode->right;
-    if (nullNodeCheck(rbtNode)) {
-        std::cerr << "Error: searchTree() returned nullptr." << std::endl;
-    }
     // get successor of the node returned by searchTree
     RBT::Node *rbtSuccessor = rbTree.successor(rbtNode);
     // get predecessor of the node returned by searchTree
     RBT::Node *rbtPredecessor = rbTree.predecessor(rbtNode);
     // call searchTree on the binary search tree
     BST::Node *bstNode = bsTree.searchTree(testPopulation);
+    
+    if (nullNodeCheck(bstNode)) {
+        // this is given to you to check whether the node returned by searchTree is nullptr
+        // result should be same for both RBT and BST
+        // if the searchTree returns nullptr with given population numbers;
+        // something is wrong about the implementation
+        std::cerr << "Error: BST.searchTree() returned nullptr." << std::endl;
+        return 1;
+    }
     // get the parent of the node returned by searchTree
     BST::Node *bstParent = bstNode->parent;
     // get the children of the node returned by searchTree
     BST::Node *bstLeft = bstNode->left;
     BST::Node *bstRight = bstNode->right;
-    if (nullNodeCheck(bstNode)) {
-        std::cerr << "Error: searchTree() returned nullptr." << std::endl;
-    }
     // get successor of the node returned by searchTree
     BST::Node *bstSuccessor = bsTree.successor(bstNode);
     // get predecessor of the node returned by searchTree
     BST::Node *bstPredecessor = bsTree.predecessor(bstNode);
     // write the results to the log file return 1;
     
-
-
-
-    // Search the trees for the random value
-
     logFile << "RBT: " << std::endl;
     if (verbose) {
         std::cout << "RBT: " << std::endl;}
@@ -220,7 +225,7 @@ int main(int argc, char* argv[]) {
         std::cout << "L" << "(" <<colorArray[rbtLeft->color] << "):" << rbtLeft->name << ";";}
         if (rbtNode->color == 1){
             // if the left child is red, its children should be black
-            assert(rbtLeft == 0);
+            assert(rbtLeft->color == 0);
         }
     }
     if (nullNodeCheck(rbtRight) == false) {
@@ -229,7 +234,7 @@ int main(int argc, char* argv[]) {
         std::cout << "R" << "(" <<colorArray[rbtRight->color] << "):" <<  rbtRight->name<< ";";}
         if (rbtNode->color == 1){
             // if the left child is red, its children should be black
-            assert(rbtRight == 0);
+            assert(rbtRight->color == 0);
         }
     }
     // write city name of successor to the log file if it is not nullptr
@@ -237,14 +242,14 @@ int main(int argc, char* argv[]) {
         logFile << "S:" << rbtSuccessor->name << ";";
         if (verbose) {
         std::cout << "S:" << rbtSuccessor->name << ";";}
-        assert(rbtSuccessor->data > rbtNode->data); // successor should be greater than the node
+        assert(rbtSuccessor->data >= rbtNode->data); // successor should be greater than the node
     }
     // write city name of predecessor to the log file if it is not nullptr
     if (nullNodeCheck(rbtPredecessor) == false) {
         logFile << "Pr:" << rbtPredecessor->name << std::endl;
         if (verbose) {
         std::cout << "Pr:" << rbtPredecessor->name << std::endl;}
-        assert(rbtPredecessor->data < rbtNode->data); // predecessor should be smaller than the node
+        assert(rbtPredecessor->data <= rbtNode->data); // predecessor should be smaller than the node
     }
     logFile << "BST: " << std::endl;
     if (verbose) {
@@ -269,13 +274,69 @@ int main(int argc, char* argv[]) {
         logFile << "S:" << bstSuccessor->name << ";";
         if (verbose) {
         std::cout << "S:" << bstSuccessor->name << ";";}
+        assert(bstSuccessor->data >= bstNode->data);
     }
     // write city name of predecessor to the log file if it is not nullptr (should be same with red black tree)
     if (nullNodeCheck(bstPredecessor) == false) {
         logFile << "Pr:" << bstPredecessor->name << std::endl;
         if (verbose) {
         std::cout << "Pr:" << bstPredecessor->name << std::endl;}
+        assert(bstPredecessor->data <= bstNode->data);
     }
+
+    // create a std::pair<std::string, int> array to store the ordered list of cities and populations
+    std::pair<std::string, int> orderedDataRB[20000];
+    // call inorder on the red black tree, passing in the std::pair<std::string, int> array and the length of the array
+    // this will populate the array with the ordered list of cities and populations
+    // you can get help about insertion from 98th line above:
+    //data[dataLength++] = std::make_pair(city, population);
+    //0 is starting index for the pair array of cities sorted according to the population
+    rbTree.inorder(orderedDataRB,0);
+
+    // create a std::pair<std::string, int> array to store the ordered list of cities and populations
+    std::pair<std::string, int> orderedDataBST[20000];
+    // call inorder on the binary search tree, passing in the std::pair<std::string, int> array and the length of the array
+    // this will populate the array with the ordered list of cities and populations
+    // you can get help about insertion from 98th line above:
+    //data[dataLength++] = std::make_pair(city, population);
+    //0 is starting index for the pair array of cities sorted according to the population
+    bsTree.inorder(orderedDataBST,0);
+
+    // remove the extension of the outputFilename
+    std::string outputFilenameStr = outputFilename;
+    std::string outputFilenameWithoutExtension = outputFilenameStr.substr(0, outputFilenameStr.find("."));
+    // add the extension "_rbt.csv" to the outputFilenameWithoutExtension
+    std::string outputFilenameRB = outputFilenameWithoutExtension + "_rbt.csv";
+    // add the extension "_bst.csv" to the outputFilenameWithoutExtension
+    std::string outputFilenameBST = outputFilenameWithoutExtension + "_bst.csv";
+
+    // Write the sorted data to the output file
+    std::ofstream outputFileRB(outputFilenameRB);
+    if (!outputFileRB) {
+        std::cerr << "Error opening the output file." << std::endl;
+        return 1;
+    }
+    
+    dataLength = rbTree.getTotalNodes(); // update the dataLength to the number of nodes in the tree
+
+    for (int i = 0; i < dataLength; i++) {
+        outputFileRB << orderedDataRB[i].first << ";" << orderedDataRB[i].second << std::endl;
+    }
+
+    outputFileRB.close();
+
+    // Write the sorted data to the output file
+    std::ofstream outputFileBST(outputFilenameBST);
+    if (!outputFileBST) {
+        std::cerr << "Error opening the output file." << std::endl;
+        return 1;
+    }
+
+    for (int i = 0; i < dataLength; i++) {
+        outputFileBST << orderedDataBST[i].first << ";" << orderedDataBST[i].second << std::endl;
+    }
+
+    outputFileBST.close();
 
     // Delete the random value from the trees
     if (verbose) {
@@ -302,52 +363,6 @@ int main(int argc, char* argv[]) {
 
 
     logFile.close();
-    // create a std::pair<std::string, int> array to store the ordered list of cities and populations
-    std::pair<std::string, int> orderedDataRB[20000];
-    // call inorder on the red black tree, passing in the std::pair<std::string, int> array and the length of the array
-    // this will populate the array with the ordered list of cities and populations
-    // you can get help about insertion from 41th line above.
-    rbTree.inorder(orderedDataRB,0);
 
-    // create a std::pair<std::string, int> array to store the ordered list of cities and populations
-    std::pair<std::string, int> orderedDataBST[20000];
-    // call inorder on the binary search tree, passing in the std::pair<std::string, int> array and the length of the array
-    // this will populate the array with the ordered list of cities and populations
-    // you can get help about insertion from 41th line above.
-    bsTree.inorder(orderedDataBST,0);
-
-    // remove the extension of the outputFilename
-    std::string outputFilenameStr = outputFilename;
-    std::string outputFilenameWithoutExtension = outputFilenameStr.substr(0, outputFilenameStr.find("."));
-    // add the extension "_rbt.csv" to the outputFilenameWithoutExtension
-    std::string outputFilenameRB = outputFilenameWithoutExtension + "_rbt.csv";
-    // add the extension "_bst.csv" to the outputFilenameWithoutExtension
-    std::string outputFilenameBST = outputFilenameWithoutExtension + "_bst.csv";
-
-    // Write the sorted data to the output file
-    std::ofstream outputFileRB(outputFilenameRB);
-    if (!outputFileRB) {
-        std::cerr << "Error opening the output file." << std::endl;
-        return 1;
-    }
-
-    for (int i = 0; i < dataLength; i++) {
-        outputFileRB << orderedDataRB[i].first << ";" << orderedDataRB[i].second << std::endl;
-    }
-
-    outputFileRB.close();
-
-    // Write the sorted data to the output file
-    std::ofstream outputFileBST(outputFilenameBST);
-    if (!outputFileBST) {
-        std::cerr << "Error opening the output file." << std::endl;
-        return 1;
-    }
-
-    for (int i = 0; i < dataLength; i++) {
-        outputFileBST << orderedDataBST[i].first << ";" << orderedDataBST[i].second << std::endl;
-    }
-
-    outputFileBST.close();
     return 0;
 }
