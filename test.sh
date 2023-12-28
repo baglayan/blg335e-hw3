@@ -40,7 +40,7 @@ datasets=("/home/ubuntu/hostVolume/hw3/data/population1.csv" "/home/ubuntu/hostV
 
 # Process each dataset
 for dataset in "${datasets[@]}"; do
-    /home/ubuntu/hostVolume/hw3//main "$dataset" /home/ubuntu/hostVolume/hw3/out/out.csv v
+    /home/ubuntu/hostVolume/hw3/main "$dataset" /home/ubuntu/hostVolume/hw3/out/out.csv v
 
     # Prepare files for sorting check
     file_to_check=$(prepare_for_sort_check /home/ubuntu/hostVolume/hw3/out/out_bst.csv)

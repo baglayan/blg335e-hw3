@@ -25,7 +25,7 @@ jobs:
       run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} /usr/bin/g++ -fdiagnostics-color=always -g /home/ubuntu/hostVolume/hw3/main.cpp -o /home/ubuntu/hostVolume/hw3/main
 
     - name: Make out directory
-      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} mkdir /home/ubuntu/hostVolume/hw3/out
+      run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} mkdir -p /home/ubuntu/hostVolume/hw3/out
 
     - name: List directory contents
       run: docker run -v ${{ github.workspace }}:/home/ubuntu/hostVolume/hw3 algo-hw3:${{env.CURRENT_TIME}} ls -l /home/ubuntu/hostVolume/hw3/
